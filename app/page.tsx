@@ -1,65 +1,67 @@
+
+import Navbar from "@/components/Navbar";
+import { MenuItem } from "@/types/menu";
 import Image from "next/image";
+
+const menuItems: MenuItem[] = [
+  {
+    label: "College Entrance Exams",
+    children: [
+      { label: "SAT (Scholastic Assessment Test)", href: "/sat" },
+      { label: "ACT (American College Testing)", href: "/act" },
+      { label: "GED (General Educational Development)", href: "/ged" },
+    ],
+  },
+  {
+    label: "College Credit / Placement Exams",
+    children: [
+      { label: "AP (Advanced Placement)", href: "/ap" },
+      { label: "CLEP (College-Level Examination Program)", href: "/clep" },
+      // Add more credit exams if needed
+    ],
+  },
+  {
+    label: "Admission Exams",
+    children: [
+      { label: "MCAT (Medical College Admission Test)", href: "/mcat" },
+      { label: "GMAT (Graduate Management Admission Test)", href: "/gmat" },
+      { label: "GRE (Graduate Record Examination)", href: "/gre" },
+      { label: "LSAT (Law School Admission Test)", href: "/lsat" },
+    ],
+  },
+  {
+    label: "Licensing Exams",
+    children: [
+      { label: "FE (Fundamentals of Engineering)", href: "/fe" },
+      { label: "PE (Principles and Practice of Engineering)", href: "/pe" },
+      { label: "USMLE (United States Medical Licensing Examination)", href: "/usmle" },
+      { label: "NCLEX (National Council Licensure Examination)", href: "/nclex" },
+      { label: "Bar Exam", href: "/bar" },
+    ],
+  },
+  {
+    label: "U.S. Government & Civil Exams",
+    children: [
+      { label: "Federal Civil Service Exams", href: "/federal-civil-service" },
+      { label: "USPS Exams", href: "/usps" },
+      { label: "State Civil Service Exams", href: "/state-civil-service" },
+      { label: "Public Safety & Protective Services Exams", href: "/public-safety" },
+    ],
+  },
+ 
+
+]
+
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+    <>
+      <Navbar items={menuItems} logo="OwlenForge" />
+      <main className="container mx-auto px-4 py-4">
+        <Image src="/logo1.png" alt="OwlenForge Logo" width={120}  height={120}  priority className="mb-4" />
+        <h1 className="text-3xl font-bold">Welcome to ExamPrep</h1>
+        <p className="mt-4">Your one-stop destination for all exam prep.</p>
       </main>
-    </div>
+    </>
   );
 }

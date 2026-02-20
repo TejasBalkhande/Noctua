@@ -24,3 +24,11 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+:root {
+  --font-serif: "Times New Roman", Times, serif;
+}
+
+.font-times {
+  font-family: var(--font-serif);
+}
