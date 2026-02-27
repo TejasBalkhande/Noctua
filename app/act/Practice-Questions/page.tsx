@@ -3,9 +3,10 @@
 
 import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import { MenuItem } from "@/types/menu";
-import { sections } from "../lib/actSections"; // import shared data
+import { sections } from "../lib/actSections";
 
 const schoolMenu: MenuItem[] = [
   { label: "Mock-Test", href: "/act" },
@@ -22,6 +23,13 @@ const slugify = (text: string) =>
     .toLowerCase()
     .replace(/\s+/g, "-")
     .replace(/[^a-z0-9-]/g, "");
+
+// Mock test sets data
+const mockTestSets = [
+  { setNumber: 1, title: "Full Length 1", description: "Simulate a complete ACT exam" },
+  { setNumber: 2, title: "Full Length 2", description: "Timed practice with real difficulty" },
+  { setNumber: 3, title: "Full Length 3", description: "Comprehensive test with all sections" },
+];
 
 export default function PracticeQuestionsPage() {
   const router = useRouter();
@@ -41,18 +49,23 @@ export default function PracticeQuestionsPage() {
     }
   }, [selectedOption]);
 
-  // Helper to get color classes
-  const getLevelColor = (color: string) => {
-    switch (color) {
-      case "green":
-        return "bg-green-100 text-green-700";
-      case "yellow":
-        return "bg-yellow-100 text-yellow-700";
-      case "red":
-        return "bg-red-100 text-red-700";
-      default:
-        return "bg-blue-100 text-blue-700";
-    }
+ 
+  const getLevelBadgeColor = (level: { level: number }) => {
+    const palette = [
+      { bg: "bg-amber-100", text: "text-amber-700", border: "border-amber-300" },       // 2
+      { bg: "bg-rose-100", text: "text-rose-700", border: "border-rose-300" },           // 3
+      { bg: "bg-blue-100", text: "text-blue-700", border: "border-blue-300" },           // 4
+      { bg: "bg-purple-100", text: "text-purple-700", border: "border-purple-300" },     // 5
+      { bg: "bg-orange-100", text: "text-orange-700", border: "border-orange-300" },     // 6
+      { bg: "bg-indigo-100", text: "text-indigo-700", border: "border-indigo-300" },     // 7
+      { bg: "bg-pink-100", text: "text-pink-700", border: "border-pink-300" },           // 8
+      { bg: "bg-teal-100", text: "text-teal-700", border: "border-teal-300" },           // 9
+    ];
+
+    // Use the level number (1-based) to pick a color; fallback to index 0 if level is missing
+    const index = (level.level - 1) % palette.length;
+    const colors = palette[index] || palette[0];
+    return `${colors.bg} ${colors.text} ${colors.border}`;
   };
 
   const handleStartPractice = (levelTitle: string) => {
@@ -65,29 +78,44 @@ export default function PracticeQuestionsPage() {
   };
 
   return (
-    <div className="bg-[#ffffff] min-h-screen">
+    <div className="bg-gradient-to-b from-white to-slate-50 min-h-screen">
       <Navbar items={schoolMenu} logo="OwlenForge" />
 
-      <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-24 pt-4 md:pt-2 lg:pt-2 ">
-        {/* Hero / Title */}
-        <div className="w-full py-6 text-left ">
-          <h1 className="text-3xl font-semibold font-sans">
-            Topic‑wise Practice
-          </h1>
-          <p className="text-gray-600 font-times text-[17px] max-w-2xl mt-2">
-            Select a topic below to access three levels of practice questions.
-            Build confidence step by step.
-          </p>
-        </div>
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12 font-sans">
+        <div className="mb-5">
+  <div className="flex items-center gap-3 md:gap-6">
+    
+    {/* Image */}
+    <div className="flex-shrink-0 flex items-center">
+      <Image
+        src="/topic-wise.png"
+        alt="Topic-wise Practice"
+        width={70}
+        height={70}
+        className="h-[60px] md:h-[70px] w-auto object-contain"
+      />
+    </div>
+    {/* Text */}
+    <div className="flex flex-col justify-center text-left">
+      <h1 className="text-xl md:text-2xl font-semibold text-gray-800 tracking-tight">
+        Topic-wise Practice
+      </h1>
+      <p className="text-base md:text-lg text-gray-600 font-serif max-w-3xl mt-1 leading-relaxed">
+        Select a topic below to Build confidence step by step.
+      </p>
+    </div>
+
+  </div>
+</div>
 
         {/* Sections Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           {sections.map((section) => (
             <div
               key={section.name}
-              className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition"
+              className="group bg-white/80 backdrop-blur-sm border border-gray-200/80 rounded-2xl px-6 py-6 shadow-md hover:shadow-xl transition-all duration-300 hover:border-[#3e6286]/30"
             >
-              <h2 className="text-xl font-semibold font-sans mb-4">
+              <h2 className="text-xl font-semibold text-gray-800 mb-5 flex items-center">
                 {section.name}
               </h2>
               <div className="flex flex-wrap gap-2">
@@ -102,11 +130,11 @@ export default function PracticeQuestionsPage() {
                         setSelectedOption({ section: section.name, option })
                       }
                       className={`
-                        px-3 py-1.5 rounded-full text-sm font-medium border transition
+                        px-5 py-2 rounded-full text-sm font-medium border transition-all duration-200 mb-1
                         ${
                           isActive
-                            ? "bg-blue-50 border-blue-500 text-blue-700"
-                            : "bg-white border-gray-300 text-gray-700 hover:bg-gray-50"
+                            ? "bg-[#3e6286] border-[#3e6286] text-white shadow-md shadow-[#3e6286]/30 "
+                            : "bg-white border-gray-300 text-gray-700 hover:border-[#3e6286] hover:bg-[#3e6286]/5 hover:scale-105"
                         }
                       `}
                     >
@@ -119,77 +147,60 @@ export default function PracticeQuestionsPage() {
           ))}
         </div>
 
-        {/* Practice Levels Panel (shown only when an option is selected) */}
+        {/* Practice Levels Panel */}
         {selectedOption && (
-          <div ref={practicePanelRef} className="mt-0 mb-16">
-            <div className="w-full pt-8">
-              <h2 className="text-2xl font-semibold font-sans text-center">
+          <div ref={practicePanelRef} className="mb-24 scroll-mt-8">
+            <div className="text-center mb-8">
+              <h2 className="text-2xl font-semibold font-sans text-gray-900">
                 Practice Levels for{" "}
-                <span className="text-blue-600">
+                <span className="text-[#3e6286] relative">
                   {selectedOption.option.name}
+                  <span className="absolute -bottom-1 left-0 right-0 h-0.5 bg-[#3e6286]/30 rounded-full"></span>
                 </span>
               </h2>
-              <p className="text-center text-gray-600 font-times text-[17px] mt-1">
+              <p className="text-gray-600 font-serif text-lg mt-3">
                 {selectedOption.section} • Choose your difficulty
               </p>
+            </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
-                {selectedOption.option.practiceLevels.map((level) => (
-                  <div
-                    key={level.level}
-                    className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition flex flex-col items-center text-center"
-                  >
-                    <div
-                      className={`w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mb-4 ${getLevelColor(
-                        level.color
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {selectedOption.option.practiceLevels.map((level) => (
+                <div
+                  key={level.level}
+                  className="group bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col"
+                >
+                  {/* Header with level badge and title */}
+                  <div className="flex items-center gap-3 mb-3">
+                    <span
+                      className={`inline-flex items-center justify-center w-10 h-10 rounded-xl text-sm font-bold border ${getLevelBadgeColor(
+                        level
                       )}`}
                     >
                       {level.level}
-                    </div>
-                    <h3 className="text-lg font-semibold">{level.title}</h3>
-                    <p className="text-sm text-gray-500 mt-1 mb-4">
-                      {level.description}
-                    </p>
-                    <button
-                      onClick={() => handleStartPractice(level.title)}
-                      className="mt-auto px-4 py-2 border border-black rounded-md bg-white hover:bg-gray-100 transition text-sm font-medium w-full"
-                    >
-                      Start Practice
-                    </button>
+                    </span>
+                    <h3 className="text-lg font-semibold text-gray-800">
+                      {level.title}
+                    </h3>
                   </div>
-                ))}
-              </div>
-
-              <p className="text-xs text-gray-400 text-center mt-6">
-                Each practice set contains 10–15 questions. Full explanations
-                provided after submission.
-              </p>
+                  <p className="text-gray-600 text-sm mb-5 leading-relaxed flex-1">
+                    {level.description}
+                  </p>
+                  <button
+                    onClick={() => handleStartPractice(level.title)}
+                    className="w-full px-4 py-2.5 bg-gradient-to-r from-[#3e6286] to-[#2c4a6e] text-white rounded-lg font-medium shadow-sm hover:shadow-md hover:scale-[1.01] transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#3e6286] focus:ring-offset-2"
+                  >
+                    Start Practice
+                  </button>
+                </div>
+              ))}
             </div>
-          </div>
-        )}
 
-        {/* If no option selected, show a friendly prompt */}
-        {!selectedOption && (
-          <div className="w-full py-0 text-center">
-        
-          </div>
-        )}
-
-        {/* Full Length Mock Test Section (always at the bottom) */}
-        <div id="full-length-mock-test" className="w-full mt-12">
-          <div className="border-t border-gray-200 pt-8">
-            <h2 className="text-3xl font-semibold font-sans">
-              Full Length Mock Test
-            </h2>
-            <p className="text-gray-600 font-times text-[17px] max-w-2xl mt-2">
-              Simulate real exam conditions with our complete tests
+            <p className="text-xs text-gray-400 text-center mt-10 italic">
+              Each practice set contains 10–15 questions. Full explanations provided after submission.
             </p>
-
           </div>
-        </div>
-
-       
-      </div>
+        )}
+      </main>
     </div>
   );
 }

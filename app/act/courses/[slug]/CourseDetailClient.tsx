@@ -33,13 +33,20 @@ function getCategoryColor(category: string): string {
   return categoryColorMap[category] || "#6b7280";
 }
 
-function hexToRgba(hex: string, alpha: number): string {
-  const r = parseInt(hex.slice(1, 3), 16);
-  const g = parseInt(hex.slice(3, 5), 16);
-  const b = parseInt(hex.slice(5, 7), 16);
-  return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+// Map course categories to local thumbnail images
+const categoryThumbnailMap: Record<string, string> = {
+  Math: "/1-act/thum/act-math.png",
+  English: "/1-act/thum/act-eng.png",
+  Reading: "/1-act/thum/act-reading.png",
+  Science: "/1-act/thum/act-science.png",
+};
+
+function getThumbnailForCategory(category: string): string {
+  // Fallback to English thumbnail if category not found (safe default)
+  return categoryThumbnailMap[category] || "/1-act/thum/act-eng.png";
 }
 
+// Optional: keep for reference, but no longer used for thumbnails
 function getVideoThumbnailUrl(publicId: string): string {
   return `https://res.cloudinary.com/${cloudName}/video/upload/${publicId}.jpg`;
 }
@@ -58,18 +65,20 @@ export default function CourseDetailClient({ course }: { course: Course }) {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, [currentVideo]);
 
+  // Get the appropriate static thumbnail for this course
+  const thumbnailSrc = getThumbnailForCategory(course.category);
+
   return (
     <div className="bg-[#f8fafc] min-h-screen font-sans antialiased text-slate-900">
       <Navbar items={schoolMenu} logo="OwlenForge" />
 
-
-      <main className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="flex flex-col lg:flex-row gap-8">
+      <main className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-gray-50">
+        <div className="flex flex-col lg:flex-row gap-3">
           
           {/* Main Content: Player & Details */}
           <div className="flex-1 min-w-0">
             {/* Video Player Container */}
-            <div className="relative group rounded-2xl overflow-hidden bg-black shadow-2xl ring-1 ring-white/10">
+            <div className="relative group rounded-2xl overflow-hidden bg-black shadow-xl ring-1 ring-white/10">
               <div className="aspect-video w-full">
                 <CldVideoPlayer
                   key={currentVideo.publicId}
@@ -89,7 +98,7 @@ export default function CourseDetailClient({ course }: { course: Course }) {
             <div className="mt-8">
               <div className="flex flex-col md:flex-row md:items-center justify-between border-b border-slate-200 pb-6 gap-4">
                 <div>
-                  <h2 className="text-2xl font-bold text-slate-900 mb-1">{currentVideo.title}</h2>
+                  <h2 className="text-2xl font-bold text-slate-900 mb-1 font-sans">{currentVideo.title}</h2>
                   <p className="text-slate-500 flex items-center gap-2 text-sm">
                     <span className="flex items-center gap-1">
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
@@ -156,16 +165,18 @@ export default function CourseDetailClient({ course }: { course: Course }) {
                         : "bg-transparent border-transparent hover:bg-slate-50/80"
                       }`}
                     >
-                      {/* Video Status/Thumbnail */}
-                      <div className="relative flex-shrink-0 w-24 aspect-video rounded-lg overflow-hidden bg-slate-100 border border-slate-200">
+                      {/* Video Status/Thumbnail - using static image instead of Cloudinary poster */}
+                      {/* Thumbnail size increased to w-28, dark overlay removed */}
+                      <div className="relative flex-shrink-0 w-28 aspect-video rounded-lg overflow-hidden bg-slate-100 border border-slate-200">
                         <Image
-                          src={getVideoThumbnailUrl(video.publicId)}
+                          src={thumbnailSrc}
                           alt=""
                           fill
                           className={`object-cover transition-transform duration-500 ${isActive ? "scale-110" : "group-hover:scale-110"}`}
-                          sizes="96px"
+                          sizes="112px"
                         />
-                        <div className={`absolute inset-0 flex items-center justify-center ${isActive ? 'bg-black/20' : 'bg-black/40 group-hover:bg-black/20'} transition-colors`}>
+                        {/* Overlay - dark background removed, only icon remains */}
+                        <div className="absolute inset-0 flex items-center justify-center transition-colors">
                           {isActive ? (
                             <div className="flex gap-1 items-end h-3">
                               <span className="w-1 bg-white animate-[bounce_1s_infinite_0ms]" style={{height: '60%'}}></span>
@@ -181,14 +192,14 @@ export default function CourseDetailClient({ course }: { course: Course }) {
                       {/* Text Info */}
                       <div className="flex-1 min-w-0 pt-0.5">
                         <div className="flex items-left  gap-2 mb-1">
-                          <span className={`text-[10px] font-bold uppercase tracking-wider ${isActive ? 'text-slate-900' : 'text-slate-400'}`}>
+                          <span className={`text-[10px] font-semibold uppercase tracking-wider ${isActive ? 'text-slate-900' : 'text-slate-400'}`}>
                             Lesson {idx + 1}
                           </span>
                           {isCompleted && (
                             <svg className="w-3 h-3 text-emerald-500" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
                           )}
                         </div>
-                        <p className={`text-left text-sm font-bold leading-snug line-clamp-2 ${isActive ? "text-slate-900" : "text-slate-600 group-hover:text-slate-900"}`}>
+                        <p className={`text-left text-sm font-semibold leading-snug line-clamp-2 ${isActive ? "text-slate-900" : "text-slate-600 group-hover:text-slate-900"}`}>
                           {video.title}
                         </p>
                         <p className="text-xs text-slate-400 mt-1.5 font-medium flex items-center gap-1">

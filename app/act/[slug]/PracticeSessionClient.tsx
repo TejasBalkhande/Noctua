@@ -6,6 +6,7 @@ import { MenuItem } from "@/types/menu";
 import { PracticeLevel, Section } from "../lib/actSections";
 import renderMathInElement from "katex/contrib/auto-render";
 import "katex/dist/katex.min.css";
+import Cal from "@/components/Cal";
 
 const schoolMenu: MenuItem[] = [
   { label: "Mock-Test", href: "/act" },
@@ -33,7 +34,7 @@ interface QuestionData {
 }
 
 interface PracticeSessionClientProps {
-  initialData: QuestionData | null; // allow null
+  initialData: QuestionData | null;
   levelInfo: {
     section: Section;
     level: PracticeLevel;
@@ -49,29 +50,28 @@ export default function PracticeSessionClient({
   const [data] = useState(initialData);
   const [selectedOptions, setSelectedOptions] = useState<Record<string, string>>({});
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [showCalculator, setShowCalculator] = useState(false);
 
   const contentRef = useRef<HTMLDivElement>(null);
   const passageRef = useRef<HTMLDivElement>(null);
+
+  const isMath = levelInfo.section.name === "Mathematics";
 
   // Transform HTML: replace image src and handle highlight tags
   const transformHtml = useCallback(
     (html: string, highlight?: string): string => {
       if (!html) return "";
 
-      // Replace image src
       let transformed = html.replace(
         /src="images\/([^"]+)"/g,
         (match, fileName) => `src="${imageBasePath}images/${fileName}"`
       );
 
-      // Handle highlight tags
       const highlightRegex = /\[highlight-(\d+)\]([\s\S]*?)\[\/highlight-\1\]/g;
       transformed = transformed.replace(highlightRegex, (match, num, innerContent) => {
         if (highlight && num === highlight) {
-          // Emphasize this highlight
           return `<span class="bg-yellow-200">${innerContent}</span>`;
         } else {
-          // Remove the tags, keep the inner content
           return innerContent;
         }
       });
@@ -100,7 +100,7 @@ export default function PracticeSessionClient({
     }
   }, [data, selectedOptions, currentIndex]);
 
-  // Scroll to the highlighted part of the passage when question changes
+  // Scroll to highlighted part of passage
   useEffect(() => {
     if (passageRef.current) {
       const highlighted = passageRef.current.querySelector(".bg-yellow-200");
@@ -124,20 +124,22 @@ export default function PracticeSessionClient({
     }
   };
 
-  // Handle missing data
+  // Missing data state
   if (!data || data.questions.length === 0) {
     return (
-      <div className="bg-[#ffffff] min-h-screen">
+      <div className="bg-white min-h-screen">
         <Navbar items={schoolMenu} logo="OwlenForge" />
         <div className="max-w-7xl mx-auto px-6 py-12 text-center">
-          <h1 className="text-3xl font-semibold mb-2">
+          <h1 className="text-3xl font-semibold text-[#1E4A76] mb-2">
             {levelInfo.level.title} Practice
           </h1>
-          <p className="text-gray-600 mb-6">
+          <p className="text-[#4A5568] font-times text-[17px] mb-6">
             {levelInfo.section.name} • {levelInfo.level.description}
           </p>
-          <div className="border rounded-lg p-12 bg-white shadow-sm">
-            <p className="text-gray-500 text-lg">🚧 Questions are being prepared. Check back soon!</p>
+          <div className="border border-[#E2E8F0] rounded-2xl p-12 bg-white shadow-sm">
+            <p className="text-[#718096] text-lg">
+              🚧 Questions are being prepared. Check back soon!
+            </p>
           </div>
         </div>
       </div>
@@ -150,29 +152,82 @@ export default function PracticeSessionClient({
   const selected = selectedOptions[currentQuestion.questionId];
   const isCorrect = selected === currentQuestion.correctOption;
 
+  // Passage‑relative question numbers
+  let passageQuestionIndex = 1;
+  let passageQuestionCount = data.questions.length;
+  if (hasPassage) {
+    const questionsForPassage = data.questions.filter((q) => q.passageId === currentQuestion.passageId);
+    passageQuestionCount = questionsForPassage.length;
+    const pos = questionsForPassage.findIndex((q) => q.questionId === currentQuestion.questionId);
+    passageQuestionIndex = pos + 1;
+  }
+
   return (
-    <div className="bg-[#ffffff] min-h-screen">
+    <div className="bg-white min-h-screen flex flex-col">
       <Navbar items={schoolMenu} logo="OwlenForge" />
 
-      <div className="max-w-7xl mx-auto px-0 md:px-0 lg:px-0 py-8" ref={contentRef}>
-        <h1 className="text-3xl font-semibold mb-2">
-          {levelInfo.level.title} Practice
-        </h1>
-        <p className="text-gray-600 mb-6">
-          {levelInfo.section.name} • {levelInfo.level.description}
-        </p>
+      {/* Main content area – takes remaining vertical space */}
+      <div
+        className="flex-1 w-full max-w-7.5xl mx-auto px-4 sm:px-6 lg:px-10 py-6 flex flex-col"
+        ref={contentRef}
+      >
+        {/* Header with calculator toggle */}
+        <div className="flex flex-wrap items-center justify-between mb-4">
+          <div>
+            <h1 className="text-2xl md:text-3xl font-semibold text-[#1E4A76]">
+              {levelInfo.level.title} Practice
+            </h1>
+            <p className="text-[#4A5568] font-times text-[17px]">
+              {levelInfo.section.name} • {levelInfo.level.description}
+            </p>
+          </div>
+          {isMath && (
+            <button
+              onClick={() => setShowCalculator(!showCalculator)}
+              className="mt-2 sm:mt-0 px-4 py-2 bg-[#1E4A76] text-white rounded-lg hover:bg-[#163A5E] transition shadow-sm flex items-center gap-2"
+            >
+              <span>{showCalculator ? "Hide" : "Show"} Calculator</span>
+            </button>
+          )}
+        </div>
 
-        <div className="border rounded-lg p-6 bg-white shadow-sm">
-          <div className={`grid ${hasPassage ? "md:grid-cols-2" : "md:grid-cols-1"} gap-6`}>
-            {/* LEFT COLUMN - Passage (scrollable on medium+) */}
+        {/* Calculator popup (math only) */}
+        {isMath && showCalculator && (
+          <div className="fixed top-20 right-4 z-50 w-80 bg-white rounded-xl shadow-xl border border-[#E2E8F0] overflow-hidden">
+            <div className="flex justify-between items-center px-4 py-2 bg-[#F7F9FC] border-b border-[#E2E8F0]">
+              <span className="font-semibold text-[#1E4A76]">Calculator</span>
+              <button
+                onClick={() => setShowCalculator(false)}
+                className="text-[#718096] hover:text-[#1E4A76] text-lg leading-none"
+                aria-label="Close calculator"
+              >
+                ✕
+              </button>
+            </div>
+            <div className="p-4">
+              <Cal />
+            </div>
+          </div>
+        )}
+
+        {/* Main content card – fills remaining space and scrolls internally */}
+        <div className="border border-[#E2E8F0] rounded-2xl bg-white shadow-sm overflow-hidden flex-1 min-h-0 flex flex-col">
+          <div
+            className={`grid ${
+              hasPassage ? "md:grid-cols-2" : "md:grid-cols-1"
+            } divide-y md:divide-y-0 md:divide-x divide-[#E2E8F0] h-full`}
+          >
+            {/* Passage column (if exists) */}
             {hasPassage && (
               <div
                 ref={passageRef}
-                className="md:max-h-[calc(100vh-12rem)] md:overflow-y-auto md:sticky md:top-24"
+                className="p-6 overflow-y-auto bg-[#F7F9FC]/50 max-h-[500px] md:max-h-none"
               >
-                <h3 className="font-semibold text-lg mb-2 text-blue-800">Passage</h3>
+                <h3 className="text-lg font-semibold text-[#1E4A76] mb-4 flex items-center gap-2">
+                  <span className="text-2xl">📖</span> Passage
+                </h3>
                 <div
-                  className="prose max-w-none"
+                  className="prose max-w-none text-[#4A5568]"
                   dangerouslySetInnerHTML={{
                     __html: transformHtml(currentPassage.passageHtml, currentQuestion.passageHighlight),
                   }}
@@ -180,93 +235,111 @@ export default function PracticeSessionClient({
               </div>
             )}
 
-            {/* RIGHT COLUMN - Question & Options */}
-            <div>
-              <div className="mb-4">
-                <h3 className="font-semibold text-lg mb-2 text-green-800">
-                  Question {currentIndex + 1} of {data.questions.length}
-                </h3>
+            {/* Question column */}
+            <div className="p-6 overflow-y-auto">
+              <div className="mb-6">
+                <div className="flex items-center justify-between mb-3">
+                  <h3 className="text-lg font-semibold text-[#1E4A76] flex items-center gap-2">
+                    {hasPassage
+                      ? `Passage Question ${passageQuestionIndex} of ${passageQuestionCount}`
+                      : `Question ${currentIndex + 1} of ${data.questions.length}`}
+                  </h3>
+                  <span className="text-sm bg-[#EDF2F7] text-[#4A5568] px-3 py-1 rounded-full">
+                    {currentIndex + 1} / {data.questions.length}
+                  </span>
+                </div>
                 <div
-                  className="prose max-w-none"
+                  className="prose max-w-none text-[#2D3748]"
                   dangerouslySetInnerHTML={{ __html: transformHtml(currentQuestion.questionHtml) }}
                 />
               </div>
 
+              {/* Options */}
               <div className="space-y-3">
-                <h4 className="font-medium">Options</h4>
+                <h4 className="font-medium text-[#4A5568]">Choose your answer</h4>
                 {Object.entries(currentQuestion.options).map(([key, value]) => {
-                  let optionClass = "p-3 border rounded cursor-pointer transition-colors ";
+                  let optionClasses = "p-4 border rounded-xl cursor-pointer transition-all ";
                   if (selected) {
                     if (key === currentQuestion.correctOption) {
-                      optionClass += "bg-green-100 border-green-500 ";
+                      optionClasses += "bg-green-50 border-green-500 ring-1 ring-green-500 ";
                     } else if (key === selected && key !== currentQuestion.correctOption) {
-                      optionClass += "bg-red-100 border-red-500 ";
+                      optionClasses += "bg-red-50 border-red-500 ring-1 ring-red-500 ";
                     } else {
-                      optionClass += "bg-white ";
+                      optionClasses += "bg-white border-[#E2E8F0] opacity-60 ";
                     }
                   } else {
-                    optionClass += "hover:bg-gray-50 ";
+                    optionClasses += "bg-white border-[#E2E8F0] hover:border-[#1E4A76] hover:shadow-sm ";
                   }
 
                   return (
                     <div
                       key={key}
-                      className={optionClass}
+                      className={optionClasses}
                       onClick={() => !selected && handleOptionSelect(currentQuestion.questionId, key)}
                     >
-                      <span className="font-bold mr-2">{key}.</span>
-                      <span dangerouslySetInnerHTML={{ __html: transformHtml(value) }} />
+                      <span className="font-bold mr-2 text-[#1E4A76]">{key}.</span>
+                      <span
+                        className="text-[#2D3748]"
+                        dangerouslySetInnerHTML={{ __html: transformHtml(value) }}
+                      />
                     </div>
                   );
                 })}
               </div>
 
+              {/* Explanation */}
               {selected && (
-                <div className="mt-6 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-500">
-                  <h4 className="font-semibold mb-2">Explanation</h4>
+                <div className="mt-6 p-5 bg-blue-50 rounded-xl border-l-4 border-blue-500">
+                  <h4 className="font-semibold text-[#1E4A76] mb-2">Explanation</h4>
                   <div
-                    className="prose max-w-none text-sm"
+                    className="prose max-w-none text-sm text-[#2D3748]"
                     dangerouslySetInnerHTML={{ __html: transformHtml(currentQuestion.explanationHtml) }}
                   />
-                  <p className="mt-2 text-sm">
+                  <p className="mt-3 text-sm font-medium">
                     {isCorrect ? (
-                      <span className="text-green-600 font-medium">✓ Correct</span>
+                      <span className="text-green-600">✓ Correct! Well done.</span>
                     ) : (
-                      <span className="text-red-600 font-medium">
-                        ✗ Incorrect (correct answer: {currentQuestion.correctOption})
+                      <span className="text-red-600">
+                        ✗ Incorrect. The correct answer is {currentQuestion.correctOption}.
                       </span>
                     )}
                   </p>
                 </div>
               )}
 
-              {/* Navigation buttons */}
-              <div className="mt-6 flex justify-between">
+              {/* Navigation */}
+              <div className="mt-8 flex justify-between">
                 <button
                   onClick={goToPrevious}
                   disabled={currentIndex === 0}
-                  className="px-4 py-2 bg-gray-200 text-gray-700 rounded disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-300 transition"
+                  className="px-5 py-2 border border-[#E2E8F0] rounded-lg text-[#2D3748] bg-white hover:bg-[#F7F9FC] disabled:opacity-50 disabled:cursor-not-allowed transition shadow-sm"
                 >
-                  Previous
+                  ← Previous
                 </button>
                 <button
                   onClick={goToNext}
                   disabled={currentIndex === data.questions.length - 1}
-                  className="px-4 py-2 bg-gray-200 text-gray-700 rounded disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-300 transition"
+                  className="px-5 py-2 bg-[#1E4A76] text-white rounded-lg hover:bg-[#163A5E] disabled:opacity-50 disabled:cursor-not-allowed transition shadow-sm"
                 >
-                  Next
+                  Next →
                 </button>
               </div>
             </div>
           </div>
         </div>
+
+        {/* Footer hint */}
+        <p className="text-xs text-[#A0AEC0] text-center mt-4">
+          Select an option to see the explanation. Use the progress bar to track your position.
+        </p>
       </div>
 
-      {/* Optional: add some global styles for responsive images */}
       <style jsx>{`
-        .responsive-img {
+        .prose img {
           max-width: 100%;
           height: auto;
+          display: block;
+          margin: 1rem 0;
         }
       `}</style>
     </div>

@@ -25,8 +25,8 @@ export const sections: Section[] = [
         practiceLevels: [
           {
             level: 1,
-            title: "Basic Conventions",
-            description: "Focus on sentence structure and basic grammar.",
+            title: "Topic Development",
+            description: "Develop clear and focused ideas in writing.",
             color: "green",
           },
           {
@@ -258,10 +258,16 @@ export const sections: Section[] = [
             description: "Condense and paraphrase passages.",
             color: "red",
           },
+          {
+            level: 4,
+            title: "Advanced Summarizing",
+            description: "Synthesize key ideas from multiple passages.",
+            color: "red",
+          },
         ],
       },
       {
-        name: "Craft & Structure",
+        name: "Craft and Structure",
         practiceLevels: [
           {
             level: 1,

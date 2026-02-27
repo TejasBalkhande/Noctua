@@ -45,10 +45,10 @@ export default function CoursesPage() {
   return (
     <div className="bg-[#fafafa] min-h-screen">
       <Navbar items={schoolMenu} logo="OwlenForge" />
-      <main className="courses-content container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-16">
+      <main className="courses-content container max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-16">
         {/* Header with refined typography */}
         <header className="mb-8 text-center sm:text-left">
-          <h1 className="text-3xl md:text-4xl font-semibold font-sans tracking-tight text-gray-900">
+          <h1 className="text-3xl font-semibold font-sans leading-tight tracking-tight text-gray-900 md:px-0 px-3">
             ACT Courses
           </h1>
           <p className="text-gray-600 font-times text-lg md:text-xl max-w-3xl mx-auto sm:mx-0 mt-2 leading-relaxed">
