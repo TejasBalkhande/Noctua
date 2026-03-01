@@ -1,0 +1,351 @@
+{
+  "passages": [
+
+  ],
+  "questions": [
+    {
+      "questionId": "q432",
+      "passageId": "",
+      "questionHtml": "<p>The functions \\(f\\) and \\(g\\) are defined as \\(g(x) = mx + b\\) for nonzero values of \\(m\\) and \\(b\\), and \\(f(x) = ax^2 + bx + c\\) for nonzero values of \\(a\\), \\(b\\), and \\(c\\). In the standard \\((x,y)\\) coordinate plane, what is the maximum number of times the graphs of \\(f(x)\\) and \\(g(x)\\) can cross each other?</p>",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The graph of \\(g(x)\\) is a line, while the graph of \\(f(x)\\) is a parabola (both ends either rising or falling). Therefore, the graphs of the functions may intersect 0, 1, or 2 times, meaning 2 is the maximum number of times.</p>"
+    },
+    {
+      "questionId": "q435",
+      "passageId": "",
+      "questionHtml": "<p>In the standard \\((x,y)\\) coordinate plane, the graph of the function \\(f(x) = 3x - 5\\) crosses through the point \\((q,4)\\). What is the value of \\(q\\) ?</p>",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "5",
+        "D": "7"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>We are given the \\(y\\) value and must find the \\(x\\) value. Substituting the given value into the function: \\(4 = 3q - 5\\). Solve for \\(q\\): \\(4 + 5 = 3q\\) so \\(9 = 3q\\), hence \\(q = 3\\).</p>"
+    },
+    {
+      "questionId": "q436",
+      "passageId": "",
+      "questionHtml": "<p>The value of an investment grows based on the function \\(V(t) = 1000(1 + 0.06)^t\\), where \\(V\\) is the value in dollars and \\(t\\) is the time in years. To the nearest cent, what is the value of the investment after 8 years?</p>",
+      "options": {
+        "A": "$1068.48",
+        "B": "$1410.09",
+        "C": "$1593.85",
+        "D": "$1604.66"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Substitute \\(t = 8\\) into the formula: \\(V(8) = 1000(1 + 0.06)^8\\). Compute: \\(1.06^8 \\approx 1.59385\\), then multiply by 1000 to get approximately $1593.85. Thus the correct answer is C.</p>"
+    },
+    {
+      "questionId": "q464",
+      "passageId": "",
+      "questionHtml": "<p>The number of patients seen by a doctor over a day is represented by the function \\(P(t) = 8t - 5\\), where \\(P\\) is the total number of patients seen after \\(t\\) hours. Based on this function, how many patients are seen between hours 5 and 6?</p>",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "8",
+        "D": "10"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Patients seen between hours 5 and 6 is the difference \\(P(6) - P(5)\\). Calculate: \\(P(6) = 8(6) - 5 = 48 - 5 = 43\\), \\(P(5) = 8(5) - 5 = 40 - 5 = 35\\). So \\(43 - 35 = 8\\).</p>"
+    },
+    {
+      "questionId": "q467",
+      "passageId": "",
+      "questionHtml": "<p>In the standard \\((x,y)\\) coordinate plane, the graph of the function \\(g(x) = \\frac{3x + 10}{8}\\) passes through the point \\((4, c)\\). What is the value of \\(c\\) ?</p>",
+      "options": {
+        "A": "\\(\\frac{4}{3}\\)",
+        "B": "\\(\\frac{3}{2}\\)",
+        "C": "\\(\\frac{17}{8}\\)",
+        "D": "\\(\\frac{11}{4}\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>We are given the \\(x\\) value and must find the corresponding \\(y\\) value. Substitute \\(x = 4\\): \\(c = g(4) = \\frac{3(4) + 10}{8} = \\frac{12 + 10}{8} = \\frac{22}{8} = \\frac{11}{4}\\).</p>"
+    },
+    {
+      "questionId": "q499",
+      "passageId": "",
+      "questionHtml": "<p> If \\(f(x) = 2x + 6\\) and \\(f(b) = 18\\), then \\(b =\\)</p>",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "24",
+        "D": "36"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Given \\(f(b) = 18\\) and \\(f(x) = 2x + 6\\), we have \\(2b + 6 = 18\\). Solve: \\(2b = 18 - 6 = 12\\), so \\(b = 12/2 = 6\\).</p>"
+    },
+    {
+      "questionId": "1-2",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the slope of the line that passes through points \\((2,5)\\) and \\((4,11)\\)?</p>",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "6"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Use slope formula: \\( m = \\frac{y_2 - y_1}{x_2 - x_1} \\).</p><p>Plug in: \\( \\frac{11 - 5}{4 - 2} = \\frac{6}{2} = 3 \\).</p><p>Thus the slope is 3.</p>"
+    },
+    {
+      "questionId": "1-7",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>A population of bacteria doubles every hour. If there are initially 100 bacteria, which function represents the population after \\(t\\) hours?</p>",
+      "options": {
+        "A": "\\(P(t)=100+2t\\)",
+        "B": "\\(P(t)=100\\cdot 2^t\\)",
+        "C": "\\(P(t)=100\\cdot t^2\\)",
+        "D": "\\(P(t)=100e^{2t}\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Exponential growth with doubling time: population multiplies by 2 each hour.</p><p>Initial amount 100, so after \\(t\\) hours, \\(P(t) = 100 \\cdot 2^t\\).</p>"
+    },
+    {
+      "questionId": "1-11",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>If \\(3x + 4 = 19\\), what is the value of \\(x\\)?</p>",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Subtract 4 from both sides: \\(3x = 15\\).</p><p>Divide both sides by 3: \\(x = 5\\).</p>"
+    },
+    {
+      "questionId": "1-12",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The value of a car depreciates by 15% each year. If its initial value is $20,000, which expression gives its value after \\(t\\) years?</p>",
+      "options": {
+        "A": "\\(20000(0.15)^t\\)",
+        "B": "\\(20000(1.15)^t\\)",
+        "C": "\\(20000(0.85)^t\\)",
+        "D": "\\(20000 - 0.15t\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Depreciation of 15% means it retains 85% of its value each year.</p><p>So multiply by 0.85 each year: \\(20000 \\times (0.85)^t\\).</p>"
+    },
+    {
+      "questionId": "1-13",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The graph of a linear function \\(f\\) has slope \\(-2\\) and y-intercept \\(5\\). Which equation represents \\(f\\)?</p>",
+      "options": {
+        "A": "\\(f(x) = -2x + 5\\)",
+        "B": "\\(f(x) = 2x + 5\\)",
+        "C": "\\(f(x) = -2x - 5\\)",
+        "D": "\\(f(x) = 2x - 5\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Slope-intercept form: \\(y = mx + b\\), where \\(m\\) is slope and \\(b\\) is y-intercept.</p><p>Here \\(m = -2\\), \\(b = 5\\), so \\(f(x) = -2x + 5\\).</p>"
+    },
+    {
+      "questionId": "1-24",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>If \\(f(x) = 3 \\cdot 2^x\\), what is \\(f(3)\\)?</p>",
+      "options": {
+        "A": "18",
+        "B": "24",
+        "C": "27",
+        "D": "36"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Evaluate \\(2^3 = 8\\).</p><p>Then \\(3 \\times 8 = 24\\).</p>"
+    },
+    {
+      "questionId": "1-30",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Solve for \\(x\\): \\(2x - 5 > 7\\)</p>",
+      "options": {
+        "A": "\\(x > 6\\)",
+        "B": "\\(x > 1\\)",
+        "C": "\\(x < 6\\)",
+        "D": "\\(x < 1\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Add 5 to both sides: \\(2x > 12\\).</p><p>Divide by 2: \\(x > 6\\).</p>"
+    },
+    {
+      "questionId": "1-36",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which function grows faster as \\(x\\) increases? \\(f(x) = 3^x\\) or \\(g(x) = x^3\\)?</p>",
+      "options": {
+        "A": "\\(f(x)\\)",
+        "B": "\\(g(x)\\)",
+        "C": "They grow at same rate",
+        "D": "Cannot determine"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Exponential functions like \\(3^x\\) eventually outgrow any polynomial function like \\(x^3\\).</p><p>For large \\(x\\), \\(3^x\\) is much larger than \\(x^3\\).</p>"
+    },
+    {
+      "questionId": "2-2",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>If \\(f(x) = 4x - 7\\), find \\(f(-3)\\).</p>",
+      "options": {
+        "A": "-19",
+        "B": "-5",
+        "C": "5",
+        "D": "19"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Substitute \\(x = -3\\): \\(4(-3) - 7 = -12 - 7 = -19\\).</p>"
+    },
+    {
+      "questionId": "2-3",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Solve for \\(x\\): \\(2^x = 16\\)</p>",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "8"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>\\(16 = 2^4\\), so \\(2^x = 2^4\\) implies \\(x = 4\\).</p>"
+    },
+    {
+      "questionId": "2-5",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>A taxi charges $3.50 plus $2.00 per mile. Which equation represents the cost \\(C\\) for \\(m\\) miles?</p>",
+      "options": {
+        "A": "\\(C = 2m + 3.5\\)",
+        "B": "\\(C = 3.5m + 2\\)",
+        "C": "\\(C = 2m - 3.5\\)",
+        "D": "\\(C = 3.5m - 2\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Fixed charge $3.50 (y-intercept) plus $2 per mile (slope).</p><p>So \\(C = 2m + 3.5\\).</p>"
+    },
+    {
+      "questionId": "2-7",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>A radioactive substance has a half-life of 10 years. If there are 80 grams initially, how many grams remain after 30 years?</p>",
+      "options": {
+        "A": "10",
+        "B": "20",
+        "C": "40",
+        "D": "60"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Half-life means amount halves every 10 years.</p><p>After 10 years: 40 g, after 20 years: 20 g, after 30 years: 10 g.</p>"
+    },
+    {
+      "questionId": "2-8",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>What is the slope of the line given by \\(3x - 2y = 6\\)?</p>",
+      "options": {
+        "A": "\\(\\frac{3}{2}\\)",
+        "B": "\\(\\frac{2}{3}\\)",
+        "C": "\\(-\\frac{3}{2}\\)",
+        "D": "\\(-\\frac{2}{3}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Rewrite in slope-intercept form: \\(3x - 2y = 6 \\Rightarrow -2y = -3x + 6 \\Rightarrow y = \\frac{3}{2}x - 3\\).</p><p>Slope is \\(\\frac{3}{2}\\).</p>"
+    },
+    {
+      "questionId": "2-10",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Which of the following is the graph of \\(y = 2^x\\)?</p>",
+      "options": {
+        "A": "Increasing curve through \\((0,1)\\)",
+        "B": "Decreasing curve through \\((0,1)\\)",
+        "C": "Straight line",
+        "D": "Parabola"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>\\(y = 2^x\\) is an exponential growth function.</p><p>At \\(x=0\\), \\(y=1\\), and it increases as x increases.</p>"
+    },
+    {
+      "questionId": "2-11",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>If \\(2x + y = 10\\) and \\(x - y = 2\\), what is \\(x\\)?</p>",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "6",
+        "D": "8"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Add the two equations: \\((2x + y) + (x - y) = 10 + 2 \\Rightarrow 3x = 12 \\Rightarrow x = 4\\).</p>"
+    },
+    {
+      "questionId": "2-14",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>A bank account earns 5% annual interest compounded annually. If $1000 is deposited, which expression gives the balance after \\(t\\) years?</p>",
+      "options": {
+        "A": "\\(1000(0.05)^t\\)",
+        "B": "\\(1000(1.05)^t\\)",
+        "C": "\\(1000(1.5)^t\\)",
+        "D": "\\(1000 + 50t\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Compound interest formula: \\(A = P(1 + r)^t\\), with \\(P=1000\\), \\(r=0.05\\).</p><p>So \\(A = 1000(1.05)^t\\).</p>"
+    },
+    {
+      "questionId": "2-25",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>Solve for \\(x\\): \\(3^{2x} = 81\\)</p>",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>\\(81 = 3^4\\), so \\(3^{2x} = 3^4\\) implies \\(2x = 4\\), hence \\(x = 2\\).</p>"
+    },
+    {
+      "questionId": "2-30",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>A line passes through \\((0,2)\\) and \\((3,8)\\). What is its equation?</p>",
+      "options": {
+        "A": "\\(y = 2x + 2\\)",
+        "B": "\\(y = 2x - 2\\)",
+        "C": "\\(y = 3x + 2\\)",
+        "D": "\\(y = 3x - 2\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Slope \\(m = \\frac{8-2}{3-0} = \\frac{6}{3} = 2\\).</p><p>Y-intercept from \\((0,2)\\) is 2, so \\(y = 2x + 2\\).</p>"
+    },
+    {
+      "questionId": "2-31",
+      "passageId": "",
+      "passageHighlight": "",
+      "questionHtml": "<p>The number of bacteria in a culture decreases by 20% each hour. If there are 500 bacteria now, how many will there be after 2 hours?</p>",
+      "options": {
+        "A": "320",
+        "B": "400",
+        "C": "480",
+        "D": "500"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Each hour multiply by 0.8 (since 20% decrease means 80% remains).</p><p>After 1 hour: \\(500 \\times 0.8 = 400\\).</p><p>After 2 hours: \\(400 \\times 0.8 = 320\\).</p>"
+    }
+  ]
+}

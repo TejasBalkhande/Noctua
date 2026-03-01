@@ -14,7 +14,7 @@
     },
     {
       "passageId": "war",
-      "passageHtml": "During World War II, as nations raced to gain intelligence advantages, thousands of women stepped into one of the most secretive and intellectually demanding roles of the conflict: codebreaking. In the United States, the Army and Navy secretly recruited more than 10,000 women many from elite colleges such as Wellesley, Smith, and Barnard, as well as from small towns and teaching positions across the country. [highlight-1]Recruiters often approached promising students with discreet questions: Did they enjoy crossword puzzles? Were they engaged to be married? Those who answered yes to the first and no to the second were invited to join a classified effort that would prove vital to Allied victory.[/highlight-1]\n<div style=\"margin: 10px 0;\"></div>\n\n[highlight-2]These women, frequently called \"Code Girls,\" relocated to Washington, D.C., where they worked at Arlington Hall for the Army and at the Naval Security Station for the Navy.[/highlight-2] Trained in cryptanalysis, they deciphered enemy communications, operated complex machines to break codes like Japan's Purple cipher and Germany's naval Enigma variations, and analyzed intercepted messages that revealed troop movements, submarine positions, and battle plans. [highlight-4]Their labor shortened the war by providing actionable intelligence that saved countless lives.[/highlight-4] Sworn to lifelong secrecy, many never spoke of their contributions, even to family, until declassification decades later.\n<div style=\"margin: 10px 0;\"></div>\n\nAcross the Atlantic, at Britain's Bletchley Park, women formed the majority of the workforce outnumbering men significantly. [highlight-3]Members of the Women's Royal Naval Service (WRNS, or Wrens) and other units operated Bombe machines to crack Enigma-encrypted messages, translated decoded German text, and supported the Ultra intelligence program that informed critical decisions, from the Battle of the Atlantic to D-Day preparations. [/highlight-3]Women like those in Hut 6 and Hut 8 tackled daily rotor settings and pattern recognition under immense pressure, often working rotating shifts in crowded, windowless blocks.\n<div style=\"margin: 10px 0;\"></div>\n\nThough their work remained hidden for years, these women demonstrated extraordinary skill in mathematics, languages, logic, and persistence. They shattered stereotypes about women's intellectual capabilities while helping turn the tide of war. Their legacy reminds us that behind many historic victories stand unsung contributors whose dedication and brilliance made all the difference."
+      "passageHtml": "During World War II, as nations raced to gain intelligence advantages, thousands of women stepped into one of the most secretive and intellectually demanding roles of the conflict: codebreaking. In the United States, the Army and Navy secretly recruited more than 10,000 women—many from elite colleges such as Wellesley, Smith, and Barnard, as well as from small towns and teaching positions across the country. Recruiters often approached promising students with discreet questions: Did they enjoy crossword puzzles? Were they engaged to be married? Those who answered yes to the first and no to the second were invited to join a classified effort that would prove vital to Allied victory. [highlight-1]They were told that their work would require intense focus and absolute secrecy.[/highlight-1]\n<div style=\"margin: 10px 0;\"></div>\n\nThese women, frequently called \"Code Girls,\" relocated to Washington, D.C., where they worked at Arlington Hall for the Army and at the Naval Security Station for the Navy. Trained in cryptanalysis, they deciphered enemy communications, operated complex machines to break codes like Japan's Purple cipher and Germany's naval Enigma variations, and analyzed intercepted messages that revealed troop movements, submarine positions, and battle plans. Their labor shortened the war by providing actionable intelligence that saved countless lives. Sworn to lifelong secrecy, many never spoke of their contributions, even to family, until declassification decades later.\n<div style=\"margin: 10px 0;\"></div>\n\nAcross the Atlantic, at Britain's Bletchley Park, women formed the majority of the workforce—outnumbering men significantly. Members of the Women's Royal Naval Service (WRNS, or Wrens) and other units operated Bombe machines to crack Enigma-encrypted messages, translated decoded German text, and supported the Ultra intelligence program that informed critical decisions, from the Battle of the Atlantic to D-Day preparations. [highlight-3]Women like those in Hut 6 and Hut 8 tackled daily rotor settings and pattern recognition under immense pressure, often working rotating shifts in crowded, windowless blocks.[/highlight-3]\n<div style=\"margin: 10px 0;\"></div>\n\n[highlight-4]Though their work remained hidden for years, these women demonstrated extraordinary skill in mathematics, languages, logic, and persistence.[/highlight-4] They shattered stereotypes about women's intellectual capabilities while helping turn the tide of war. [highlight-5]Their legacy reminds us that behind many historic victories stand unsung contributors whose dedication and brilliance made all the difference.[/highlight-5]"
     }
   ],
   "questions": [
@@ -259,57 +259,70 @@
       "questionId": "war1",
       "passageId": "war",
       "passageHighlight": "1",
-      "questionHtml": "Based on the passage, what criteria did recruiters use to approach women for codebreaking roles?",
+      "questionHtml": "Should the writer add this sentence here?",
       "options": {
-        "A": "Women who were engaged to be married and enjoyed puzzles.",
-        "B": "Women who were from elite colleges only.",
-        "C": "Women who enjoyed crossword puzzles and were not engaged.",
-        "D": "Women who were teaching in small towns."
+        "A": "Yes, because it explains why the recruiters asked about crossword puzzles and marriage.",
+        "B": "Yes, because it provides a crucial detail about the specific living conditions in Washington, D.C.",
+        "C": "No, because it contradicts the passage's main idea that the work was secretive.",
+        "D": "No, because it shifts the focus away from the recruitment process to unrelated job training."
       },
-      "correctOption": "C",
-      "explanationHtml": "The sentence with [1] clearly states that recruiters asked women if they enjoyed crossword puzzles and if they were engaged. Those who answered yes to the first and no to the second were invited. Thus, option C accurately reflects these criteria."
-    },
-    {
-      "questionId": "war2",
-      "passageId": "war",
-      "passageHighlight": "2",
-      "questionHtml": "According to the passage, where did the \"Code Girls\" work in the US?",
-      "options": {
-        "A": "At Bletchley Park and other locations.",
-        "B": "At Arlington Hall and the Naval Security Station in Washington, D.C.",
-        "C": "In small towns across the country.",
-        "D": "At elite colleges like Wellesley and Smith."
-      },
-      "correctOption": "B",
-      "explanationHtml": "The sentence with [2] specifies that the \"Code Girls\" relocated to Washington, D.C., and worked at Arlington Hall for the Army and the Naval Security Station for the Navy. Option B matches this information precisely."
+      "correctOption": "A",
+      "explanationHtml": "The sentence is a helpful addition. It directly follows the recruiters' questions and explains the purpose behind them. Asking about crossword puzzles was a way to gauge logical thinking and focus, while asking about marriage was to ensure the women had no immediate personal ties that might conflict with the need for absolute secrecy and relocation. Option (A) correctly identifies this clarifying purpose. The other options are incorrect: (B) is wrong because the sentence doesn't mention living conditions; (C) is wrong because it supports, rather than contradicts, the theme of secrecy; and (D) is wrong because it directly relates to the recruitment context."
     },
     {
       "questionId": "war3",
       "passageId": "war",
-      "passageHighlight": "4",
-      "questionHtml": "How did the women's contributions impact the war, according to the passage?",
+      "passageHighlight": "3",
+      "questionHtml": "Is the specific information in this sentence about Hut 6, Hut 8, and working conditions necessary?",
       "options": {
-        "A": "They lengthened the war by causing delays.",
-        "B": "They had no significant impact on the war.",
-        "C": "They shortened the war by providing intelligence that saved lives.",
-        "D": "They only worked on non-essential tasks."
+        "A": "No, because it repeats information already stated about the Bombe machines.",
+        "B": "No, because it focuses on the negative aspects of the work environment.",
+        "C": "Yes, because it provides concrete examples that illustrate the challenging and precise nature of their work.",
+        "D": "Yes, because it proves that the women at Bletchley Park worked harder than the \"Code Girls\" in the U.S."
       },
       "correctOption": "C",
-      "explanationHtml": "The sentence with [3] explicitly states, \"Their labor shortened the war by providing actionable intelligence that saved countless lives.\" Therefore, option C correctly describes their impact."
+      "explanationHtml": "The sentence is necessary because it adds vivid, specific details that bring the women's experience to life. Mentioning \"Hut 6 and Hut 8\" gives historical accuracy, while \"daily rotor settings,\" \"pattern recognition,\" \"immense pressure,\" and \"crowded, windowless blocks\" all work together to show the difficult, painstaking, and high-stakes environment in which they operated. Option (C) correctly identifies this illustrative purpose. Option (A) is incorrect because it provides new, specific details rather than repeating information. Option (B) is incorrect because describing the conditions is part of illustrating the reality of their work, not just to be negative. Option (D) is incorrect because the passage does not set up a competition between the two groups."
     },
     {
       "questionId": "war4",
       "passageId": "war",
-      "passageHighlight": "3",
-      "questionHtml": "What was the role of women at Bletchley Park in the UK?",
+      "passageHighlight": "4",
+      "questionHtml": "The writer is considering deleting the underlined sentence. Should the sentence be kept or deleted?",
       "options": {
-        "A": "They recruited more women from colleges.",
-        "B": "They operated Bombe machines and supported the Ultra intelligence program.",
-        "C": "They taught crossword puzzles to soldiers.",
-        "D": "They worked only on Japanese codes."
+        "A": "Kept, because it provides a smooth transition from the specific work at Bletchley Park to the broader, lasting impact of all the women's efforts.",
+        "B": "Kept, because it introduces a new argument about the difficulty of declassification.",
+        "C": "Deleted, because it introduces information about the women's post-war lives, which is not discussed in the passage.",
+        "D": "Deleted, because it states the obvious, as the entire passage is about their hidden work."
       },
-      "correctOption": "B",
-      "explanationHtml": "The sentence with [4] details that women at Bletchley Park operated Bombe machines, translated German text, and supported the Ultra intelligence program, which informed critical war decisions. Option B captures this role accurately."
+      "correctOption": "A",
+      "explanationHtml": "This sentence acts as a crucial pivot in the passage. The preceding paragraphs detailed the specific, secret work done in the U.S. and Britain. This sentence connects that past secrecy (\"remained hidden for years\") to the author's concluding thoughts on their legacy and impact. Option (A) correctly identifies this transitional and summative role. Option (B) is incorrect; the sentence doesn't introduce a new argument. Option (C) is incorrect; the sentence is about their work being hidden, not about their post-war lives. Option (D) is incorrect; while their work was secret, this sentence frames the shift to discussing their legacy despite that secrecy."
+    },
+    {
+      "questionId": "war5",
+      "passageId": "war",
+      "passageHighlight": "5",
+      "questionHtml": "Which of the following alternatives to the underlined sentence would best maintain the passage's informative and respectful tone while being most clear and specific?",
+      "options": {
+        "A": "Their legacy is a big deal for us to think about.",
+        "B": "Their legacy shows that you don't have to be a famous general to be a hero.",
+        "C": "Their legacy endures as a powerful testament to the countless, often unrecognized, individuals whose intellect and perseverance shape history.",
+        "D": "Their legacy is something we should really remember because they were super smart."
+      },
+      "correctOption": "C",
+      "explanationHtml": "The original sentence and option (C) both have an informative and respectful tone, but (C) is a more polished and clearer expression of the same idea. It uses elevated language (\"powerful testament,\" \"intellect and perseverance shape history\") that matches the passage's style. Option (A) is too informal and vague (\"big deal,\" \"think about\"). Option (B) is a bit simplistic and less formal than the rest of the passage. Option (D) is overly casual (\"something we should really remember,\" \"super smart\") and does not match the passage's serious tone."
+    },
+    {
+      "questionId": "war2",
+      "passageId": "war",
+      "questionHtml": "Which choice provides the most relevant and specific detail to support the main idea of this paragraph?",
+      "options": {
+        "A": "Many of these women had never traveled far from their hometowns before.",
+        "B": "The work was tedious, but the women took pride in their contributions.",
+        "C": "There, they operated the complex M-209 cipher machines to decrypt Japanese messages.",
+        "D": "Washington, D.C. was a bustling city during the war."
+      },
+      "correctOption": "C",
+      "explanationHtml": "The paragraph's main idea is to describe the specific, vital work the \"Code Girls\" did. Option (C) provides a specific example of the type of machines they operated (\"M-209\") and the codes they broke (\"Japanese messages\"), which directly supports this idea. Option (A) is a minor biographical detail that doesn't describe their work. Option (B) is a general feeling, not a specific detail about their tasks. Option (D) is a general fact about the city that is irrelevant to the paragraph's focus on their contributions."
     }
   ]
 }

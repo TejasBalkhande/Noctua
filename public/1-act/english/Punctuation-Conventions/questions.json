@@ -1,0 +1,362 @@
+{
+  "passages": [
+    {
+      "passageId": "mime",
+      "passageHtml": "The art of mime, often misunderstood as simple silence, is a demanding theatrical form. Performers must convey complex narratives, emotions, and characters without uttering a single [highlight-1]word[/highlight-1] relying instead on precise physical expression. This discipline requires immense control, flexibility, and [highlight-2]stamina[/highlight-2] qualities that take years of dedicated practice to develop. Famous practitioners like Marcel Marceau elevated mime to a profound [highlight-3]art[/highlight-3] however his legacy also includes training generations of performers. For a mime, the entire body becomes an [highlight-4]instrument[/highlight-4] the face, the hands, and even the posture must work in perfect harmony."
+    },
+    {
+      "passageId": "sneakers",
+      "passageHtml": "The sneaker, a staple of modern wardrobes, has a surprisingly practical origin. In the late 19th century, people sought a shoe that was quieter than traditional leather [highlight-5]footwear[/highlight-5] leading to the creation of sneakers with rubber soles. This new shoe allowed wearers to literally sneak up on [highlight-6]others[/highlight-6] hence the name. Over the decades, sneakers evolved from simple athletic gear into powerful cultural [highlight-7]symbols[/highlight-7] from Converse in basketball courts to Air Jordans in hip-hop music. Today, a collectors market drives high prices for vintage [highlight-8]pairs[/highlight-8] some rare editions selling for tens of thousands of dollars."
+    },
+    {
+      "passageId": "desert",
+      "passageHtml": "Desert islands have long captured the human imagination, representing both paradise and peril. One reason for [highlight-9]there[/highlight-9] allure is the promise of escape from society's complexities. The thought of a solitary beach, with nothing but the sound of waves, is profoundly [highlight-10]appealing[/highlight-10] it offers a form of mental and emotional cleansing. However, this fantasy often omits the harsh [highlight-11]realities[/highlight-11] survival would require constant effort for food, water, and shelter. A [highlight-12]persons[/highlight-12] fascination with desert islands, therefore, might reveal more about their dissatisfaction with modern life than a genuine desire for isolation."
+    },
+    {
+      "passageId": "yawning",
+      "passageHtml": "Yawning is a ubiquitous yet mysterious human behavior. For years, the common explanation was that it increased oxygen [highlight-13]intake[/highlight-13] however this theory has been largely debunked by research. A more compelling idea is that yawning helps to cool the [highlight-14]brain[/highlight-14] thereby enhancing mental efficiency. Studies have shown that people yawn more frequently in situations where brain temperature is likely [highlight-15]elevated[/highlight-15] like when they are tired, stressed, or in a warm room. This thermoregulatory theory also helps explain why yawning is [highlight-16]contagious[/highlight-16] a phenomenon linked to empathy and social bonding."
+    },
+    {
+      "passageId": "sandwich",
+      "passageHtml": "The sandwich, [highlight-4]a cornerstone of casual dining[/highlight-4], has a fascinating origin story rooted in gambling. The dish is named after John Montagu, the 4th Earl of [highlight-1]Sandwich[/highlight-1] [highlight-6]an 18th-century English aristocrat[/highlight-6]. Legend has it that the Earl, an avid [highlight-5]gambler[/highlight-5], did not wish to leave the card table for a meal. He therefore requested that his servants bring him meat tucked between two slices of [highlight-2]bread[/highlight-2] this simple innovation allowed him to eat with one hand while continuing to play with the other. This convenient method of dining quickly caught on among the [highlight-3]Earls[/highlight-3] friends and soon spread throughout London society. The sandwiches popularity was so immense that it soon transcended class [highlight-7]boundaries[/highlight-7] becoming a food for everyone."
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "mime1",
+      "passageId": "mime",
+      "passageHighlight": "1",
+      "questionHtml": "For Sentence 2, which choice best follows the underlined portion?",
+      "options": {
+        "A": "word, relying",
+        "B": "word relying,",
+        "C": "word; relying",
+        "D": "word relying"
+      },
+      "correctOption": "A",
+      "explanationHtml": "This question tests comma usage. The phrase 'relying instead on precise physical expression' is a participial phrase that modifies 'performers.' When an introductory participial phrase follows an independent clause, it is usually set off by a comma for clarity. Option A correctly places the comma after 'word' to separate the main clause from the descriptive phrase that follows."
+    },
+    {
+      "questionId": "mime2",
+      "passageId": "mime",
+      "passageHighlight": "2",
+      "questionHtml": "For Sentence 3, which choice best follows the underlined portion?",
+      "options": {
+        "A": "stamina,",
+        "B": "stamina;",
+        "C": "stamina:",
+        "D": "stamina"
+      },
+      "correctOption": "C",
+      "explanationHtml": "This question tests colon usage. The part before the colon ('This discipline requires immense control, flexibility, and stamina') is a complete sentence. The part after the colon ('qualities that take years...') is an appositive phrase that explains those qualities. A colon is used to introduce an explanation after a complete sentence."
+    },
+    {
+      "questionId": "mime3",
+      "passageId": "mime",
+      "passageHighlight": "3",
+      "questionHtml": "For Sentence 4, which choice best follows the underlined portion?",
+      "options": {
+        "A": "art however",
+        "B": "art, however",
+        "C": "art; however,",
+        "D": "art; however"
+      },
+      "correctOption": "C",
+      "explanationHtml": "This question tests semicolon and comma usage with a conjunctive adverb. 'However' connects two independent clauses. To do this correctly, you need a semicolon before 'however' and a comma after it. Option C provides the correct punctuation: 'art; however,'."
+    },
+    {
+      "questionId": "mime4",
+      "passageId": "mime",
+      "passageHighlight": "4",
+      "questionHtml": "For Sentence 5, which choice best follows the underlined portion?",
+      "options": {
+        "A": "instrument the",
+        "B": "instrument; the",
+        "C": "instrument, the",
+        "D": "instrument: the"
+      },
+      "correctOption": "B",
+      "explanationHtml": "This question tests semicolon usage. The sentence contains two independent clauses: 'the entire body becomes an instrument' and 'the face, the hands... must work in perfect harmony.' They are closely related but not joined by a conjunction, so a semicolon is correct."
+    },
+    {
+      "questionId": "sneak5",
+      "passageId": "sneakers",
+      "passageHighlight": "5",
+      "questionHtml": "For Sentence 2, which choice best follows the underlined portion?",
+      "options": {
+        "A": "footwear leading",
+        "B": "footwear, leading",
+        "C": "footwear; leading",
+        "D": "footwear: leading"
+      },
+      "correctOption": "B",
+      "explanationHtml": "This question tests comma usage. The phrase 'leading to the creation...' is a participial phrase that should be set off from the main clause with a comma."
+    },
+    {
+      "questionId": "sneak6",
+      "passageId": "sneakers",
+      "passageHighlight": "6",
+      "questionHtml": "For Sentence 3, which choice best follows the underlined portion?",
+      "options": {
+        "A": "others hence",
+        "B": "others, hence",
+        "C": "others; hence,",
+        "D": "others hence,"
+      },
+      "correctOption": "C",
+      "explanationHtml": "This question tests semicolon and comma usage with a conjunctive adverb. 'Hence' connects two independent clauses, so a semicolon is needed before it and a comma after."
+    },
+    {
+      "questionId": "sneak7",
+      "passageId": "sneakers",
+      "passageHighlight": "7",
+      "questionHtml": "For Sentence 4, which choice best follows the underlined portion?",
+      "options": {
+        "A": "symbols from",
+        "B": "symbols; from",
+        "C": "symbols, from",
+        "D": "symbols:"
+      },
+      "correctOption": "D",
+      "explanationHtml": "This question tests colon usage. The first part is a complete sentence, and the second part is a list of examples. A colon is correct to introduce the list."
+    },
+    {
+      "questionId": "sneak8",
+      "passageId": "sneakers",
+      "passageHighlight": "8",
+      "questionHtml": "For Sentence 5, which choice best follows the underlined portion?",
+      "options": {
+        "A": "pairs some",
+        "B": "pairs, some",
+        "C": "pairs; some",
+        "D": "pairs: some"
+      },
+      "correctOption": "C",
+      "explanationHtml": "This question tests semicolon usage. Two independent clauses are joined without a conjunction, so a semicolon is needed."
+    },
+    {
+      "questionId": "desert9",
+      "passageId": "desert",
+      "passageHighlight": "9",
+      "questionHtml": "For Sentence 2, which choice best follows the underlined portion?",
+      "options": {
+        "A": "there",
+        "B": "their",
+        "C": "they're",
+        "D": "its"
+      },
+      "correctOption": "B",
+      "explanationHtml": "This question tests apostrophes for possession. The sentence needs a possessive pronoun meaning 'belonging to desert islands.' 'Their' is the correct plural possessive."
+    },
+    {
+      "questionId": "desert10",
+      "passageId": "desert",
+      "passageHighlight": "10",
+      "questionHtml": "For Sentence 3, which choice best follows the underlined portion?",
+      "options": {
+        "A": "appealing it",
+        "B": "appealing, it",
+        "C": "appealing; it",
+        "D": "appealing: it"
+      },
+      "correctOption": "C",
+      "explanationHtml": "This question tests semicolon usage. Two independent clauses are joined without a conjunction, so a semicolon is correct."
+    },
+    {
+      "questionId": "desert11",
+      "passageId": "desert",
+      "passageHighlight": "11",
+      "questionHtml": "For Sentence 4, which choice best follows the underlined portion?",
+      "options": {
+        "A": "realities survival",
+        "B": "realities, survival",
+        "C": "realities; survival",
+        "D": "realities:"
+      },
+      "correctOption": "D",
+      "explanationHtml": "This question tests colon usage. The first part is a complete sentence, and the second part explains the 'harsh realities.' A colon is appropriate."
+    },
+    {
+      "questionId": "desert12",
+      "passageId": "desert",
+      "passageHighlight": "12",
+      "questionHtml": "For Sentence 5, which choice best follows the underlined portion?",
+      "options": {
+        "A": "persons",
+        "B": "persons'",
+        "C": "person's",
+        "D": "persons's"
+      },
+      "correctOption": "C",
+      "explanationHtml": "This question tests apostrophes for possession. 'A person' is singular, so the possessive is 'person's'."
+    },
+    {
+      "questionId": "yawn13",
+      "passageId": "yawning",
+      "passageHighlight": "13",
+      "questionHtml": "For Sentence 2, which choice best follows the underlined portion?",
+      "options": {
+        "A": "intake however",
+        "B": "intake, however",
+        "C": "intake; however,",
+        "D": "intake however,"
+      },
+      "correctOption": "C",
+      "explanationHtml": "This question tests semicolon and comma with conjunctive adverb. 'However' connects two independent clauses, so a semicolon before and comma after are needed."
+    },
+    {
+      "questionId": "yawn14",
+      "passageId": "yawning",
+      "passageHighlight": "14",
+      "questionHtml": "For Sentence 3, which choice best follows the underlined portion?",
+      "options": {
+        "A": "brain thereby",
+        "B": "brain, thereby",
+        "C": "brain; thereby",
+        "D": "brain: thereby"
+      },
+      "correctOption": "B",
+      "explanationHtml": "This question tests comma usage. 'Thereby' introduces a participial phrase that should be set off with a comma."
+    },
+    {
+      "questionId": "yawn15",
+      "passageId": "yawning",
+      "passageHighlight": "15",
+      "questionHtml": "For Sentence 4, which choice best follows the underlined portion?",
+      "options": {
+        "A": "elevated like",
+        "B": "elevated, like",
+        "C": "elevated; like",
+        "D": "elevated: like"
+      },
+      "correctOption": "B",
+      "explanationHtml": "This question tests comma usage. The phrase beginning with 'like' provides examples and is parenthetical, so it should be set off with a comma."
+    },
+    {
+      "questionId": "yawn16",
+      "passageId": "yawning",
+      "passageHighlight": "16",
+      "questionHtml": "For Sentence 5, which choice best follows the underlined portion?",
+      "options": {
+        "A": "contagious a",
+        "B": "contagious, a",
+        "C": "contagious; a",
+        "D": "contagious:"
+      },
+      "correctOption": "D",
+      "explanationHtml": "This question tests colon usage. The first part is a complete sentence, and the second part is an appositive phrase explaining 'contagious.' A colon is correct."
+    },
+    {
+      "questionId": "sand17",
+      "passageId": "sandwich",
+      "passageHighlight": "1",
+      "questionHtml": "For Sentence 2, which choice best follows the underlined portion?",
+      "options": {
+        "A": "Sandwich an",
+        "B": "Sandwich, an",
+        "C": "Sandwich; an",
+        "D": "Sandwich:"
+      },
+      "correctOption": "B",
+      "explanationHtml": "This question tests comma usage with an appositive. The phrase 'an 18th-century English aristocrat' is a non-essential appositive, so it should be set off with a comma."
+    },
+    {
+      "questionId": "sand18",
+      "passageId": "sandwich",
+      "passageHighlight": "2",
+      "questionHtml": "For Sentence 4, which choice best follows the underlined portion?",
+      "options": {
+        "A": "bread this",
+        "B": "bread, this",
+        "C": "bread; this",
+        "D": "bread:"
+      },
+      "correctOption": "C",
+      "explanationHtml": "This question tests semicolon usage. Two independent clauses are joined without a conjunction, so a semicolon is correct."
+    },
+    {
+      "questionId": "sand19",
+      "passageId": "sandwich",
+      "passageHighlight": "3",
+      "questionHtml": "For Sentence 5, which choice best follows the underlined portion?",
+      "options": {
+        "A": "the Earls",
+        "B": "the Earls'",
+        "C": "the Earl's",
+        "D": "the Earls's"
+      },
+      "correctOption": "C",
+      "explanationHtml": "This question tests apostrophes for possession. 'Earl' is singular, so the possessive is 'Earl's'."
+    },
+    {
+      "questionId": "sand20",
+      "passageId": "sandwich",
+      "passageHighlight": "4",
+      "questionHtml": "For the overall passage, consider the punctuation in Sentence 1. It is correctly punctuated as written. What is the primary function of the commas in this sentence?",
+      "options": {
+        "A": "To separate items in a list.",
+        "B": "To set off a non-essential clause.",
+        "C": "To join two independent clauses.",
+        "D": "To introduce a quotation."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The commas set off the phrase 'a cornerstone of casual dining,' which is a non-essential appositive describing 'The sandwich.'"
+    },
+    {
+      "questionId": "sand21",
+      "passageId": "sandwich",
+      "passageHighlight": "5",
+      "questionHtml": "In the context of Sentence 3, what is the function of the comma after 'gambler'?",
+      "options": {
+        "A": "It separates two independent clauses joined by a conjunction.",
+        "B": "It follows an introductory dependent clause.",
+        "C": "It sets off a non-essential appositive phrase.",
+        "D": "It is used incorrectly and should be removed."
+      },
+      "correctOption": "C",
+      "explanationHtml": "The comma after 'gambler' is the second comma in the pair that sets off the appositive phrase 'an avid gambler.' It marks the end of the non-essential information."
+    },
+    {
+      "questionId": "sand22",
+      "passageId": "sandwich",
+      "passageHighlight": "6",
+      "questionHtml": "For Sentence 2, if the phrase 'an 18th-century English aristocrat' were essential to identifying which Earl of Sandwich was being discussed, how should it be punctuated?",
+      "options": {
+        "A": "Sandwich an 18th-century English aristocrat",
+        "B": "Sandwich, an 18th-century English aristocrat",
+        "C": "Sandwich; an 18th-century English aristocrat",
+        "D": "Sandwich: an 18th-century English aristocrat"
+      },
+      "correctOption": "A",
+      "explanationHtml": "If the phrase is essential (restrictive), it should not be set off by commas. Option A has no commas, indicating it is essential."
+    },
+    {
+      "questionId": "sand23",
+      "passageId": "sandwich",
+      "passageHighlight": "2",
+      "questionHtml": "For Sentence 4, what would be the effect of replacing the punctuation before 'this' with a colon?",
+      "options": {
+        "A": "It would be correct, as a colon can introduce an independent clause that explains the first.",
+        "B": "It would be incorrect, because a colon must be followed by a list or a single word.",
+        "C": "It would be incorrect, because the first part is not a complete sentence.",
+        "D": "It would be correct, as a colon can be used interchangeably with a semicolon."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The first part is a complete sentence, and the second part explains the innovation, so a colon would be grammatically correct."
+    },
+    {
+      "questionId": "sand24",
+      "passageId": "sandwich",
+      "passageHighlight": "7",
+      "questionHtml": "How would you correct the punctuation in this new, hypothetical Sentence 6 for the passage: 'The sandwiches popularity was so immense that it soon transcended class boundaries becoming a food for everyone.'",
+      "options": {
+        "A": "boundaries, becoming",
+        "B": "boundaries; becoming",
+        "C": "boundaries: becoming",
+        "D": "boundaries becoming"
+      },
+      "correctOption": "A",
+      "explanationHtml": "This question tests comma usage. The phrase 'becoming a food for everyone' is a participial phrase that should be set off from the main clause with a comma."
+    }
+  ]
+}

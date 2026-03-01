@@ -1,0 +1,358 @@
+{
+  "passages": [
+    {
+      "passageId": "art",
+      "passageHtml": "In recent years, the practice of visible mending has transformed from a necessity into an art form. [highlight-1]Instead of hiding wear and tear, this method involve highlighting the damage with colorful threads and decorative stitches.[/highlight-1] [highlight-6]Proponents of the movement argue that it not only extends the life of a garment but also adds a unique, personal narrative to it.[/highlight-6] For example, a torn elbow on a favorite wool sweater might be repaired with a delicate web of embroidery silk. [highlight-2]Each stitch, carefully placed, become a testament to the garment's history and the wearer's care.[/highlight-2] [highlight-3]They who practice this craft often speak of developing a deeper connection to their belongings.[/highlight-3] This philosophy stands in stark contrast to the dominant model of fast fashion, where clothes are often discarded after only a few wears. [highlight-4]The popularity of online tutorials and dedicated workshops suggest a growing appetite for these slower, more sustainable practices.[/highlight-4] Ultimately, visible mending challenges us to see beauty in imperfection and value in repair. [highlight-5]It encourage us to become active participants in the story of our clothes, rather than passive consumers.[/highlight-5]"
+    },
+    {
+      "passageId": "sleep2",
+      "passageHtml": "Sleep, once considered a passive state, is now understood to be a highly active and essential process for human health. [highlight-6]During the night, the brain cycles through different stages, each with a distinct purpose.[/highlight-6] [highlight-4]In one stage, the brain sorts through the day's experiences, consolidating memories and deciding which information to keep.[/highlight-4] In another, the body repairs tissues and releases important hormones. [highlight-1]If these cycles are interrupted, the effects can be more serious then just feeling tired.[/highlight-1] [highlight-5]Chronic sleep deprivation has been linked to a weakened immune system and an increased risk of long-term health problems.[/highlight-5] Furthermore, a lack of sleep impairs cognitive functions like decision-making and creative problem-solving. [highlight-2]Sleep, therefore, is not a luxury, but a biological requirement, just as essential to our well-being as clean air and water.[/highlight-2] [highlight-3]Given its critical role, doctors and scientists now recommend that adolescents get between eight and ten hours of sleep each night, an amount that many fall far short of achieving.[/highlight-3] Understanding the science of sleep, therefore, is the first step toward prioritizing it."
+    },
+    {
+      "passageId": "sandwich",
+      "passageHtml": "The sandwich is a staple of lunchboxes and deli counters around the world, but its origins are surprisingly specific. [highlight-1]The story most often links to John Montagu, the Fourth Earl of Sandwich, an 18th-century English aristocrat.[/highlight-1] [highlight-6]Legend has it that the Earl, a passionate gambler, did not want to leave the card table to eat a proper meal.[/highlight-6] [highlight-2]He therefore ordered his servants to bring him slices of meat tucked between two pieces of toast.[/highlight-2] This simple innovation allowed him to eat with one hand while continuing to play cards with the other. [highlight-3]His friends, observing this convenient dining method, soon began to order \"the same as Sandwich,\" and the name stuck.[/highlight-3] While this tale is widely accepted, some food historians point to earlier, similar examples. [highlight-5]For centuries, people in the Middle East had been wrapping fillings in flatbreads, and the Dutch had their \"broodjes,\" small bread rolls filled with meat or cheese.[/highlight-5] However, none of these predecessors achieved the same cultural prominence. It was the Earl's namesake that popularized the concept in Western culture. [highlight-4]From this aristocratic beginning, the sandwich has evolved into an infinite variety of forms, reflecting the diverse tastes and ingredients of cultures across the globe.[/highlight-4]"
+    },
+    {
+      "passageId": "urban",
+      "passageHtml": "As cities become more densely populated, a quiet revolution is taking root on rooftops and in vacant lots: urban farming. [highlight-1]This movement, which encompasses everything from small community gardens to large commercial hydroponic operations, are transforming the way city dwellers think about food.[/highlight-1] Proponents cite numerous benefits. [highlight-6]For one, urban farms drastically reduce the distance food travels from farm to plate, lowering carbon emissions.[/highlight-6] [highlight-2]They also provide access to fresh produce in \"food deserts,\" areas where supermarkets are scarce and healthy options are limited.[/highlight-2] Furthermore, these green spaces can mitigate the \"heat island\" effect common in cities, where concrete and asphalt absorb and retain heat. Of course, urban farmers face unique challenges. [highlight-5]Finding affordable land and ensuring soil is free from contaminants are two of the most significant hurdles.[/highlight-5] [highlight-3]Despite these obstacles, the movement continues to gain momentum, with many viewing it as an essential component of a resilient and sustainable city.[/highlight-3] [highlight-4]Its not just about growing food; its about cultivating community and reimagining the potential of urban spaces.[/highlight-4]"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "art1",
+      "passageId": "art",
+      "passageHighlight": "1",
+      "questionHtml": "Instead of hiding wear and tear, this method involve highlighting the damage... Which choice best corrects the error?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "methods involve",
+        "C": "method involves",
+        "D": "method are involving"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The subject is the singular noun 'method.' The singular verb 'involves' is needed to agree with it."
+    },
+    {
+      "questionId": "art2",
+      "passageId": "art",
+      "passageHighlight": "2",
+      "questionHtml": "Each stitch, carefully placed, become a testament... Which choice best corrects the error?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "stitches, carefully placed, become",
+        "C": "stitch, carefully placed, become",
+        "D": "stitch, carefully placed, becomes"
+      },
+      "correctOption": "D",
+      "explanationHtml": "The core subject is 'Each stitch,' which is singular. The singular verb form is 'becomes.' The phrase 'carefully placed' is a modifier and does not change the subject's number."
+    },
+    {
+      "questionId": "art3",
+      "passageId": "art",
+      "passageHighlight": "3",
+      "questionHtml": "They who practice this craft often speak of developing a deeper connection... Which choice best corrects the error?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "Them",
+        "C": "Those",
+        "D": "That"
+      },
+      "correctOption": "C",
+      "explanationHtml": "'Those who' is the correct idiomatic phrase to refer to a specific group of people. 'They who' is grammatically possible but less standard."
+    },
+    {
+      "questionId": "art4",
+      "passageId": "art",
+      "passageHighlight": "4",
+      "questionHtml": "The popularity of online tutorials and dedicated workshops suggest a growing appetite... Which choice best corrects the error?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "workshops, suggest",
+        "C": "workshops suggests",
+        "D": "workshops, suggests"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The subject is the singular noun 'popularity.' The phrase 'of online tutorials and dedicated workshops' is a prepositional phrase, so the verb should be singular 'suggests'."
+    },
+    {
+      "questionId": "art5",
+      "passageId": "art",
+      "passageHighlight": "5",
+      "questionHtml": "It encourage us to become active participants... Which choice best corrects the error?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "It are encouraging",
+        "C": "It encourages",
+        "D": "They encourage"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The pronoun 'It' refers to the singular concept of visible mending, so the singular verb 'encourages' is needed."
+    },
+    {
+      "questionId": "art6",
+      "passageId": "art",
+      "passageHighlight": "6",
+      "questionHtml": "...it not only extends the life of a garment but also adds a unique, personal narrative to it. Which choice best corrects the punctuation?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "unique, personal, narrative",
+        "C": "unique personal narrative",
+        "D": "unique, personal narrative"
+      },
+      "correctOption": "A",
+      "explanationHtml": "The use of the comma between two coordinate adjectives ('unique' and 'personal') that both modify the same noun ('narrative') is correct."
+    },
+    {
+      "questionId": "sleep21",
+      "passageId": "sleep2",
+      "passageHighlight": "1",
+      "questionHtml": "If these cycles are interrupted, the effects can be more serious then just feeling tired. Which choice best corrects the error?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "more serious than just",
+        "C": "most serious then just",
+        "D": "serious then just"
+      },
+      "correctOption": "B",
+      "explanationHtml": "This is a classic confusion between 'than' (used for comparisons) and 'then' (used for time). The sentence compares effects, so 'than' is required."
+    },
+    {
+      "questionId": "sleep22",
+      "passageId": "sleep2",
+      "passageHighlight": "2",
+      "questionHtml": "Sleep, therefore, is not a luxury, but a biological requirement, just as essential to our well-being as clean air and water. Which choice best corrects the punctuation or clarity?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "just as essential, to our well-being, as clean air and water.",
+        "C": "just as essential to our well-being, as clean air and water.",
+        "D": "just as essential to our well-being as clean air, and water."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The modifier is clear and correctly placed. The punctuation is correct as is."
+    },
+    {
+      "questionId": "sleep23",
+      "passageId": "sleep2",
+      "passageHighlight": "3",
+      "questionHtml": "...doctors and scientists now recommend that adolescents get between eight and ten hours of sleep each night, an amount that many fall far short of achieving. Which choice best corrects the pronoun?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "an amount that much",
+        "C": "a number that many",
+        "D": "a number whom many"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The antecedent is 'eight and ten hours,' which is a countable quantity, so 'a number' is more precise than 'an amount.' 'That' is correct."
+    },
+    {
+      "questionId": "sleep24",
+      "passageId": "sleep2",
+      "passageHighlight": "4",
+      "questionHtml": "In one stage, the brain sorts through the day's experiences, consolidating memories and deciding which information to keep. Which choice best corrects the verb tense?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "the brain sorting",
+        "C": "the brain sort",
+        "D": "the brain, sorts"
+      },
+      "correctOption": "A",
+      "explanationHtml": "The present tense 'sorts' is correct for describing a general process."
+    },
+    {
+      "questionId": "sleep25",
+      "passageId": "sleep2",
+      "passageHighlight": "5",
+      "questionHtml": "Chronic sleep deprivation has been linked to a weakened immune system and an increased risk of long-term health problems. Which choice best corrects the word choice?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "effected",
+        "C": "affected by",
+        "D": "effected by"
+      },
+      "correctOption": "A",
+      "explanationHtml": "'Linked to' means connected, which is correct. 'Effected' means brought about, which doesn't fit."
+    },
+    {
+      "questionId": "sleep26",
+      "passageId": "sleep2",
+      "passageHighlight": "6",
+      "questionHtml": "During the night, the brain cycles through different stages, each with a distinct purpose. Which choice best corrects the punctuation?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "stages; each with a distinct purpose.",
+        "C": "stages each with a distinct purpose.",
+        "D": "stages, each of them with a distinct purpose."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The sentence is clear and correct. The phrase is an absolute phrase set off by a comma."
+    },
+    {
+      "questionId": "sandwich1",
+      "passageId": "sandwich",
+      "passageHighlight": "1",
+      "questionHtml": "The story most often links to John Montagu... Which choice best corrects the error?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "is most often linking",
+        "C": "most often is linked",
+        "D": "is most often linked"
+      },
+      "correctOption": "D",
+      "explanationHtml": "The story is being linked, so passive voice is correct: 'is most often linked'."
+    },
+    {
+      "questionId": "sandwich2",
+      "passageId": "sandwich",
+      "passageHighlight": "2",
+      "questionHtml": "He therefore ordered his servants to bring him slices of meat tucked between two pieces of toast. Which choice best corrects the word choice?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "inferring",
+        "C": "implying",
+        "D": "implying that"
+      },
+      "correctOption": "A",
+      "explanationHtml": "'Therefore' means for that reason, which correctly connects the ideas."
+    },
+    {
+      "questionId": "sandwich3",
+      "passageId": "sandwich",
+      "passageHighlight": "3",
+      "questionHtml": "His friends, observing this convenient dining method, soon began to order \"the same as Sandwich,\" and the name stuck. Which choice best corrects the pronoun clarity?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "they soon began to order",
+        "C": "soon began ordering",
+        "D": "soon began to order, and the name stuck."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The sentence is clear and grammatically correct. The pronoun 'the name' clearly refers to 'Sandwich'."
+    },
+    {
+      "questionId": "sandwich4",
+      "passageId": "sandwich",
+      "passageHighlight": "4",
+      "questionHtml": "From this aristocratic beginning, the sandwich has evolved into an infinite variety of forms... Which choice best corrects the verb tense?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "the sandwich evolved",
+        "C": "the sandwich had evolved",
+        "D": "the sandwich will have evolved"
+      },
+      "correctOption": "A",
+      "explanationHtml": "Present perfect 'has evolved' is correct because it started in the past and continues to the present."
+    },
+    {
+      "questionId": "sandwich5",
+      "passageId": "sandwich",
+      "passageHighlight": "5",
+      "questionHtml": "For centuries, people in the Middle East had been wrapping fillings in flatbreads, and the Dutch had their \"broodjes,\" small bread rolls filled with meat or cheese. Which choice best corrects the subject-verb agreement?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "has had",
+        "C": "have had",
+        "D": "are having"
+      },
+      "correctOption": "A",
+      "explanationHtml": "The subject 'the Dutch' is plural, and the past perfect 'had had' is correct to show action before the Earl's time."
+    },
+    {
+      "questionId": "sandwich6",
+      "passageId": "sandwich",
+      "passageHighlight": "6",
+      "questionHtml": "Legend has it that the Earl, a passionate gambler, did not want to leave the card table to eat a proper meal. Which choice best corrects the punctuation?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "the Earl a passionate gambler",
+        "C": "the Earl, a passionate gambler",
+        "D": "the Earl; a passionate gambler"
+      },
+      "correctOption": "A",
+      "explanationHtml": "The phrase 'a passionate gambler' is an appositive and should be set off with commas."
+    },
+    {
+      "questionId": "urban1",
+      "passageId": "urban",
+      "passageHighlight": "1",
+      "questionHtml": "This movement, which encompasses everything from small community gardens to large commercial hydroponic operations, are transforming the way... Which choice best corrects the error?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "operations, is transforming",
+        "C": "operations; are transforming",
+        "D": "operations and are transforming"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The subject is the singular 'movement,' so the verb should be singular 'is transforming'."
+    },
+    {
+      "questionId": "urban2",
+      "passageId": "urban",
+      "passageHighlight": "2",
+      "questionHtml": "They also provide access to fresh produce in \"food deserts,\" areas where supermarkets are scarce and healthy options are limited. Which choice best corrects the pronoun?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "It also provides",
+        "C": "This also provides",
+        "D": "These also provide"
+      },
+      "correctOption": "A",
+      "explanationHtml": "The pronoun 'They' correctly refers to the plural antecedent 'urban farms'."
+    },
+    {
+      "questionId": "urban3",
+      "passageId": "urban",
+      "passageHighlight": "3",
+      "questionHtml": "Despite these obstacles, the movement continues to gain momentum, with many viewing it as an essential component... Which choice best corrects the verb tense?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "the movement continued to gain",
+        "C": "the movement has continued to gain",
+        "D": "the movement will continue to gain"
+      },
+      "correctOption": "A",
+      "explanationHtml": "Present tense 'continues' is correct for a current ongoing trend."
+    },
+    {
+      "questionId": "urban4",
+      "passageId": "urban",
+      "passageHighlight": "4",
+      "questionHtml": "Its not just about growing food; its about cultivating community... Which choice best corrects the word usage?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "Its not just about growing food; it's",
+        "C": "It's not just about growing food; its",
+        "D": "It's not just about growing food; it's"
+      },
+      "correctOption": "D",
+      "explanationHtml": "The sentence requires the contraction 'it's' (it is) in both places."
+    },
+    {
+      "questionId": "urban5",
+      "passageId": "urban",
+      "passageHighlight": "5",
+      "questionHtml": "Finding affordable land and ensuring soil is free from contaminants are two of the most significant hurdles. Which choice best corrects the subject-verb agreement?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "is two of the most significant hurdles.",
+        "C": "are two of the most significant hurdle.",
+        "D": "are two of the more significant hurdles."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The compound subject is plural, so the plural verb 'are' is correct."
+    },
+    {
+      "questionId": "urban6",
+      "passageId": "urban",
+      "passageHighlight": "6",
+      "questionHtml": "For one, urban farms drastically reduce the distance food travels from farm to plate, lowering carbon emissions. Which choice best corrects the modifier placement?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "reducing carbon emissions by lowering the distance.",
+        "C": "to lower carbon emissions.",
+        "D": "lowering carbon emissions, from farm to plate."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The modifier 'lowering carbon emissions' is correctly placed to show the result."
+    }
+  ]
+}

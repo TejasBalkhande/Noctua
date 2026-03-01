@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState, useRef, useCallback } from "react";
+import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import { MenuItem } from "@/types/menu";
 import { PracticeLevel, Section } from "../lib/actSections";
@@ -162,6 +163,11 @@ export default function PracticeSessionClient({
     passageQuestionIndex = pos + 1;
   }
 
+  // Common heading for the question
+  const questionHeading = hasPassage
+    ? `Passage Question ${passageQuestionIndex} of ${passageQuestionCount}`
+    : `Question ${currentIndex + 1} of ${data.questions.length}`;
+
   return (
     <div className="bg-white min-h-screen flex flex-col">
       <Navbar items={schoolMenu} logo="OwlenForge" />
@@ -172,14 +178,30 @@ export default function PracticeSessionClient({
         ref={contentRef}
       >
         {/* Header with calculator toggle */}
-        <div className="flex flex-wrap items-center justify-between mb-4">
-          <div>
-            <h1 className="text-2xl md:text-3xl font-semibold text-[#1E4A76]">
-              {levelInfo.level.title} Practice
-            </h1>
-            <p className="text-[#4A5568] font-times text-[17px]">
-              {levelInfo.section.name} • {levelInfo.level.description}
-            </p>
+        <div className="flex flex-wrap items-center justify-between mb-4 font-sans">
+          <div className="flex items-center gap-2 mb-1">
+            {/* Award Image */}
+            <div className="flex-shrink-0">
+              <Image
+                src="/owl-apple.png"
+                alt="Award"
+                width={90}
+                height={90}
+                className="object-contain"
+              />
+            </div>
+
+            {/* Your Original Div (Unchanged) */}
+            <div className="flex flex-wrap items-center justify-between font-sans">
+              <div>
+                <h1 className="text-2xl md:text-2xl font-semibold text-[#1E4A76]">
+                  {levelInfo.level.title} Practice
+                </h1>
+                <p className="text-[#4A5568] font-times text-[17px]">
+                  {levelInfo.section.name} • {levelInfo.level.description}
+                </p>
+              </div>
+            </div>
           </div>
           {isMath && (
             <button
@@ -212,49 +234,68 @@ export default function PracticeSessionClient({
 
         {/* Main content card – fills remaining space and scrolls internally */}
         <div className="border border-[#E2E8F0] rounded-2xl bg-white shadow-sm overflow-hidden flex-1 min-h-0 flex flex-col">
-          <div
-            className={`grid ${
-              hasPassage ? "md:grid-cols-2" : "md:grid-cols-1"
-            } divide-y md:divide-y-0 md:divide-x divide-[#E2E8F0] h-full`}
-          >
-            {/* Passage column (if exists) */}
-            {hasPassage && (
-              <div
-                ref={passageRef}
-                className="p-6 overflow-y-auto bg-[#F7F9FC]/50 max-h-[500px] md:max-h-none"
-              >
-                <h3 className="text-lg font-semibold text-[#1E4A76] mb-4 flex items-center gap-2">
-                  <span className="text-2xl">📖</span> Passage
-                </h3>
-                <div
-                  className="prose max-w-none text-[#4A5568]"
-                  dangerouslySetInnerHTML={{
-                    __html: transformHtml(currentPassage.passageHtml, currentQuestion.passageHighlight),
-                  }}
-                />
-              </div>
-            )}
-
-            {/* Question column */}
-            <div className="p-6 overflow-y-auto">
-              <div className="mb-6">
-                <div className="flex items-center justify-between mb-3">
-                  <h3 className="text-lg font-semibold text-[#1E4A76] flex items-center gap-2">
-                    {hasPassage
-                      ? `Passage Question ${passageQuestionIndex} of ${passageQuestionCount}`
-                      : `Question ${currentIndex + 1} of ${data.questions.length}`}
+          {/* Always two columns – use flex-1 to fill card height */}
+          <div className="grid md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-[#E2E8F0] flex-1">
+            {/* LEFT COLUMN */}
+            <div
+              className={`p-6 overflow-y-auto ${
+                hasPassage ? "bg-[#F7F9FC]/50" : "bg-white"
+              }`}
+              ref={hasPassage ? passageRef : null}
+            >
+              {hasPassage ? (
+                // Passage content
+                <>
+                  <h3 className="text-lg font-semibold text-[#1E4A76] mb-2 flex items-center gap-2 font-sans">
+                    Passage
                   </h3>
-                  <span className="text-sm bg-[#EDF2F7] text-[#4A5568] px-3 py-1 rounded-full">
-                    {currentIndex + 1} / {data.questions.length}
-                  </span>
-                </div>
-                <div
-                  className="prose max-w-none text-[#2D3748]"
-                  dangerouslySetInnerHTML={{ __html: transformHtml(currentQuestion.questionHtml) }}
-                />
-              </div>
+                  <div
+                    className="prose max-w-none text-[#4A5568] font-sans"
+                    dangerouslySetInnerHTML={{
+                      __html: transformHtml(currentPassage.passageHtml, currentQuestion.passageHighlight),
+                    }}
+                  />
+                </>
+              ) : (
+                // Question content (when no passage)
+                <>
+                  <div className="flex items-center justify-between mb-2">
+                    <h3 className="text-lg font-semibold text-[#1E4A76] flex items-center gap-2 font-sans">
+                      Question
+                    </h3>
+                    <span className="text-sm bg-[#EDF2F7] text-[#4A5568] px-3 py-1 rounded-full">
+                      {currentIndex + 1} / {data.questions.length}
+                    </span>
+                  </div>
+                  <div
+                    className="prose max-w-none text-[#2D3748] font-sans"
+                    dangerouslySetInnerHTML={{ __html: transformHtml(currentQuestion.questionHtml) }}
+                  />
+                </>
+              )}
+            </div>
 
-              {/* Options */}
+            {/* RIGHT COLUMN */}
+            <div className="p-6 overflow-y-auto">
+              {hasPassage && (
+                // If passage exists, show question heading and question HTML here
+                <div className="mb-6">
+                  <div className="flex items-center justify-between mb-2">
+                    <h3 className="text-lg font-semibold text-[#1E4A76] flex items-center gap-2 font-sans">
+                      {questionHeading}
+                    </h3>
+                    <span className="text-sm bg-[#EDF2F7] text-[#4A5568] px-3 py-1 rounded-full">
+                      {currentIndex + 1} / {data.questions.length}
+                    </span>
+                  </div>
+                  <div
+                    className="prose max-w-none text-[#2D3748] font-sans"
+                    dangerouslySetInnerHTML={{ __html: transformHtml(currentQuestion.questionHtml) }}
+                  />
+                </div>
+              )}
+
+              {/* Options (always shown in right column) */}
               <div className="space-y-3">
                 <h4 className="font-medium text-[#4A5568]">Choose your answer</h4>
                 {Object.entries(currentQuestion.options).map(([key, value]) => {
@@ -287,7 +328,7 @@ export default function PracticeSessionClient({
                 })}
               </div>
 
-              {/* Explanation */}
+              {/* Explanation (always in right column) */}
               {selected && (
                 <div className="mt-6 p-5 bg-blue-50 rounded-xl border-l-4 border-blue-500">
                   <h4 className="font-semibold text-[#1E4A76] mb-2">Explanation</h4>
@@ -307,7 +348,7 @@ export default function PracticeSessionClient({
                 </div>
               )}
 
-              {/* Navigation */}
+              {/* Navigation (always at bottom of right column) */}
               <div className="mt-8 flex justify-between">
                 <button
                   onClick={goToPrevious}

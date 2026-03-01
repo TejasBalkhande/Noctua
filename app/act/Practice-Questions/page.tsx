@@ -83,30 +83,31 @@ export default function PracticeQuestionsPage() {
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12 font-sans">
         <div className="mb-5">
-  <div className="flex items-center gap-3 md:gap-6">
-    
-    {/* Image */}
-    <div className="flex-shrink-0 flex items-center">
-      <Image
-        src="/topic-wise.png"
-        alt="Topic-wise Practice"
-        width={70}
-        height={70}
-        className="h-[60px] md:h-[70px] w-auto object-contain"
-      />
-    </div>
-    {/* Text */}
-    <div className="flex flex-col justify-center text-left">
-      <h1 className="text-xl md:text-2xl font-semibold text-gray-800 tracking-tight">
-        Topic-wise Practice
-      </h1>
-      <p className="text-base md:text-lg text-gray-600 font-serif max-w-3xl mt-1 leading-relaxed">
-        Select a topic below to Build confidence step by step.
-      </p>
-    </div>
+        <div className="flex items-center gap-4 mb-4 font-sans">
 
-  </div>
-</div>
+          {/* Image */}
+          <div className="flex-shrink-0">
+            <Image
+              src="/owl-think.png"
+              alt="Topic-wise Practice"
+              width={90}
+              height={90}
+              className="object-contain"
+            />
+          </div>
+
+          {/* Text */}
+          <div>
+            <h1 className="text-2xl md:text-2xl font-semibold text-[#1E4A76]">
+              Topic-wise Practice
+            </h1>
+            <p className="text-[#4A5568] font-times text-[17px]">
+              Select a topic below to build confidence step by step.
+            </p>
+          </div>
+
+        </div>
+        </div>
 
         {/* Sections Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">

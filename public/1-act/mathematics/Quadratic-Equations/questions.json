@@ -1,0 +1,335 @@
+{
+  "passages": [
+    {
+      "passageId": "act_quadratics",
+      "passageHtml": "<p>Practice questions for ACT Math: Quadratic Equations. Select the best answer for each question.</p>"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q1",
+      "passageId": "act_quadratics",
+      "questionHtml": "<p>What are the solutions to the quadratic equation \\(x^{2} + 5x + 6 = 0\\)?</p>",
+      "options": {
+        "A": "\\(x = -2, -3\\)",
+        "B": "\\(x = 2,3\\)",
+        "C": "\\(x = -1, -6\\)",
+        "D": "\\(x = 1,6\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Factor the quadratic: look for two numbers that multiply to 6 and add to 5. Those numbers are 2 and 3. So \\(x^{2} + 5x + 6 = (x + 2)(x + 3) = 0\\). Setting each factor equal to zero gives \\(x = -2\\) and \\(x = -3\\). Therefore, the correct answer is A.</p>"
+    },
+    {
+      "questionId": "q2",
+      "passageId": "act_quadratics",
+      "questionHtml": "<p>Use the quadratic formula to solve \\(x^{2} - 4x - 5 = 0\\). Which of the following gives the solutions?</p>",
+      "options": {
+        "A": "\\(x = 2\\pm 3\\)",
+        "B": "\\(x = -2\\pm 3\\)",
+        "C": "\\(x = 4\\pm 6\\)",
+        "D": "\\(x = -4\\pm 6\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The quadratic formula is \\(x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\\). For \\(x^2 - 4x - 5 = 0\\), \\(a = 1\\), \\(b = -4\\), \\(c = -5\\). Discriminant: \\((-4)^2 - 4(1)(-5) = 16 + 20 = 36\\). Then \\(x = \\frac{4 \\pm \\sqrt{36}}{2} = \\frac{4 \\pm 6}{2} = 2 \\pm 3\\). The solutions are 5 and -1, which match \\(2 + 3\\) and \\(2 - 3\\). Correct answer is A.</p>"
+    },
+    {
+      "questionId": "q3",
+      "passageId": "act_quadratics",
+      "questionHtml": "<p>What constant term must be added to \\(x^{2} + 10x\\) to make it a perfect square trinomial?</p>",
+      "options": {
+        "A": "5",
+        "B": "10",
+        "C": "20",
+        "D": "25"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Completing the square: take half of the coefficient of \\(x\\) (which is 10), half is 5, then square it: \\(5^2 = 25\\). Adding 25 gives \\(x^2 + 10x + 25 = (x + 5)^2\\). The correct answer is D.</p>"
+    },
+    {
+      "questionId": "q4",
+      "passageId": "act_quadratics",
+      "questionHtml": "<p>What is the sum of the roots of the equation \\(2x^{2} - 5x + 3 = 0\\)?</p>",
+      "options": {
+        "A": "\\(\\frac{5}{2}\\)",
+        "B": "\\(-\\frac{5}{2}\\)",
+        "C": "\\(\\frac{3}{2}\\)",
+        "D": "\\(-\\frac{3}{2}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>For a quadratic \\(ax^2 + bx + c = 0\\), the sum of the roots is \\(-\\frac{b}{a}\\). Here \\(a = 2\\), \\(b = -5\\), so sum = \\(-\\frac{-5}{2} = \\frac{5}{2}\\). Correct answer is A.</p>"
+    },
+    {
+      "questionId": "q5",
+      "passageId": "act_quadratics",
+      "questionHtml": "<p>Which of the following is a solution to the equation \\(3x^{2} + 5x - 2 = 0\\)?</p>",
+      "options": {
+        "A": "\\(-\\frac{1}{3}\\)",
+        "B": "\\(\\frac{2}{3}\\)",
+        "C": "\\(-2\\)",
+        "D": "3"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Factor: \\(3x^2 + 5x - 2 = (3x - 1)(x + 2) = 0\\). Solutions: \\(x = \\frac{1}{3}\\) and \\(x = -2\\). Only \\(-2\\) is among the choices. Correct answer is C.</p>"
+    },
+    {
+      "questionId": "q6",
+      "passageId": "act_quadratics",
+      "questionHtml": "<p>The equation \\(x^{2} + kx + 9 = 0\\) has exactly one real solution. What is a possible value of \\(k\\)?</p>",
+      "options": {
+        "A": "3",
+        "B": "6",
+        "C": "9",
+        "D": "18"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>A quadratic has exactly one real solution (a double root) when the discriminant \\(b^2 - 4ac = 0\\). Here \\(a = 1\\), \\(b = k\\), \\(c = 9\\). So \\(k^2 - 4(1)(9) = k^2 - 36 = 0 \\Rightarrow k^2 = 36 \\Rightarrow k = \\pm 6\\). Among the options, 6 is possible. Correct answer is B.</p>"
+    },
+    {
+      "questionId": "q7",
+      "passageId": "act_quadratics",
+      "questionHtml": "<p>What is the vertex of the parabola \\(y = x^{2} - 6x + 5\\)?</p>",
+      "options": {
+        "A": "(3, -4)",
+        "B": "(-3, 4)",
+        "C": "(3, 4)",
+        "D": "(-3, -4)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Complete the square: \\(y = (x^2 - 6x) + 5 = (x^2 - 6x + 9) + 5 - 9 = (x - 3)^2 - 4\\). Vertex is (3, -4). Alternatively, vertex x-coordinate = \\(-\\frac{b}{2a} = -\\frac{-6}{2} = 3\\), then \\(y = 3^2 - 6(3) + 5 = 9 - 18 + 5 = -4\\). Correct answer is A.</p>"
+    },
+    {
+      "questionId": "q8",
+      "passageId": "act_quadratics",
+      "questionHtml": "<p>What are the solutions to the equation \\((x + 2)(x - 5) = 8\\)?</p>",
+      "options": {
+        "A": "\\(x = -3,6\\)",
+        "B": "\\(x = 3, -6\\)",
+        "C": "\\(x = -2,5\\)",
+        "D": "\\(x = 2, -5\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Expand and set to zero: \\((x+2)(x-5) = x^2 - 3x - 10 = 8 \\Rightarrow x^2 - 3x - 18 = 0\\). Factor: \\((x-6)(x+3) = 0 \\Rightarrow x = 6\\) or \\(x = -3\\). Correct answer is A.</p>"
+    },
+    {
+      "questionId": "q9",
+      "passageId": "act_quadratics",
+      "questionHtml": "<p>What is the product of the solutions to \\(2x^{2} - 7x - 15 = 0\\)?</p>",
+      "options": {
+        "A": "\\(-\\frac{15}{2}\\)",
+        "B": "\\(\\frac{15}{2}\\)",
+        "C": "\\(-\\frac{7}{2}\\)",
+        "D": "\\(\\frac{7}{2}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>For \\(ax^2 + bx + c = 0\\), product of roots = \\(\\frac{c}{a}\\). Here \\(a = 2\\), \\(c = -15\\), product = \\(\\frac{-15}{2} = -\\frac{15}{2}\\). Correct answer is A.</p>"
+    },
+    {
+      "questionId": "q10",
+      "passageId": "act_quadratics",
+      "questionHtml": "<p>Which of the following equations has roots that are reciprocals of the roots of \\(x^{2} - 3x + 2 = 0\\)?</p>",
+      "options": {
+        "A": "\\(2x^{2} - 3x + 1 = 0\\)",
+        "B": "\\(2x^{2} + 3x + 1 = 0\\)",
+        "C": "\\(x^{2} - 2x + 3 = 0\\)",
+        "D": "\\(x^{2} + 3x + 2 = 0\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Roots of \\(x^2 - 3x + 2 = 0\\) are 1 and 2 (since \\((x-1)(x-2)=0\\)). Reciprocals are 1 and \\(\\frac{1}{2}\\). The quadratic with roots 1 and \\(\\frac{1}{2}\\) is \\((x-1)(x-\\frac{1}{2}) = x^2 - \\frac{3}{2}x + \\frac{1}{2} = 0\\). Multiply by 2: \\(2x^2 - 3x + 1 = 0\\). Alternatively, replace \\(x\\) with \\(1/x\\) in original and multiply by \\(x^2\\): \\(1 - 3x + 2x^2 = 0 \\rightarrow 2x^2 - 3x + 1 = 0\\). Correct answer is A.</p>"
+    },
+    {
+      "questionId": "q11",
+      "passageId": "act_quadratics",
+      "questionHtml": "<p>A ball is thrown upward with an initial velocity of 32 ft/s from a height of 48 ft. Its height \\(h\\) in feet after \\(t\\) seconds is given by \\(h = -16t^2 + 32t + 48\\). At what time does the ball hit the ground?</p>",
+      "options": {
+        "A": "1 sec",
+        "B": "2 sec",
+        "C": "3 sec",
+        "D": "4 sec"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Ground level means \\(h = 0\\): \\(-16t^2 + 32t + 48 = 0\\). Divide by -16: \\(t^2 - 2t - 3 = 0\\). Factor: \\((t-3)(t+1) = 0 \\Rightarrow t = 3\\) or \\(t = -1\\) (extraneous). So 3 seconds. Correct answer is C.</p>"
+    },
+    {
+      "questionId": "q12",
+      "passageId": "act_quadratics",
+      "questionHtml": "<p>Which expression is equivalent to \\(2x^2 - 12x + 10\\) after completing the square?</p>",
+      "options": {
+        "A": "\\(2(x - 3)^2 - 8\\)",
+        "B": "\\(2(x - 3)^2 + 8\\)",
+        "C": "\\(2(x - 6)^2 - 26\\)",
+        "D": "\\(2(x - 6)^2 + 26\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Factor out 2: \\(2(x^2 - 6x + 5)\\). Complete square inside: \\(x^2 - 6x + 5 = (x^2 - 6x + 9) + 5 - 9 = (x - 3)^2 - 4\\). Multiply by 2: \\(2(x - 3)^2 - 8\\). Correct answer is A.</p>"
+    },
+    {
+      "questionId": "q13",
+      "passageId": "act_quadratics",
+      "questionHtml": "<p>The equation \\(x^2 + kx + (k + 3) = 0\\) has two distinct real roots. Which of the following must be true about \\(k\\)?</p>",
+      "options": {
+        "A": "\\(k < -2\\) or \\(k > 6\\)",
+        "B": "\\(-2 < k < 6\\)",
+        "C": "\\(k < -6\\) or \\(k > 2\\)",
+        "D": "\\(-6 < k < 2\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Discriminant > 0: \\(k^2 - 4(1)(k+3) = k^2 - 4k - 12 > 0\\). Factor: \\((k-6)(k+2) > 0\\). Solve inequality: \\(k < -2\\) or \\(k > 6\\). Correct answer is A.</p>"
+    },
+    {
+      "questionId": "q14",
+      "passageId": "act_quadratics",
+      "questionHtml": "<p>What is the maximum value of the function \\(f(x) = -2x^{2} + 8x - 3\\)?</p>",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "7",
+        "D": "11"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Since coefficient of \\(x^2\\) is negative, parabola opens downward, vertex gives maximum. Vertex x-coordinate = \\(-\\frac{b}{2a} = -\\frac{8}{2(-2)} = -\\frac{8}{-4} = 2\\). Then \\(f(2) = -2(4) + 16 - 3 = -8 + 16 - 3 = 5\\). Alternatively complete square: \\(f(x) = -2(x^2 - 4x) - 3 = -2[(x-2)^2 - 4] - 3 = -2(x-2)^2 + 8 - 3 = -2(x-2)^2 + 5\\). So max = 5. Correct answer is B.</p>"
+    },
+    {
+      "questionId": "q15",
+      "passageId": "act_quadratics",
+      "questionHtml": "<p>The equation \\(x^{2} - 5x + 7 = 0\\) has solutions \\(r\\) and \\(s\\). What is the value of \\(r^{2} + s^{2}\\)?</p>",
+      "options": {
+        "A": "11",
+        "B": "25",
+        "C": "14",
+        "D": "39"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>From Vieta: \\(r + s = 5\\), \\(rs = 7\\). Then \\(r^2 + s^2 = (r+s)^2 - 2rs = 25 - 14 = 11\\). Correct answer is A.</p>"
+    },
+    {
+      "questionId": "q16",
+      "passageId": "act_quadratics",
+      "questionHtml": "<p>The quadratic function \\(f(x) = x^{2} + bx + c\\) has a vertex at \\((-1, 4)\\). What is the value of \\(c\\)?</p>",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "5"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Vertex form: \\(f(x) = (x - h)^2 + k\\), vertex (h,k) = (-1,4). So \\(f(x) = (x + 1)^2 + 4 = x^2 + 2x + 1 + 4 = x^2 + 2x + 5\\). Thus \\(b = 2\\), \\(c = 5\\). Correct answer is D.</p>"
+    },
+    {
+      "questionId": "q17",
+      "passageId": "act_quadratics",
+      "questionHtml": "<p>If the solutions to \\(x^{2} - 8x + k = 0\\) are \\(r\\) and \\(3r\\), what is the value of \\(k\\)?</p>",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "16",
+        "D": "24"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Sum = \\(r + 3r = 4r = 8 \\Rightarrow r = 2\\). Then product = \\(r \\cdot 3r = 3r^2 = 3(4) = 12\\). Since product = \\(k\\), \\(k = 12\\). Correct answer is B.</p>"
+    },
+    {
+      "questionId": "q18",
+      "passageId": "act_quadratics",
+      "questionHtml": "<p>How many real solutions does the equation \\(|x^{2} - 4| = 3\\) have?</p>",
+      "options": {
+        "A": "0",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Solve: \\(|x^2 - 4| = 3 \\Rightarrow x^2 - 4 = 3\\) or \\(x^2 - 4 = -3\\). First: \\(x^2 = 7 \\Rightarrow x = \\pm \\sqrt{7}\\) (2 solutions). Second: \\(x^2 = 1 \\Rightarrow x = \\pm 1\\) (2 solutions). Total 4 real solutions. Correct answer is D.</p>"
+    },
+    {
+      "questionId": "q19",
+      "passageId": "act_quadratics",
+      "questionHtml": "<p>If the quadratic equation \\(x^{2} - 6x + 5 = 0\\) has roots \\(r\\) and \\(s\\), what is the value of \\(\\frac{1}{r} + \\frac{1}{s}\\)?</p>",
+      "options": {
+        "A": "\\(\\frac{6}{5}\\)",
+        "B": "\\(\\frac{5}{6}\\)",
+        "C": "\\(-\\frac{6}{5}\\)",
+        "D": "\\(-\\frac{5}{6}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>\\(r + s = 6\\), \\(rs = 5\\). Then \\(\\frac{1}{r} + \\frac{1}{s} = \\frac{r+s}{rs} = \\frac{6}{5}\\). Correct answer is A.</p>"
+    },
+    {
+      "questionId": "q20",
+      "passageId": "act_quadratics",
+      "questionHtml": "<p>How many real solutions does the equation \\(\\sqrt{2x + 3} = x\\) have?</p>",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Square both sides: \\(2x + 3 = x^2 \\Rightarrow x^2 - 2x - 3 = 0 \\Rightarrow (x-3)(x+1) = 0 \\Rightarrow x = 3\\) or \\(x = -1\\). Check extraneous: \\(x = 3\\): \\(\\sqrt{9} = 3\\) works. \\(x = -1\\): \\(\\sqrt{1} = 1 \\neq -1\\), extraneous. So only 1 real solution. Correct answer is B.</p>"
+    },
+    {
+      "questionId": "q21",
+      "passageId": "act_quadratics",
+      "questionHtml": "<p>For what value of \\(k\\) do the equations \\(x^{2} - 4x + 3 = 0\\) and \\(x^{2} - 6x + k = 0\\) have a common root?</p>",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Roots of \\(x^2 - 4x + 3 = 0\\) are 1 and 3 (since \\((x-1)(x-3)=0\\)). If common root is 1, substitute into second: \\(1 - 6 + k = 0 \\Rightarrow k = 5\\). If common root is 3, then \\(9 - 18 + k = 0 \\Rightarrow k = 9\\) (not an option). So \\(k = 5\\). Correct answer is A.</p>"
+    },
+    {
+      "questionId": "q22",
+      "passageId": "act_quadratics",
+      "questionHtml": "<p>If \\(x^{2} + y^{2} = 10\\) and \\(x + y = 4\\), what is the value of \\(xy\\)?</p>",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>\\((x+y)^2 = x^2 + y^2 + 2xy \\Rightarrow 4^2 = 10 + 2xy \\Rightarrow 16 = 10 + 2xy \\Rightarrow 2xy = 6 \\Rightarrow xy = 3\\). Correct answer is A.</p>"
+    },
+    {
+      "questionId": "q23",
+      "passageId": "act_quadratics",
+      "questionHtml": "<p>The length of a rectangle is 3 cm more than twice its width. The area of the rectangle is \\(44~\\text{cm}^2\\). What is the width, in cm?</p>",
+      "options": {
+        "A": "4",
+        "B": "5.5",
+        "C": "8",
+        "D": "11"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Let width = \\(w\\). Length = \\(2w + 3\\). Area = \\(w(2w+3) = 44 \\Rightarrow 2w^2 + 3w - 44 = 0\\). Factor: \\((2w+11)(w-4) = 0 \\Rightarrow w = 4\\) or \\(w = -11/2\\) (discard). Width = 4 cm. Correct answer is A.</p>"
+    },
+    {
+      "questionId": "q24",
+      "passageId": "act_quadratics",
+      "questionHtml": "<p>If \\(x^{2} - 5x - 14 \\leq 0\\), what is the solution set for \\(x\\)?</p>",
+      "options": {
+        "A": "\\(-2 \\leq x \\leq 7\\)",
+        "B": "\\(-7 \\leq x \\leq 2\\)",
+        "C": "\\(x \\leq -2\\) or \\(x \\geq 7\\)",
+        "D": "\\(x \\leq -7\\) or \\(x \\geq 2\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Factor: \\((x-7)(x+2) \\leq 0\\). The quadratic opens upward, inequality ≤ 0 between the roots. So \\(-2 \\leq x \\leq 7\\). Correct answer is A.</p>"
+    },
+    {
+      "questionId": "q25",
+      "passageId": "act_quadratics",
+      "questionHtml": "<p>The sum of the squares of two consecutive positive integers is 365. What is the smaller integer?</p>",
+      "options": {
+        "A": "12",
+        "B": "13",
+        "C": "14",
+        "D": "15"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Let integers be \\(x\\) and \\(x+1\\). Then \\(x^2 + (x+1)^2 = 365 \\Rightarrow x^2 + x^2 + 2x + 1 = 365 \\Rightarrow 2x^2 + 2x - 364 = 0 \\Rightarrow x^2 + x - 182 = 0 \\Rightarrow (x+14)(x-13) = 0 \\Rightarrow x = 13\\) (positive). Smaller is 13. Correct answer is B.</p>"
+    }
+  ]
+}

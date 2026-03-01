@@ -1,0 +1,358 @@
+{
+  "passages": [
+    {
+      "passageId": "urban",
+      "passageHtml": "Urban green spaces, such as parks and community gardens, offer numerous benefits to city dwellers. [highlight-1]They provide a place for recreation and relaxation, they also improve air quality and reduce urban heat island effects.[/highlight-1] Studies have shown that access to nature can lower stress levels and promote mental well-being. [highlight-2]For example, a study in Chicago that found residents living near green spaces reported lower levels of anxiety and depression.[/highlight-2] Additionally, these areas support biodiversity by providing habitats for birds, insects, and other wildlife.\n<div style=\"margin: 8px 0;\"></div>\n [highlight-3]Community gardens encourage social interaction, they also can provide fresh produce to local residents.[/highlight-3] [highlight-4]Designing these spaces requires careful planning, including selecting appropriate plants, ensuring accessibility, and to consider maintenance needs.[/highlight-4] [highlight-5]The city planners almost spent a million dollars on the park renovation.[/highlight-5] [highlight-6]Walking through the garden, the flowers' colors and fragrances create a peaceful atmosphere.[/highlight-6] Overall, investing in urban green spaces is a wise decision for any city."
+    },
+    {
+      "passageId": "microwave",
+      "passageHtml": "The microwave oven is a common kitchen appliance today, but its invention was an accidental discovery. [highlight-1]In 1945, Percy Spencer, an engineer at Raytheon, was working on radar technology, he noticed that a candy bar in his pocket had melted.[/highlight-1] [highlight-2]Spencer experimented with popcorn, an egg, and to see if other foods would cook.[/highlight-2] [highlight-3]The egg exploded in his face, it gave him the idea for a cooking device.[/highlight-3] This incident sparked further investigation. [highlight-4]Raytheon filing a patent for the microwave oven in 1945, and the first commercial model, the Radarange, being introduced in 1947.[/highlight-4] [highlight-5]It was large, expensive, and standing over five feet tall.[/highlight-5] [highlight-6]Used primarily in restaurants and on ships initially, countertop models became affordable for home use by the 1970s.[/highlight-6] Today, microwaves are found in nearly every kitchen."
+    },
+    {
+      "passageId": "yawning",
+      "passageHtml": "Yawning is a common behavior observed in many animals, including humans. [highlight-1]Despite its ubiquity, scientists are still debating the exact reasons why we yawn, one popular theory is that it helps cool the brain.[/highlight-1] [highlight-2]This theory suggesting that yawning increases blood flow to the brain and brings in cooler air, which helps regulate brain temperature.[/highlight-2] [highlight-3]Another theory is that yawning communicates boredom, signals tiredness, and to warn others.[/highlight-3] [highlight-4]Research has shown that yawning is contagious among humans and some animals, you are more likely to yawn if you see someone else yawning.[/highlight-4] In one experiment, [highlight-5]participants almost yawned twenty times when watching a video of people yawning.[/highlight-5] [highlight-6]Watching a video of people yawning, the urge to yawn was felt by many participants.[/highlight-6] However, not everyone yawns contagiously; children under four years old, for instance, often do not catch yawns."
+    },
+    {
+      "passageId": "postit",
+      "passageHtml": "The Post-it Note, that ubiquitous office supply, was invented by accident. [highlight-1]In 1968, Spencer Silver, a scientist at 3M, was trying to develop a super-strong adhesive, instead he created a weak, reusable one.[/highlight-1] [highlight-2]This adhesive, which was unique because it could be stuck and re-stuck without leaving residue.[/highlight-2] [highlight-3]For years, Silver promoted his invention, gave talks, and to demonstrate its potential, but no one found a practical use for it.[/highlight-3] [highlight-4]Then, in 1974, another 3M scientist, Art Fry, was singing in his church choir, he used paper bookmarks to mark hymns, but they kept falling out.[/highlight-4] [highlight-5]Fry realized that Silver's adhesive could be used to create a bookmark that would stick but not damage the pages, he applied some of the adhesive to a piece of paper and found it worked perfectly.[/highlight-5] [highlight-6]Thus, the Post-it Note was born, and becoming a huge success after 3M launched it in 1980.[/highlight-6]"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "urban1",
+      "passageId": "urban",
+      "passageHighlight": "1",
+      "questionHtml": "Which choice best corrects the error in sentence 1?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "They provide a place for recreation and relaxation, and they also improve air quality and reduce urban heat island effects.",
+        "C": "They provide a place for recreation and relaxation; they also improve air quality and reduce urban heat island effects.",
+        "D": "They provide a place for recreation and relaxation they also improve air quality and reduce urban heat island effects."
+      },
+      "correctOption": "C",
+      "explanationHtml": "The original sentence is a comma splice, joining two independent clauses with only a comma. Option C correctly uses a semicolon to join them. Option B is also grammatically correct but uses a comma and conjunction, which is slightly wordier."
+    },
+    {
+      "questionId": "urban2",
+      "passageId": "urban",
+      "passageHighlight": "2",
+      "questionHtml": "Which choice best corrects the sentence fragment?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "For example, a study in Chicago found that residents living near green spaces reported lower levels of anxiety and depression.",
+        "C": "For example, a study in Chicago, which found residents living near green spaces reported lower levels of anxiety and depression.",
+        "D": "For example, a study in Chicago that found residents living near green spaces; reported lower levels of anxiety and depression."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The original sentence is a fragment because it has a relative clause ('that found...') but no main verb. Option B provides a main verb 'found,' making it a complete sentence."
+    },
+    {
+      "questionId": "urban3",
+      "passageId": "urban",
+      "passageHighlight": "3",
+      "questionHtml": "Which choice best corrects the comma splice?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "Community gardens encourage social interaction; they also can provide fresh produce to local residents.",
+        "C": "Community gardens encourage social interaction, and they also can provide fresh produce to local residents.",
+        "D": "Community gardens encourage social interaction they also can provide fresh produce to local residents."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The original sentence is a comma splice. Option B corrects it with a semicolon, which properly joins two independent clauses. Option C is also correct but uses a comma and conjunction."
+    },
+    {
+      "questionId": "urban4",
+      "passageId": "urban",
+      "passageHighlight": "4",
+      "questionHtml": "Which choice best corrects the parallel structure error?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "including selecting appropriate plants, ensuring accessibility, and considering maintenance needs.",
+        "C": "including to select appropriate plants, to ensure accessibility, and to consider maintenance needs.",
+        "D": "including the selection of appropriate plants, ensuring accessibility, and maintenance needs consideration."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The original list is not parallel: 'selecting' and 'ensuring' are gerunds, but 'to consider' is an infinitive. Option B uses three gerunds, creating parallel structure."
+    },
+    {
+      "questionId": "urban5",
+      "passageId": "urban",
+      "passageHighlight": "5",
+      "questionHtml": "Which choice corrects the misplaced modifier?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "The city planners spent almost a million dollars on the park renovation.",
+        "C": "The city planners spent a million dollars on the park renovation almost.",
+        "D": "Almost the city planners spent a million dollars on the park renovation."
+      },
+      "correctOption": "B",
+      "explanationHtml": "In the original, 'almost' modifies 'spent,' suggesting they nearly spent but didn't. The intended meaning is that the amount was nearly a million. Option B places 'almost' directly before 'a million,' clarifying the meaning."
+    },
+    {
+      "questionId": "urban6",
+      "passageId": "urban",
+      "passageHighlight": "6",
+      "questionHtml": "Which choice best corrects the dangling modifier?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "Walking through the garden, a peaceful atmosphere is created by the flowers' colors and fragrances.",
+        "C": "As you walk through the garden, the flowers' colors and fragrances create a peaceful atmosphere.",
+        "D": "The flowers' colors and fragrances create a peaceful atmosphere, walking through the garden."
+      },
+      "correctOption": "C",
+      "explanationHtml": "The original phrase 'Walking through the garden' modifies the subject 'colors and fragrances,' which cannot walk. Option C adds a subject 'you' for the action, correcting the dangling modifier."
+    },
+    {
+      "questionId": "microwave1",
+      "passageId": "microwave",
+      "passageHighlight": "1",
+      "questionHtml": "Which choice best corrects the error in sentence 1?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "In 1945, Percy Spencer, an engineer at Raytheon, was working on radar technology; he noticed that a candy bar in his pocket had melted.",
+        "C": "In 1945, Percy Spencer, an engineer at Raytheon, was working on radar technology, and he noticed that a candy bar in his pocket had melted.",
+        "D": "In 1945, Percy Spencer, an engineer at Raytheon, was working on radar technology he noticed that a candy bar in his pocket had melted."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The original is a comma splice. Option B uses a semicolon to correctly join the two independent clauses. Option C is also correct but uses a comma and conjunction."
+    },
+    {
+      "questionId": "microwave2",
+      "passageId": "microwave",
+      "passageHighlight": "2",
+      "questionHtml": "Which choice best corrects the parallel structure error?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "Spencer experimented with popcorn, an egg, and other foods.",
+        "C": "Spencer experimented with popcorn, an egg, and to cook other foods.",
+        "D": "Spencer experimented with popcorn, an egg, and also seeing if other foods would cook."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The original list includes 'popcorn,' 'an egg,' and an infinitive phrase 'to see...' which is not parallel. Option B uses three noun phrases, creating parallel structure."
+    },
+    {
+      "questionId": "microwave3",
+      "passageId": "microwave",
+      "passageHighlight": "3",
+      "questionHtml": "Which choice best corrects the comma splice?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "The egg exploded in his face, and it gave him the idea for a cooking device.",
+        "C": "The egg exploded in his face; it gave him the idea for a cooking device.",
+        "D": "The egg exploded in his face giving him the idea for a cooking device."
+      },
+      "correctOption": "C",
+      "explanationHtml": "The original is a comma splice. Option C uses a semicolon to correctly join the two independent clauses. Option B is also correct, but the semicolon is a concise choice."
+    },
+    {
+      "questionId": "microwave4",
+      "passageId": "microwave",
+      "passageHighlight": "4",
+      "questionHtml": "Which choice best corrects the sentence fragment?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "Raytheon filed a patent for the microwave oven in 1945, and the first commercial model, the Radarange, was introduced in 1947.",
+        "C": "Raytheon filing a patent for the microwave oven in 1945, and the first commercial model, the Radarange, introduced in 1947.",
+        "D": "Raytheon filed a patent for the microwave oven in 1945; the first commercial model, the Radarange, being introduced in 1947."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The original lacks a main verb, making it a fragment. Option B provides main verbs 'filed' and 'was introduced,' creating a complete sentence."
+    },
+    {
+      "questionId": "microwave5",
+      "passageId": "microwave",
+      "passageHighlight": "5",
+      "questionHtml": "Which choice best corrects the parallel structure error?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "It was large, expensive, and stood over five feet tall.",
+        "C": "It was large, expensive, and over five feet tall.",
+        "D": "It was large, expensive, and it stood over five feet tall."
+      },
+      "correctOption": "C",
+      "explanationHtml": "The original lists two adjectives ('large,' 'expensive') and a participial phrase ('standing'), which is not parallel. Option C uses three adjective phrases, creating parallel structure."
+    },
+    {
+      "questionId": "microwave6",
+      "passageId": "microwave",
+      "passageHighlight": "6",
+      "questionHtml": "Which choice best corrects the dangling modifier?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "Initially used primarily in restaurants and on ships, the microwave oven did not become affordable for home use until the 1970s.",
+        "C": "Used primarily in restaurants and on ships initially, people could not afford countertop models until the 1970s.",
+        "D": "Countertop models became affordable for home use by the 1970s, used primarily in restaurants and on ships initially."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The original phrase 'Used primarily...' modifies 'countertop models,' implying the models were used initially, which is illogical. Option B makes 'microwave oven' the subject, correctly indicating that the oven itself was used initially."
+    },
+    {
+      "questionId": "yawning1",
+      "passageId": "yawning",
+      "passageHighlight": "1",
+      "questionHtml": "Which choice best corrects the error in sentence 1?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "Despite its ubiquity, scientists are still debating the exact reasons why we yawn; one popular theory is that it helps cool the brain.",
+        "C": "Despite its ubiquity, scientists are still debating the exact reasons why we yawn, and one popular theory is that it helps cool the brain.",
+        "D": "Despite its ubiquity, scientists are still debating the exact reasons why we yawn one popular theory is that it helps cool the brain."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The original is a comma splice. Option B uses a semicolon to correctly join the two independent clauses. Option C is also correct but uses a comma and conjunction."
+    },
+    {
+      "questionId": "yawning2",
+      "passageId": "yawning",
+      "passageHighlight": "2",
+      "questionHtml": "Which choice best corrects the sentence fragment?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "This theory suggests that yawning increases blood flow to the brain and brings in cooler air, which helps regulate brain temperature.",
+        "C": "This theory suggesting that yawning increases blood flow to the brain and brings in cooler air, which helps regulate brain temperature.",
+        "D": "This theory suggests that yawning increases blood flow to the brain and brings in cooler air; which helps regulate brain temperature."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The original lacks a main verb, using 'suggesting' instead of 'suggests.' Option B provides the main verb 'suggests,' making it a complete sentence."
+    },
+    {
+      "questionId": "yawning3",
+      "passageId": "yawning",
+      "passageHighlight": "3",
+      "questionHtml": "Which choice best corrects the parallel structure error?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "Another theory is that yawning communicates boredom, signals tiredness, and warns others.",
+        "C": "Another theory is that yawning communicates boredom, signals tiredness, and to warn others.",
+        "D": "Another theory is that yawning communicates boredom, to signal tiredness, and warns others."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The original lists two verbs ('communicates,' 'signals') and an infinitive ('to warn'), which is not parallel. Option B uses three verbs in the same form, creating parallel structure."
+    },
+    {
+      "questionId": "yawning4",
+      "passageId": "yawning",
+      "passageHighlight": "4",
+      "questionHtml": "Which choice best corrects the comma splice?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "Research has shown that yawning is contagious among humans and some animals; you are more likely to yawn if you see someone else yawning.",
+        "C": "Research has shown that yawning is contagious among humans and some animals, and you are more likely to yawn if you see someone else yawning.",
+        "D": "Research has shown that yawning is contagious among humans and some animals you are more likely to yawn if you see someone else yawning."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The original is a comma splice. Option B uses a semicolon to correctly join the two independent clauses. Option C is also correct but uses a comma and conjunction."
+    },
+    {
+      "questionId": "yawning5",
+      "passageId": "yawning",
+      "passageHighlight": "5",
+      "questionHtml": "Which choice corrects the misplaced modifier?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "participants yawned almost twenty times when watching a video of people yawning.",
+        "C": "participants yawned twenty times almost when watching a video of people yawning.",
+        "D": "almost participants yawned twenty times when watching a video of people yawning."
+      },
+      "correctOption": "B",
+      "explanationHtml": "In the original, 'almost' modifies 'yawned,' meaning they nearly yawned but didn't. The intended meaning is that the number of yawns was nearly twenty. Option B places 'almost' before 'twenty times,' clarifying the meaning."
+    },
+    {
+      "questionId": "yawning6",
+      "passageId": "yawning",
+      "passageHighlight": "6",
+      "questionHtml": "Which choice best corrects the dangling modifier?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "Watching a video of people yawning, many participants felt the urge to yawn.",
+        "C": "While watching a video of people yawning, the urge to yawn was felt by many participants.",
+        "D": "The urge to yawn was felt by many participants, watching a video of people yawning."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The original phrase 'Watching a video...' modifies 'the urge,' which cannot watch. Option B makes 'many participants' the subject, correctly indicating who is watching."
+    },
+    {
+      "questionId": "postit1",
+      "passageId": "postit",
+      "passageHighlight": "1",
+      "questionHtml": "Which choice best corrects the error in sentence 1?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "In 1968, Spencer Silver, a scientist at 3M, was trying to develop a super-strong adhesive; instead he created a weak, reusable one.",
+        "C": "In 1968, Spencer Silver, a scientist at 3M, was trying to develop a super-strong adhesive, and instead he created a weak, reusable one.",
+        "D": "In 1968, Spencer Silver, a scientist at 3M, was trying to develop a super-strong adhesive instead he created a weak, reusable one."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The original is a comma splice. Option B uses a semicolon to correctly join the two independent clauses. Option C is also correct but uses a comma and conjunction."
+    },
+    {
+      "questionId": "postit2",
+      "passageId": "postit",
+      "passageHighlight": "2",
+      "questionHtml": "Which choice best corrects the sentence fragment?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "This adhesive was unique because it could be stuck and re-stuck without leaving residue.",
+        "C": "This adhesive, which was unique because it could be stuck and re-stuck without leaving residue.",
+        "D": "This adhesive being unique because it could be stuck and re-stuck without leaving residue."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The original is a fragment because it has a relative clause but no main verb. Option B adds the verb 'was,' making it a complete sentence."
+    },
+    {
+      "questionId": "postit3",
+      "passageId": "postit",
+      "passageHighlight": "3",
+      "questionHtml": "Which choice best corrects the parallel structure error?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "For years, Silver promoted his invention, gave talks, and demonstrated its potential, but no one found a practical use for it.",
+        "C": "For years, Silver promoted his invention, gave talks, and to demonstrate its potential, but no one found a practical use for it.",
+        "D": "For years, Silver promoted his invention, giving talks, and to demonstrate its potential, but no one found a practical use for it."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The original lists two past-tense verbs ('promoted,' 'gave') and an infinitive ('to demonstrate'), which is not parallel. Option B uses three past-tense verbs, creating parallel structure."
+    },
+    {
+      "questionId": "postit4",
+      "passageId": "postit",
+      "passageHighlight": "4",
+      "questionHtml": "Which choice best corrects the comma splice?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "Then, in 1974, another 3M scientist, Art Fry, was singing in his church choir; he used paper bookmarks to mark hymns, but they kept falling out.",
+        "C": "Then, in 1974, another 3M scientist, Art Fry, was singing in his church choir, and he used paper bookmarks to mark hymns, but they kept falling out.",
+        "D": "Then, in 1974, another 3M scientist, Art Fry, was singing in his church choir he used paper bookmarks to mark hymns, but they kept falling out."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The original has a comma splice between 'choir' and 'he used.' Option B uses a semicolon to correctly separate the two independent clauses. Option C is also correct but uses a comma and conjunction."
+    },
+    {
+      "questionId": "postit5",
+      "passageId": "postit",
+      "passageHighlight": "5",
+      "questionHtml": "Which choice best corrects the run-on sentence?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "Fry realized that Silver's adhesive could be used to create a bookmark that would stick but not damage the pages; he applied some of the adhesive to a piece of paper and found it worked perfectly.",
+        "C": "Fry realized that Silver's adhesive could be used to create a bookmark that would stick but not damage the pages, and he applied some of the adhesive to a piece of paper and found it worked perfectly.",
+        "D": "Fry realized that Silver's adhesive could be used to create a bookmark that would stick but not damage the pages he applied some of the adhesive to a piece of paper and found it worked perfectly."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The original is a run-on (comma splice) joining two independent clauses with a comma. Option B uses a semicolon to correct it. Option C is also correct but uses a comma and conjunction."
+    },
+    {
+      "questionId": "postit6",
+      "passageId": "postit",
+      "passageHighlight": "6",
+      "questionHtml": "Which choice best corrects the sentence fragment?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "Thus, the Post-it Note was born, and it became a huge success after 3M launched it in 1980.",
+        "C": "Thus, the Post-it Note was born, and becoming a huge success after 3M launched it in 1980.",
+        "D": "Thus, the Post-it Note was born, and it becoming a huge success after 3M launched it in 1980."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The original uses 'becoming' after 'and,' which creates a fragment. Option B provides a main verb 'became,' making it a complete sentence."
+    }
+  ]
+}

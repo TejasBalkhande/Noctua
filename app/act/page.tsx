@@ -104,7 +104,7 @@ export default function ActPage() {
       <Navbar items={schoolMenu} logo="OwlenForge" />
       <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-24 pt-4 md:pt-2 lg:pt-2">
         {/* Top right link */}
-        <div className="w-full text-right font-times text-[17px]">
+        <div className="w-full text-right font-times md:text-[17px] text-[15px]">
           <p className="text-[#718096]">Terms & Conditions</p>
         </div>
 
@@ -136,7 +136,7 @@ export default function ActPage() {
           </div>
 
           {/* Two Columns Below Search Bar */}
-          <div className="flex flex-col sm:flex-row items-center gap-6">
+          <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-3">
             {/* Left Sub‑Column: Logo – takes 1/3 width */}
             <div className="w-full sm:w-1/3 flex justify-center sm:justify-start mt-2">
               <Image
@@ -150,13 +150,13 @@ export default function ActPage() {
 
             {/* Right Sub‑Column: Heading, Description, Button – takes 2/3 width */}
             <div className="w-full sm:w-2/3 text-center sm:text-left">
-              <h1 className="text-2xl font-semibold font-sans text-[#1E4A76]">
-                ACT FULL PREPARATION
+              <h1 className="md:text-2xl text-xl font-semibold font-sans text-[#1E4A76]">
+                Strategic ACT Preparation for Excellence
               </h1>
-              <p className="text-[#4A5568] font-times text-[17px] mt-2">
+              <p className="text-[#4A5568] font-times md:text-[17px] text-[15px] mt-2">
                 Comprehensive ACT Exam Guide: Strategies, Practice, and Resources to Maximize Your Score
               </p>
-              <button className="mt-4 px-6 py-2.5 bg-[#1E4A76] text-white rounded-lg hover:bg-[#163A5E] transition shadow-md">
+              <button className="my-4 px-6 py-2 bg-[#1E4A76] text-white rounded-lg hover:bg-[#163A5E] transition shadow-md">
                 Start Preparation
               </button>
             </div>
@@ -176,7 +176,7 @@ export default function ActPage() {
       </div>
 
         {/* Section Navigation scroll to respective section */}
-        <div className="w-full overflow-x-auto pt-3 font-times text-[17px] mb-6">
+        <div className="w-full overflow-x-auto pt-3 font-times md:text-[17px] text-[15px] mb-3">
           <div className="flex flex-wrap md:flex-nowrap gap-x-8 gap-y-1 md:gap-y-0 text-[#2D3748] font-medium leading-tight pb-2">
             {[
               { id: 'understanding-act', label: 'Understanding the ACT Exam' },
@@ -187,7 +187,10 @@ export default function ActPage() {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="cursor-pointer hover:text-[#1E4A76] transition-colors relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-[#1E4A76] after:scale-x-0 hover:after:scale-x-100 after:transition-transform duration-200 pb-1"
+                className="cursor-pointer pb-1 underline underline-offset-4 decoration-[#2D3748]
+                          hover:text-[#1E4A76] hover:decoration-[#1E4A76]
+                          active:text-[#2563EB] active:decoration-[#2563EB]
+                          transition-colors duration-200"
               >
                 {item.label}
               </button>

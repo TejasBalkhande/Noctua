@@ -1,0 +1,376 @@
+{
+  "passages": [
+    {
+      "passageId": "piano",
+      "passageHtml": "The piano, a cornerstone of Western music, has a rich and complex history. [highlight-1]Its invention is traditionally and historically credited to Bartolomeo Cristofori of Italy around the year 1700.[/highlight-1] [highlight-2]Unlike its predecessor, the harpsichord, which plucks strings to produce a sound that is created, the piano’s hammers strike the strings.[/highlight-2] This crucial difference allowed musicians to play both softly (piano) and loudly (forte), earning it the original name gravicembalo col piano e forte. [highlight-3]The instrument slowly and gradually gained popularity throughout the 18th century.[/highlight-3] Composers like Haydn and Mozart embraced its expressive capabilities, writing works specifically for the piano that showcased its dynamic range. [highlight-4]The subsequent Industrial Revolution led to significant and major advancements in piano construction.[/highlight-4] [highlight-5]The cast-iron frame, for instance, was a new innovation that allowed for thicker strings and greater tension, resulting in a more powerful and resonant sound that was much louder and fuller.[/highlight-5] This paved the way for the virtuoso pianists of the Romantic era, such as Liszt and Chopin, who demanded an instrument capable of both thunderous power and delicate subtlety. [highlight-6]The piano has continued to evolve, but its fundamental design remains a testament to Cristofori's initial and original genius.[/highlight-6]"
+    },
+    {
+      "passageId": "sleep",
+      "passageHtml": "Sleep is a fundamental biological process essential for human health and well-being. [highlight-7]In today's fast-paced modern world, many individuals frequently fail to get the recommended seven to nine hours of sleep per night.[/highlight-7] This chronic sleep deprivation has a number of significant consequences. [highlight-8]First and foremost, it severely impairs cognitive function, making it difficult to concentrate and focus attention on tasks.[/highlight-8] [highlight-9]For example, a sleep-deprived student will likely find it hard to remember and recall information studied the previous night.[/highlight-9] [highlight-10]Furthermore, the negative impacts are not limited just to the brain and mental processes alone.[/highlight-10] The body also suffers. Lack of sleep is linked to a weakened immune system, making one more susceptible to common illnesses like the cold or flu. It can also disrupt metabolic hormones, potentially leading to weight gain. [highlight-11]In the long-term, over an extended period, chronic sleep loss is associated with an increased risk for serious health problems such as heart disease and diabetes.[/highlight-11] Therefore, prioritizing sleep is not a luxury, but a critical necessity for maintaining both mental and physical health."
+    },
+    {
+      "passageId": "calligraphy",
+      "passageHtml": "In an age dominated by digital communication, the ancient art of calligraphy persists as a cherished form of expression. [highlight-12]Calligraphy, which is the art of beautiful and decorative handwriting, requires immense patience and a steady hand.[/highlight-12] [highlight-13]The calligrapher must pay close and careful attention to the formation of each individual letter.[/highlight-13] The tools themselves are simple yet specialized: a pen holder, a nib, and ink. [highlight-14]However, the true beauty of the work lies not in the tools, but rather in the skill of the artist who is the one creating the piece.[/highlight-14] [highlight-15]A single stroke can vary in thickness and thinness depending on the pressure applied, a quality that gives the script its unique and characteristic liveliness.[/highlight-15] [highlight-16]For centuries, calligraphy has been used to create important documents, religious texts, and works of fine art that are considered to be artistic masterpieces.[/highlight-16] Today, it is experiencing a revival, with many people taking up the practice as a way to slow down, be mindful, and create something of tangible beauty with their own two hands."
+    },
+    {
+      "passageId": "gardens",
+      "passageHtml": "Community gardens are sprouting up in cities across the country, transforming vacant lots into vibrant green spaces. [highlight-17]These shared plots of land offer a multitude of different benefits to the neighborhoods that surround them.[/highlight-17] [highlight-18]First, they provide residents with access to fresh, healthy produce, which is particularly important in areas often referred to as \"food deserts,\" where grocery stores with fresh food are scarce and hard to find.[/highlight-18] [highlight-19]Beyond the nutritional aspect, these gardens also serve as a place where community members can gather and come together.[/highlight-19] [highlight-20]Neighbors who might not otherwise ever meet can bond over the shared task of weeding, planting, and harvesting.[/highlight-20] [highlight-21]This interaction helps to build a stronger sense of community and fosters social connections among the people who live there.[/highlight-21] Furthermore, gardens can improve the local environment by reducing heat absorption and managing stormwater runoff. In essence, a community garden is far more than just a place to grow vegetables; it is a catalyst for positive change that is sown in the soil of a city."
+    },
+    {
+      "passageId": "vinyl",
+      "passageHtml": "In an era of streaming services and digital playlists, one might expect physical music formats to be obsolete. [highlight-22]Surprisingly, however, vinyl records have made an unexpected and unforeseen comeback in recent years.[/highlight-22] [highlight-23]For many audiophiles and music enthusiasts, the appeal lies in the tangible and physical nature of the format.[/highlight-23] [highlight-24]Holding a large album cover, or LP, and carefully placing the needle on the spinning record creates a ritualistic listening experience that is both deliberate and intentional, unlike the passive act of streaming a song on a phone.[/highlight-24] Fans argue that the analog sound of vinyl is warmer and richer than the compressed digital audio files. [highlight-25]This renewed interest in vinyl has led to a surge in the production of new record players and a revival of independent record stores, which are small, often locally-owned shops that sell new and used records.[/highlight-25] For a generation raised on pixels and playlists, vinyl offers a connection to music that is more profound and deep."
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "qpiano1",
+      "passageId": "piano",
+      "passageHighlight": "1",
+      "questionHtml": "For the sake of concision, the highlighted portion could be improved by changing it to:",
+      "options": {
+        "A": "Its invention is traditionally credited to",
+        "B": "Historically, its invention is credited to",
+        "C": "Its invention is credited to",
+        "D": "It was invented by"
+      },
+      "correctOption": "D",
+      "explanationHtml": "\"traditionally\" and \"historically\" are redundant. Option D is the shortest and most direct."
+    },
+    {
+      "questionId": "qpiano2",
+      "passageId": "piano",
+      "passageHighlight": "2",
+      "questionHtml": "Which of the following is the most concise way to write the underlined portion of the highlighted sentence? (The phrase: \"which plucks strings to produce a sound that is created, the piano’s hammers strike the strings.\")",
+      "options": {
+        "A": "which plucks strings to produce a sound that is created, the piano’s hammers strike the strings.",
+        "B": "which plucks strings to produce a sound that is made, the piano’s hammers strike the strings.",
+        "C": "which plucks strings to produce the sound it produces, the piano’s hammers strike the strings.",
+        "D": "which plucks strings to produce sound, the piano’s hammers strike the strings."
+      },
+      "correctOption": "D",
+      "explanationHtml": "\"that is created\" is unnecessary. \"sound\" alone suffices."
+    },
+    {
+      "questionId": "qpiano3",
+      "passageId": "piano",
+      "passageHighlight": "3",
+      "questionHtml": "In the highlighted sentence, \"The instrument slowly and gradually gained popularity\" is redundant. Which revision is best?",
+      "options": {
+        "A": "The instrument slowly and with gradualness gained popularity",
+        "B": "The instrument slowly gained popularity",
+        "C": "The instrument, in a slow and gradual way, gained popularity",
+        "D": "The instrument gained gradual and slow popularity"
+      },
+      "correctOption": "B",
+      "explanationHtml": "\"slowly\" and \"gradually\" are synonyms. Using just one removes redundancy."
+    },
+    {
+      "questionId": "qpiano4",
+      "passageId": "piano",
+      "passageHighlight": "4",
+      "questionHtml": "Which choice best eliminates the redundancy in the highlighted sentence? (The phrase: \"led to significant and major advancements\")",
+      "options": {
+        "A": "led to significant and major advancements",
+        "B": "led to significant, major advancements",
+        "C": "led to significant advancements",
+        "D": "led to advancements that were significant and major"
+      },
+      "correctOption": "C",
+      "explanationHtml": "\"significant\" and \"major\" are near-synonyms. Using one is clear and concise."
+    },
+    {
+      "questionId": "qpiano5",
+      "passageId": "piano",
+      "passageHighlight": "5",
+      "questionHtml": "What is the most concise way to write the final part of the highlighted sentence? (The phrase: \"a more powerful and resonant sound that was much louder and fuller.\")",
+      "options": {
+        "A": "a more powerful and resonant sound that was much louder and fuller.",
+        "B": "a sound that was more powerful, resonant, louder, and fuller.",
+        "C": "a more powerful, resonant, louder, and fuller sound.",
+        "D": "a more powerful and resonant sound."
+      },
+      "correctOption": "D",
+      "explanationHtml": "The phrases \"more powerful and resonant\" and \"much louder and fuller\" express the same idea. Option D combines them into one concise description."
+    },
+    {
+      "questionId": "qpiano6",
+      "passageId": "piano",
+      "passageHighlight": "6",
+      "questionHtml": "How could the highlighted sentence be made more concise without losing meaning? (The phrase: \"Cristofori's initial and original genius.\")",
+      "options": {
+        "A": "Cristofori's initial and original genius.",
+        "B": "Cristofori's initial genius.",
+        "C": "Cristofori's original genius.",
+        "D": "Cristofori's genius."
+      },
+      "correctOption": "D",
+      "explanationHtml": "\"initial\" and \"original\" are redundant. \"genius\" alone implies it was his."
+    },
+    {
+      "questionId": "qsleep7",
+      "passageId": "sleep",
+      "passageHighlight": "7",
+      "questionHtml": "Which option most concisely revises the opening of the highlighted sentence? (The phrase: \"In today's fast-paced modern world, many individuals frequently fail to get\")",
+      "options": {
+        "A": "In today's fast-paced modern world, many individuals frequently fail to get",
+        "B": "In today's modern world, individuals frequently fail to get",
+        "C": "Today, many individuals frequently fail to get",
+        "D": "Many individuals fail to get"
+      },
+      "correctOption": "D",
+      "explanationHtml": "The opening is wordy. Option D gets straight to the point."
+    },
+    {
+      "questionId": "qsleep8",
+      "passageId": "sleep",
+      "passageHighlight": "8",
+      "questionHtml": "Which of the following is the MOST concise way to write the highlighted sentence?",
+      "options": {
+        "A": "First and foremost, it severely impairs cognitive function, making it difficult to concentrate and focus attention on tasks.",
+        "B": "It severely impairs cognitive function, making it difficult to concentrate on tasks.",
+        "C": "It impairs cognitive function, making concentration and focus difficult.",
+        "D": "It impairs cognitive function, making it difficult to focus on tasks."
+      },
+      "correctOption": "B",
+      "explanationHtml": "\"concentrate\" and \"focus attention\" are redundant. Option B removes \"focus attention\" while keeping the meaning."
+    },
+    {
+      "questionId": "qsleep9",
+      "passageId": "sleep",
+      "passageHighlight": "9",
+      "questionHtml": "How can the redundancy in the highlighted sentence be eliminated? (The phrase: \"hard to remember and recall information\")",
+      "options": {
+        "A": "hard to remember and recall information",
+        "B": "hard to remember information",
+        "C": "hard to recall information",
+        "D": "hard to remember, and also to recall, information"
+      },
+      "correctOption": "B",
+      "explanationHtml": "\"remember\" and \"recall\" are synonyms. Using one is sufficient."
+    },
+    {
+      "questionId": "qsleep10",
+      "passageId": "sleep",
+      "passageHighlight": "10",
+      "questionHtml": "The highlighted portion is redundant. Which revision is best? (The phrase: \"not limited just to the brain and mental processes alone\")",
+      "options": {
+        "A": "not limited just to the brain and mental processes alone",
+        "B": "not limited just to the brain and mental processes",
+        "C": "not limited to the brain and mental processes alone",
+        "D": "not limited to the brain and mental processes"
+      },
+      "correctOption": "D",
+      "explanationHtml": "\"just\" and \"alone\" are redundant with \"not limited to\". D removes both."
+    },
+    {
+      "questionId": "qsleep11",
+      "passageId": "sleep",
+      "passageHighlight": "11",
+      "questionHtml": "In the highlighted sentence, the phrase \"In the long-term, over an extended period\" is redundant. Which choice is best?",
+      "options": {
+        "A": "In the long-term, over an extended period,",
+        "B": "Over an extended period,",
+        "C": "In the long-term,",
+        "D": "Eventually,"
+      },
+      "correctOption": "C",
+      "explanationHtml": "Both phrases mean the same. \"In the long-term\" is the most direct and standard."
+    },
+    {
+      "questionId": "qcalligraphy12",
+      "passageId": "calligraphy",
+      "passageHighlight": "12",
+      "questionHtml": "Which revision of the highlighted sentence is most concise?",
+      "options": {
+        "A": "Calligraphy, which is the art of beautiful and decorative handwriting, requires immense patience and a steady hand.",
+        "B": "Calligraphy, the art of beautiful handwriting, requires immense patience and a steady hand.",
+        "C": "Calligraphy, which is the art of beautiful and decorative handwriting, requires immense patience and a steady hand.",
+        "D": "The art of beautiful and decorative handwriting, known as calligraphy, requires immense patience and a steady hand."
+      },
+      "correctOption": "B",
+      "explanationHtml": "\"which is\" is unnecessary. \"beautiful\" is sufficient; \"decorative\" is implied."
+    },
+    {
+      "questionId": "qcalligraphy13",
+      "passageId": "calligraphy",
+      "passageHighlight": "13",
+      "questionHtml": "In the highlighted sentence, \"pay close and careful attention\" is redundant. The best revision is:",
+      "options": {
+        "A": "pay close attention",
+        "B": "pay careful attention",
+        "C": "pay attention",
+        "D": "pay close and also careful attention"
+      },
+      "correctOption": "C",
+      "explanationHtml": "\"close\" and \"careful\" are redundant with each other. \"pay attention\" conveys the meaning."
+    },
+    {
+      "questionId": "qcalligraphy14",
+      "passageId": "calligraphy",
+      "passageHighlight": "14",
+      "questionHtml": "What is the most concise way to write the underlined portion of the highlighted sentence? (The phrase: \"the artist who is the one creating the piece\")",
+      "options": {
+        "A": "the artist who is the one creating the piece",
+        "B": "the artist who creates the piece",
+        "C": "the artist creating the piece",
+        "D": "the artist"
+      },
+      "correctOption": "D",
+      "explanationHtml": "The whole phrase is redundant; \"the artist\" is enough in context."
+    },
+    {
+      "questionId": "qcalligraphy15",
+      "passageId": "calligraphy",
+      "passageHighlight": "15",
+      "questionHtml": "Which choice eliminates redundancy in the highlighted sentence? (The phrase: \"its unique and characteristic liveliness\")",
+      "options": {
+        "A": "its unique and characteristic liveliness",
+        "B": "its unique, characteristic liveliness",
+        "C": "its uniquely characteristic liveliness",
+        "D": "its unique liveliness"
+      },
+      "correctOption": "D",
+      "explanationHtml": "\"unique\" implies characteristic, so D is concise."
+    },
+    {
+      "questionId": "qcalligraphy16",
+      "passageId": "calligraphy",
+      "passageHighlight": "16",
+      "questionHtml": "The underlined portion of the highlighted sentence is wordy. (The phrase: \"works of fine art that are considered to be artistic masterpieces\") Which choice is most concise?",
+      "options": {
+        "A": "works of fine art that are considered to be artistic masterpieces",
+        "B": "works of fine art that are artistic masterpieces",
+        "C": "works of fine art, which are artistic masterpieces",
+        "D": "artistic masterpieces"
+      },
+      "correctOption": "D",
+      "explanationHtml": "This is the most concise way to express the idea."
+    },
+    {
+      "questionId": "qgardens17",
+      "passageId": "gardens",
+      "passageHighlight": "17",
+      "questionHtml": "In the highlighted sentence, how can \"a multitude of different benefits\" be made more concise?",
+      "options": {
+        "A": "a multitude of benefits",
+        "B": "different benefits",
+        "C": "many different benefits",
+        "D": "many benefits"
+      },
+      "correctOption": "D",
+      "explanationHtml": "\"a multitude of\" is wordy for \"many\", and \"different\" is usually redundant with benefits."
+    },
+    {
+      "questionId": "qgardens18",
+      "passageId": "gardens",
+      "passageHighlight": "18",
+      "questionHtml": "Which option best revises the underlined portion of the highlighted sentence for concision? (The phrase: \"are scarce and hard to find\")",
+      "options": {
+        "A": "are scarce and hard to find",
+        "B": "are scarce and also hard to find",
+        "C": "are scarce",
+        "D": "are not easy to find"
+      },
+      "correctOption": "C",
+      "explanationHtml": "\"scarce\" already means hard to find."
+    },
+    {
+      "questionId": "qgardens19",
+      "passageId": "gardens",
+      "passageHighlight": "19",
+      "questionHtml": "The underlined phrase in the highlighted sentence is redundant. (The phrase: \"can gather and come together\") Which revision is best?",
+      "options": {
+        "A": "can gather and come together",
+        "B": "can gather, and also come together",
+        "C": "can come together",
+        "D": "can gather"
+      },
+      "correctOption": "D",
+      "explanationHtml": "\"gather\" and \"come together\" are synonyms. Using one is concise."
+    },
+    {
+      "questionId": "qgardens20",
+      "passageId": "gardens",
+      "passageHighlight": "20",
+      "questionHtml": "In the highlighted sentence, which word or phrase is unnecessary and can be deleted for concision? (The phrase: \"who might not otherwise ever meet\")",
+      "options": {
+        "A": "might",
+        "B": "otherwise",
+        "C": "ever",
+        "D": "meet"
+      },
+      "correctOption": "C",
+      "explanationHtml": "\"ever\" is redundant with \"might not otherwise\"."
+    },
+    {
+      "questionId": "qgardens21",
+      "passageId": "gardens",
+      "passageHighlight": "21",
+      "questionHtml": "Which revision of the highlighted sentence is most concise? (The phrase: \"fosters social connections among the people who live there\")",
+      "options": {
+        "A": "fosters social connections among the people who live there",
+        "B": "fosters social connections among the residents",
+        "C": "fosters social connections for the people who live there",
+        "D": "fosters social connections"
+      },
+      "correctOption": "B",
+      "explanationHtml": "\"among the residents\" is more concise than \"among the people who live there.\""
+    },
+    {
+      "questionId": "qvinyl22",
+      "passageId": "vinyl",
+      "passageHighlight": "22",
+      "questionHtml": "Which choice best eliminates the redundancy in the highlighted sentence? (The phrase: \"unexpected and unforeseen comeback\")",
+      "options": {
+        "A": "unexpected and unforeseen comeback",
+        "B": "unexpected and also unforeseen comeback",
+        "C": "unexpected comeback",
+        "D": "comeback, unexpected and unforeseen"
+      },
+      "correctOption": "C",
+      "explanationHtml": "\"unexpected\" and \"unforeseen\" are synonyms."
+    },
+    {
+      "questionId": "qvinyl23",
+      "passageId": "vinyl",
+      "passageHighlight": "23",
+      "questionHtml": "In the highlighted sentence, \"the tangible and physical nature\" is redundant. The best revision is:",
+      "options": {
+        "A": "the tangible nature",
+        "B": "the physical nature",
+        "C": "the tangible, physical nature",
+        "D": "the nature"
+      },
+      "correctOption": "A",
+      "explanationHtml": "\"tangible\" and \"physical\" are synonyms. Either works, but A is one option."
+    },
+    {
+      "questionId": "qvinyl24",
+      "passageId": "vinyl",
+      "passageHighlight": "24",
+      "questionHtml": "How can the underlined portion of the highlighted sentence be made more concise? (The phrase: \"that is both deliberate and intentional\")",
+      "options": {
+        "A": "that is both deliberate and intentional",
+        "B": "that is deliberate, intentional",
+        "C": "that is deliberate",
+        "D": "that is intentional and deliberate"
+      },
+      "correctOption": "C",
+      "explanationHtml": "\"deliberate\" and \"intentional\" are synonyms."
+    },
+    {
+      "questionId": "qvinyl25",
+      "passageId": "vinyl",
+      "passageHighlight": "25",
+      "questionHtml": "The underlined portion of the highlighted sentence is extremely wordy. (The phrase: \"which are small, often locally-owned shops that sell new and used records\") Which choice is most concise?",
+      "options": {
+        "A": "which are small, often locally-owned shops that sell new and used records",
+        "B": "small, often locally-owned shops selling new and used records",
+        "C": "small, often locally-owned record shops",
+        "D": "record shops"
+      },
+      "correctOption": "D",
+      "explanationHtml": "The description is unnecessary; \"record shops\" is sufficient in context."
+    }
+  ]
+}

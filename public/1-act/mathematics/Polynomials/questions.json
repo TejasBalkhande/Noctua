@@ -1,0 +1,360 @@
+{
+  "passages": [
+    {
+      "passageId": "poly_passage",
+      "passageHtml": "<h2>ACT-style Polynomials Practice Questions</h2>\n<p>This set of 25 questions covers various topics in polynomials including simplification, factoring, remainder theorem, binomial theorem, complex roots, transformations, and more. Each question is designed to mimic ACT style.</p>"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "q1",
+      "passageId": "poly_passage",
+      "passageHighlight": "",
+      "questionHtml": "Simplify: \\( (3x^{2} + 2x - 5) + (4x^{2} - 3x + 7) \\)",
+      "options": {
+        "A": "\\( 7x^{2} - x + 2 \\)",
+        "B": "\\( 7x^{2} - x - 2 \\)",
+        "C": "\\( 12x^{2} - x + 2 \\)",
+        "D": "\\( 7x^{2} + 5x + 2 \\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Combine like terms:</p>\n<p>\\( 3x^{2} + 4x^{2} = 7x^{2} \\)<br>\\( 2x - 3x = -x \\)<br>\\( -5 + 7 = 2 \\)</p>\n<p>Result: \\( 7x^{2} - x + 2 \\). So option A is correct.</p>"
+    },
+    {
+      "questionId": "q2",
+      "passageId": "poly_passage",
+      "passageHighlight": "",
+      "questionHtml": "Expand: \\( (2x - 3)(x + 4) \\)",
+      "options": {
+        "A": "\\( 2x^{2} + 5x - 12 \\)",
+        "B": "\\( 2x^{2} - 5x - 12 \\)",
+        "C": "\\( 2x^{2} + 11x - 12 \\)",
+        "D": "\\( 2x^{2} - 11x - 12 \\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Use FOIL:</p>\n<p>First: \\( 2x \\cdot x = 2x^{2} \\)<br>Outer: \\( 2x \\cdot 4 = 8x \\)<br>Inner: \\( -3 \\cdot x = -3x \\)<br>Last: \\( -3 \\cdot 4 = -12 \\)</p>\n<p>Combine: \\( 2x^{2} + 8x - 3x - 12 = 2x^{2} + 5x - 12 \\). So option A is correct.</p>"
+    },
+    {
+      "questionId": "q3",
+      "passageId": "poly_passage",
+      "passageHighlight": "",
+      "questionHtml": "Factor completely: \\( x^{2} - 9x + 20 \\)",
+      "options": {
+        "A": "\\( (x - 4)(x - 5) \\)",
+        "B": "\\( (x + 4)(x + 5) \\)",
+        "C": "\\( (x - 10)(x + 2) \\)",
+        "D": "\\( (x - 4)(x + 5) \\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Find two numbers that multiply to \\( +20 \\) and add to \\( -9 \\): \\( -4 \\) and \\( -5 \\).</p>\n<p>Thus \\( x^{2} - 9x + 20 = (x - 4)(x - 5) \\). So option A is correct.</p>"
+    },
+    {
+      "questionId": "q4",
+      "passageId": "poly_passage",
+      "passageHighlight": "",
+      "questionHtml": "Which of the following is NOT a factor of \\( f(x) = x^{3} - 2x^{2} - 5x + 6 \\)?",
+      "options": {
+        "A": "\\( x - 1 \\)",
+        "B": "\\( x + 2 \\)",
+        "C": "\\( x + 1 \\)",
+        "D": "\\( x - 3 \\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Use Factor Theorem (evaluate at the root):</p>\n<p>\\( f(1) = 1 - 2 - 5 + 6 = 0 \\Rightarrow x - 1 \\) is a factor.<br>\\( f(-2) = -8 -8 +10 +6 = 0 \\Rightarrow x + 2 \\) is a factor.<br>\\( f(-1) = -1 -2 +5 +6 = 8 \\neq 0 \\Rightarrow x + 1 \\) is NOT a factor.<br>\\( f(3) = 27 -18 -15 +6 = 0 \\Rightarrow x - 3 \\) is a factor.</p>\n<p>So option C is correct.</p>"
+    },
+    {
+      "questionId": "q5",
+      "passageId": "poly_passage",
+      "passageHighlight": "",
+      "questionHtml": "Divide \\( x^{3} - 2x^{2} - 5x + 6 \\) by \\( x - 1 \\). What is the quotient?",
+      "options": {
+        "A": "\\( x^{2} - x - 6 \\)",
+        "B": "\\( x^{2} + x - 6 \\)",
+        "C": "\\( x^{2} - 3x - 2 \\)",
+        "D": "\\( x^{2} - x + 6 \\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Synthetic division with root 1:</p>\n<p>Coefficients: 1, -2, -5, 6.</p>\n<p>Bring down 1 → multiply \\( 1 \\times 1 = 1 \\), add to -2 → -1;<br>multiply \\( 1 \\times (-1) = -1 \\), add to -5 → -6;<br>multiply \\( 1 \\times (-6) = -6 \\), add to 6 → 0.</p>\n<p>Quotient: \\( x^{2} - x - 6 \\). So option A is correct.</p>"
+    },
+    {
+      "questionId": "q6",
+      "passageId": "poly_passage",
+      "passageHighlight": "",
+      "questionHtml": "If \\( f(x) = 2x^{3} - 5x^{2} + 3x - 7 \\), what is the remainder when \\( f(x) \\) is divided by \\( x - 2 \\)?",
+      "options": {
+        "A": "-5",
+        "B": "1",
+        "C": "3",
+        "D": "-3"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Remainder Theorem: remainder = \\( f(2) \\).</p>\n<p>\\( f(2) = 2(8) - 5(4) + 3(2) - 7 = 16 - 20 + 6 - 7 = -5 \\).</p>\n<p>So option A is correct.</p>"
+    },
+    {
+      "questionId": "q7",
+      "passageId": "poly_passage",
+      "passageHighlight": "",
+      "questionHtml": "In the expansion of \\( (2x - y)^{4} \\), what is the coefficient of \\( x^{2}y^{2} \\)?",
+      "options": {
+        "A": "24",
+        "B": "12",
+        "C": "6",
+        "D": "-12"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>General term: \\( \\binom{4}{k}(2x)^{4-k}(-y)^k \\).</p>\n<p>For \\( x^{2}y^{2} \\): exponent of \\( x \\) is 2 → \\( 4-k=2 \\Rightarrow k=2 \\).</p>\n<p>Term: \\( \\binom{4}{2}(2x)^{2}(-y)^2 = 6 \\cdot 4x^{2} \\cdot y^{2} = 24x^{2}y^{2} \\).</p>\n<p>Coefficient = 24. So option A is correct.</p>"
+    },
+    {
+      "questionId": "q8",
+      "passageId": "poly_passage",
+      "passageHighlight": "",
+      "questionHtml": "For the polynomial \\( f(x) = -3x^{5} + 2x^{4} - x^{3} + 7 \\), what are the degree and leading coefficient?",
+      "options": {
+        "A": "degree 5, leading coefficient -3",
+        "B": "degree 5, leading coefficient 3",
+        "C": "degree 4, leading coefficient 2",
+        "D": "degree 5, leading coefficient 7"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Degree = highest exponent = 5.</p>\n<p>Leading coefficient = coefficient of that term = -3.</p>\n<p>So option A is correct.</p>"
+    },
+    {
+      "questionId": "q9",
+      "passageId": "poly_passage",
+      "passageHighlight": "",
+      "questionHtml": "As \\( x \\to \\infty \\) and as \\( x \\to -\\infty \\), the function \\( f(x) = -2x^4 + 3x^2 - x + 5 \\) behaves like:",
+      "options": {
+        "A": "both ends go up",
+        "B": "left end down, right end up",
+        "C": "left end up, right end down",
+        "D": "both ends go down"
+      },
+      "correctOption": "D",
+      "explanationHtml": "<p>Even degree (4) with negative leading coefficient (-2) → both ends point downward.</p>\n<p>So option D is correct.</p>"
+    },
+    {
+      "questionId": "q10",
+      "passageId": "poly_passage",
+      "passageHighlight": "",
+      "questionHtml": "Factor: \\( 27x^3 - 8 \\)",
+      "options": {
+        "A": "\\( (3x - 2)(9x^2 + 6x + 4) \\)",
+        "B": "\\( (3x - 2)(9x^2 - 6x + 4) \\)",
+        "C": "\\( (3x + 2)(9x^2 - 6x + 4) \\)",
+        "D": "\\( (3x - 2)(9x^2 + 4) \\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Difference of cubes: \\( a^3 - b^3 = (a - b)(a^2 + ab + b^2) \\).</p>\n<p>Here \\( a = 3x \\), \\( b = 2 \\):</p>\n<p>\\( (3x - 2)((3x)^2 + (3x)(2) + 2^2) = (3x - 2)(9x^2 + 6x + 4) \\).</p>\n<p>So option A is correct.</p>"
+    },
+    {
+      "questionId": "q11",
+      "passageId": "poly_passage",
+      "passageHighlight": "",
+      "questionHtml": "A polynomial with real coefficients has a root \\( 3 - 2i \\). What must be another root?",
+      "options": {
+        "A": "\\( 3 + 2i \\)",
+        "B": "\\( -3 + 2i \\)",
+        "C": "\\( -3 - 2i \\)",
+        "D": "\\( 2 - 3i \\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Complex conjugate root theorem: non-real roots occur in conjugate pairs.</p>\n<p>Conjugate of \\( 3 - 2i \\) is \\( 3 + 2i \\).</p>\n<p>So option A is correct.</p>"
+    },
+    {
+      "questionId": "q12",
+      "passageId": "poly_passage",
+      "passageHighlight": "",
+      "questionHtml": "Which expression represents \\( f(x) = x^2 - 6x + 5 \\) in vertex form?",
+      "options": {
+        "A": "\\( (x - 3)^2 - 4 \\)",
+        "B": "\\( (x - 3)^2 + 4 \\)",
+        "C": "\\( (x - 3)^2 + 5 \\)",
+        "D": "\\( (x - 6)^2 + 5 \\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Complete the square:</p>\n<p>\\( x^2 - 6x + 5 = (x^2 - 6x + 9) - 9 + 5 = (x - 3)^2 - 4 \\).</p>\n<p>So option A is correct.</p>"
+    },
+    {
+      "questionId": "q13",
+      "passageId": "poly_passage",
+      "passageHighlight": "",
+      "questionHtml": "Multiply: \\( (2x^{2} - x + 3)(x - 4) \\)",
+      "options": {
+        "A": "\\( 2x^{3} - 9x^{2} + 7x - 12 \\)",
+        "B": "\\( 2x^{3} + 9x^{2} + 7x - 12 \\)",
+        "C": "\\( 2x^{3} - 9x^{2} - 7x - 12 \\)",
+        "D": "\\( 2x^{3} - 9x^{2} + 7x + 12 \\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Distribute:</p>\n<p>\\( (2x^{2})(x) = 2x^{3} \\)<br>\\( (2x^{2})(-4) = -8x^{2} \\)<br>\\( (-x)(x) = -x^{2} \\)<br>\\( (-x)(-4) = +4x \\)<br>\\( (3)(x) = 3x \\)<br>\\( (3)(-4) = -12 \\)</p>\n<p>Combine: \\( 2x^{3} + (-8x^{2} - x^{2}) = -9x^{2} \\); \\( 4x + 3x = 7x \\); constant \\( -12 \\).</p>\n<p>Result: \\( 2x^{3} - 9x^{2} + 7x - 12 \\). So option A is correct.</p>"
+    },
+    {
+      "questionId": "q14",
+      "passageId": "poly_passage",
+      "passageHighlight": "",
+      "questionHtml": "According to the Rational Root Theorem, which of the following could NOT be a rational root of \\( f(x) = 3x^{3} - 4x^{2} + 2x - 6 \\)?",
+      "options": {
+        "A": "2",
+        "B": "\\( \\frac{2}{3} \\)",
+        "C": "\\( \\frac{1}{2} \\)",
+        "D": "3"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Possible rational roots: \\( \\pm \\frac{p}{q} \\) where \\( p \\) divides constant term 6, \\( q \\) divides leading coefficient 3.</p>\n<p>p: ±1,±2,±3,±6; q: 1,3.</p>\n<p>Possible values: ±1,±2,±3,±6,±\\( \\frac{1}{3} \\),±\\( \\frac{2}{3} \\).</p>\n<p>\\( \\frac{1}{2} \\) has denominator 2, which is not a divisor of 3 → cannot be a rational root.</p>\n<p>So option C is correct.</p>"
+    },
+    {
+      "questionId": "q15",
+      "passageId": "poly_passage",
+      "passageHighlight": "",
+      "questionHtml": "The graph of \\( f(x) = x^{2} \\) is shifted 3 units to the right and 2 units down to produce the graph of \\( g(x) \\). Which of the following is \\( g(x) \\)?",
+      "options": {
+        "A": "\\( g(x) = (x - 3)^2 - 2 \\)",
+        "B": "\\( g(x) = (x + 3)^2 - 2 \\)",
+        "C": "\\( g(x) = (x - 3)^2 + 2 \\)",
+        "D": "\\( g(x) = x^2 - 3x - 2 \\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Right shift by 3: replace \\( x \\) with \\( x - 3 \\).</p>\n<p>Down shift by 2: subtract 2.</p>\n<p>So \\( g(x) = (x - 3)^2 - 2 \\). Option A is correct.</p>"
+    },
+    {
+      "questionId": "q16",
+      "passageId": "poly_passage",
+      "passageHighlight": "",
+      "questionHtml": "Solve the inequality: \\( (x - 2)(x + 3) > 0 \\)",
+      "options": {
+        "A": "\\( x < -3 \\) or \\( x > 2 \\)",
+        "B": "\\( -3 < x < 2 \\)",
+        "C": "\\( x < -2 \\) or \\( x > 3 \\)",
+        "D": "\\( x < -3 \\) and \\( x > 2 \\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Critical points: \\( x = -3 \\) and \\( x = 2 \\).</p>\n<p>Test intervals:</p>\n<p>\\( x < -3 \\) (e.g. \\( x = -4 \\)): \\( (-)(-) = + >0 \\)<br>\\( -3 < x < 2 \\) (e.g. \\( x = 0 \\)): \\( (-)(+) = - <0 \\)<br>\\( x > 2 \\) (e.g. \\( x = 3 \\)): \\( (+)(+) = + >0 \\)</p>\n<p>Solution: \\( x < -3 \\) or \\( x > 2 \\). Option A is correct.</p>"
+    },
+    {
+      "questionId": "q17",
+      "passageId": "poly_passage",
+      "passageHighlight": "",
+      "questionHtml": "Which polynomial has roots 2 (multiplicity 2) and \\( -1 \\)?",
+      "options": {
+        "A": "\\( f(x) = (x - 2)^2 (x + 1) \\)",
+        "B": "\\( f(x) = (x + 2)^2 (x - 1) \\)",
+        "C": "\\( f(x) = (x - 2)(x + 1)^2 \\)",
+        "D": "\\( f(x) = (x - 2)(x + 1) \\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Root \\( r \\) with multiplicity \\( m \\) gives factor \\( (x - r)^m \\).</p>\n<p>Root 2 (multiplicity 2) → \\( (x - 2)^2 \\).</p>\n<p>Root -1 → \\( (x + 1) \\).</p>\n<p>Product: \\( (x - 2)^2(x + 1) \\). Option A is correct.</p>"
+    },
+    {
+      "questionId": "q18",
+      "passageId": "poly_passage",
+      "passageHighlight": "",
+      "questionHtml": "For \\( 2x^2 - 5x + 3 = 0 \\), what is the sum of the roots?",
+      "options": {
+        "A": "\\( \\frac{5}{2} \\)",
+        "B": "\\( -\\frac{5}{2} \\)",
+        "C": "\\( \\frac{3}{2} \\)",
+        "D": "\\( -\\frac{3}{2} \\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>For \\( ax^2 + bx + c = 0 \\), sum of roots = \\( -\\frac{b}{a} \\).</p>\n<p>Here \\( a = 2 \\), \\( b = -5 \\) → sum = \\( -\\frac{-5}{2} = \\frac{5}{2} \\).</p>\n<p>Option A is correct.</p>"
+    },
+    {
+      "questionId": "q19",
+      "passageId": "poly_passage",
+      "passageHighlight": "",
+      "questionHtml": "Which of the following quadratic polynomials is irreducible over the real numbers?",
+      "options": {
+        "A": "\\( x^2 - 4 \\)",
+        "B": "\\( x^2 + 4 \\)",
+        "C": "\\( x^2 - x - 6 \\)",
+        "D": "\\( x^2 - 2x + 1 \\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Irreducible over reals means no real roots (discriminant < 0).</p>\n<p>A: discriminant = \\( 0^2 - 4(1)(-4) = 16 \\) → real roots.<br>B: discriminant = \\( 0 - 4(1)(4) = -16 \\) → no real roots → irreducible.<br>C: discriminant = \\( (-1)^2 - 4(1)(-6) = 1+24=25 \\) → real roots.<br>D: discriminant = \\( (-2)^2 - 4(1)(1) = 4-4=0 \\) → real double root.</p>\n<p>So option B is correct.</p>"
+    },
+    {
+      "questionId": "q20",
+      "passageId": "poly_passage",
+      "passageHighlight": "",
+      "questionHtml": "Factor by grouping: \\( x^3 + 2x^2 - 4x - 8 \\)",
+      "options": {
+        "A": "\\( (x + 2)(x^2 - 4) \\)",
+        "B": "\\( (x - 2)(x^2 + 4) \\)",
+        "C": "\\( (x + 2)(x^2 - 4x + 4) \\)",
+        "D": "\\( (x - 2)(x^2 + 2x + 4) \\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Group: \\( (x^3 + 2x^2) + (-4x - 8) = x^2(x + 2) - 4(x + 2) = (x + 2)(x^2 - 4) \\).</p>\n<p>Option A is correct.</p>"
+    },
+    {
+      "questionId": "q21",
+      "passageId": "poly_passage",
+      "passageHighlight": "",
+      "questionHtml": "For which of the following polynomials is \\( 2i \\) a zero?",
+      "options": {
+        "A": "\\( f(x) = x^2 + 4 \\)",
+        "B": "\\( f(x) = x^2 - 4 \\)",
+        "C": "\\( f(x) = x^2 - 2i \\)",
+        "D": "\\( f(x) = x^2 + 2i \\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Evaluate \\( f(2i) \\):</p>\n<p>A: \\( (2i)^2 + 4 = -4 + 4 = 0 \\)<br>B: \\( (2i)^2 - 4 = -4 - 4 = -8 \\)<br>C: \\( (2i)^2 - 2i = -4 - 2i \\)<br>D: \\( (2i)^2 + 2i = -4 + 2i \\)</p>\n<p>Only A gives zero. So option A is correct.</p>"
+    },
+    {
+      "questionId": "q22",
+      "passageId": "poly_passage",
+      "passageHighlight": "",
+      "questionHtml": "A rectangular box has dimensions \\( x, x + 2 \\), and \\( x - 1 \\) (in inches). Which polynomial represents the volume (cubic inches)?",
+      "options": {
+        "A": "\\( x^3 + x^2 - 2x \\)",
+        "B": "\\( x^3 + x^2 + 2x \\)",
+        "C": "\\( x^3 - x^2 - 2x \\)",
+        "D": "\\( x^3 - x^2 + 2x \\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Volume = \\( x(x + 2)(x - 1) \\).</p>\n<p>Multiply first two: \\( x^2 + 2x \\).</p>\n<p>Then multiply by \\( (x - 1) \\): \\( (x^2 + 2x)(x - 1) = x^3 - x^2 + 2x^2 - 2x = x^3 + x^2 - 2x \\).</p>\n<p>Option A is correct.</p>"
+    },
+    {
+      "questionId": "q23",
+      "passageId": "poly_passage",
+      "passageHighlight": "",
+      "questionHtml": "Solve \\( x^4 - 5x^2 + 4 = 0 \\). Which of the following is a solution?",
+      "options": {
+        "A": "2",
+        "B": "-3",
+        "C": "0",
+        "D": "3"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Treat as quadratic in \\( y = x^2 \\): \\( y^2 - 5y + 4 = 0 \\) → \\( (y - 1)(y - 4) = 0 \\) → \\( y = 1 \\) or \\( y = 4 \\).</p>\n<p>Then \\( x^2 = 1 \\) → \\( x = \\pm 1 \\); \\( x^2 = 4 \\) → \\( x = \\pm 2 \\).</p>\n<p>Thus 2 is a solution (also -2, 1, -1). Among options, only 2 is a solution. Option A is correct.</p>"
+    },
+    {
+      "questionId": "q24",
+      "passageId": "poly_passage",
+      "passageHighlight": "",
+      "questionHtml": "The graph of \\( f(x) = (x - 1)^3 (x + 2)^2 \\) crosses the x-axis at which zero(s)?",
+      "options": {
+        "A": "\\( x = 1 \\) only",
+        "B": "\\( x = -2 \\) only",
+        "C": "both \\( x = 1 \\) and \\( x = -2 \\)",
+        "D": "neither"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Zero at \\( x = 1 \\): multiplicity 3 (odd) → crosses.</p>\n<p>Zero at \\( x = -2 \\): multiplicity 2 (even) → touches only.</p>\n<p>So crosses at \\( x = 1 \\) only. Option A is correct.</p>"
+    },
+    {
+      "questionId": "q25",
+      "passageId": "poly_passage",
+      "passageHighlight": "",
+      "questionHtml": "What is the maximum number of turning points (local extrema) a polynomial of degree 4 can have?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "2"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>A polynomial of degree \\( n \\) has at most \\( n - 1 \\) turning points.</p>\n<p>For \\( n = 4 \\), maximum = 3. Option A is correct.</p>"
+    }
+  ]
+}

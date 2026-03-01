@@ -1,0 +1,358 @@
+{
+  "passages": [
+    {
+      "passageId": "cartography",
+      "passageHtml": "For centuries, cartography was as much an art as it was a science. [highlight-1]Early mapmakers, or cartographers, often had to depend on fragmentary reports from explorers and travelers, which were not always reliable.[/highlight-1] A single sailor's tall tale about a sea monster or a mythical kingdom could, and often did, end up etched onto official charts for generations. This practice led to some [highlight-2]pretty interesting[/highlight-2] mistakes, like the persistent depiction of the non-existent Island of California. [highlight-3]The shift toward a more standardized and mathematically precise approach to mapping began during the Age of Enlightenment.[/highlight-3] This era's emphasis on reason and empirical evidence fundamentally changed the cartographer's task.\n<div style=\"margin: 10px 0;\"></div>\n[highlight-4]The primary goal was no longer to simply create a visually stunning artifact but to produce a tool for accurate navigation and scientific record-keeping.[/highlight-4] This move towards precision was [highlight-5]a huge deal[/highlight-5] for explorers. [highlight-6]Figures like James Cook, for instance, used advanced chronometers and new triangulation techniques to create remarkably accurate charts of the Pacific, which dramatically reduced the risk of long-distance sea travel.[/highlight-6] The legacy of this transition is the modern world map, a testament to the power of combining systematic observation with the age-old human desire to picture our place in the world."
+    },
+    {
+      "passageId": "gardens",
+      "passageHtml": "[highlight-1]In recent years, urban community gardens have sprouted up in cities across the country.[/highlight-1] These verdant spaces, often carved out of vacant lots or nestled between tenement buildings, offer more than just a source of fresh produce. [highlight-2]They function as vital social hubs, bringing together a diverse mix of residents who might not otherwise interact.[/highlight-2] For elderly immigrants, a garden plot can be a tangible link to their homeland, while for children born in the city, it can be a [highlight-3]mind-blowing[/highlight-3] first encounter with where food actually comes from.\n<div style=\"margin: 10px 0;\"></div>\nBeyond the social benefits, these gardens can also play a significant role in urban ecology. They help to mitigate the \"heat island\" effect, absorb stormwater runoff, and provide habitats for pollinators like bees and butterflies. The positive impact these spaces have on a neighborhood is [highlight-4]amazing[/highlight-4]. [highlight-5]Consequently, many city planners now view community gardens not as a temporary use for vacant land, but as an essential component of a healthy urban infrastructure.[/highlight-5] They are key to building more resilient and vibrant communities, and [highlight-6]that's pretty much a fact[/highlight-6]."
+    },
+    {
+      "passageId": "vinyl",
+      "passageHtml": "In an age of near-total digital dominance, where millions of songs are accessible with a simple tap on a screen, the vinyl record has staged an unexpected and powerful comeback. This analog format, once thought to be [highlight-1]totally obsolete[/highlight-1], has found a new and devoted audience among younger generations. What explains the appeal of a technology that requires careful handling, offers only about twenty minutes of music per side, and can be hampered by pops and hisses? [highlight-2]The answer lies not just in nostalgia but in the distinct and, for many, superior experience it provides.[/highlight-2]\n<div style=\"margin: 10px 0;\"></div>\nListening to a record is a [highlight-3]hands-on[/highlight-3] experience that demands a certain kind of attention. You carefully slide the disc from its sleeve, place it on the platter, and gently lower the tonearm. This ritualistic process stands in stark contrast to the ephemeral nature of a streaming playlist. Furthermore, the large album covers provide a canvas for visual art that is [highlight-4]totally lost[/highlight-4] in a tiny digital thumbnail. This tangible connection to the music, from the physical object to the warm, analog sound, creates a feeling of intimacy and engagement that digital files, for all their convenience, [highlight-5]just can't replicate[/highlight-5]."
+    },
+    {
+      "passageId": "color",
+      "passageHtml": "[highlight-1]It's no secret that companies put a ton of thought into the colors they use for their logos, products, and advertising.[/highlight-1] This is because color is a powerful, silent form of communication that can significantly influence consumer behavior. The field of color psychology [highlight-2]examines[/highlight-2] how different hues affect our perceptions and emotions. For instance, blue is often associated with trust, dependability, and calmness, which is why it is a favorite for banks and tech companies. [highlight-3]In contrast, red is a high-energy color that can create a sense of urgency, making it a common choice for clearance sales.[/highlight-3]\n<div style=\"margin: 10px 0;\"></div>\nHowever, the impact of color is not universal; it is heavily mediated by cultural context and personal experience. [highlight-4]While white symbolizes purity and weddings in many Western cultures, it is the color of mourning in parts of East Asia.[/highlight-4] [highlight-5]This just goes to show that a marketing team can't simply pick a color based on a one-size-fits-all guide.[/highlight-5] A successful color strategy [highlight-6]requires[/highlight-6] a deep understanding of a target audience's cultural background. Ultimately, the most effective use of color is one that aligns a brand's identity with the expectations and values of [highlight-7]the people it's trying to reach[/highlight-7]."
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "qcart1",
+      "passageId": "cartography",
+      "passageHighlight": "1",
+      "questionHtml": "Which choice best maintains the tone and style of the passage?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "kind of had to rely on",
+        "C": "were forced to depend upon",
+        "D": "were totally dependent on"
+      },
+      "correctOption": "A",
+      "explanationHtml": "The original phrase, \"had to depend on,\" is a clear, professional, and effective way to express necessity. Options B (\"kind of had to rely on\") and D (\"were totally dependent on\") introduce informal or exaggerated language (\"kind of,\" \"totally\"). Option C (\"were forced to depend upon\") is slightly more dramatic and implies coercion, which doesn't fit the neutral, factual tone of the passage."
+    },
+    {
+      "questionId": "qcart2",
+      "passageId": "cartography",
+      "passageHighlight": "2",
+      "questionHtml": "Which choice best replaces the underlined phrase to maintain a formal tone?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "some really interesting mistakes",
+        "C": "a number of noteworthy inaccuracies",
+        "D": "some mistakes that were pretty interesting"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The phrase \"pretty interesting\" is too casual and slangy for an academic passage about history. Option C (\"a number of noteworthy inaccuracies\") uses formal, precise vocabulary (\"noteworthy inaccuracies\") that perfectly matches the tone. Options B and D retain the informal word \"pretty\" or \"really.\""
+    },
+    {
+      "questionId": "qcart3",
+      "passageId": "cartography",
+      "passageHighlight": "3",
+      "questionHtml": "The writer is considering deleting the underlined phrase. Should the phrase be kept or deleted?",
+      "options": {
+        "A": "Kept, because it provides a necessary transition from the previous paragraph's topic of errors.",
+        "B": "Kept, because it introduces the casual term \"Age of Enlightenment\" to balance the formal tone.",
+        "C": "Deleted, because it interrupts the paragraph's focus on early mapmaking errors.",
+        "D": "Deleted, because it contradicts the previous sentence's claim about interesting mistakes."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The previous paragraph discusses the era of \"interesting mistakes.\" This sentence begins a new paragraph by signaling a major change, \"the shift toward a more standardized... approach.\" The phrase acts as a crucial transition, introducing the cause of that shift. Option B is incorrect because \"Age of Enlightenment\" is a standard historical term, not a casual one."
+    },
+    {
+      "questionId": "qcart4",
+      "passageId": "cartography",
+      "passageHighlight": "4",
+      "questionHtml": "Which choice is most effective and maintains the formal tone?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "The primary goal was to not just create a visually stunning artifact but for producing a tool.",
+        "C": "The primary goal was no longer to simply create a visually stunning artifact, but instead producing a tool.",
+        "D": "The primary goal was to create, not a visually stunning artifact, but rather a tool for the purposes of navigation and record-keeping that were accurate and scientific."
+      },
+      "correctOption": "A",
+      "explanationHtml": "This is the most concise, clear, and professionally structured sentence. It uses a parallel structure (\"to simply create... but to produce\") effectively. Options B and C break the parallel structure (\"to create... for producing,\" \"to create... producing\"). Option D is grammatically correct but is wordy and less direct than the original."
+    },
+    {
+      "questionId": "qcart5",
+      "passageId": "cartography",
+      "passageHighlight": "5",
+      "questionHtml": "Which choice best replaces the underlined phrase to maintain a formal tone?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "was of paramount importance to",
+        "C": "was a really big deal for",
+        "D": "ended up being hugely important to"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The phrase \"a huge deal\" is an idiom that is far too informal for this passage's scholarly tone. Option B, \"was of paramount importance to,\" is a sophisticated and formal way to express the same idea. Options C and D continue to use casual or colloquial language (\"really big deal,\" \"hugely important\")."
+    },
+    {
+      "questionId": "qcart6",
+      "passageId": "cartography",
+      "passageHighlight": "6",
+      "questionHtml": "Which choice is most clear and effective?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "Cook, for instance, used advanced chronometers and new triangulation techniques to create charts of the Pacific that were remarkably accurate, which dramatically reduced the risk.",
+        "C": "For instance, the use of advanced chronometers and new triangulation techniques by figures like James Cook created remarkably accurate charts of the Pacific, reducing the risk.",
+        "D": "James Cook, for example, used advanced tech to map the Pacific, which made long-distance sea travel way safer."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The original sentence is clear, professional, and flows well. Option B is grammatically correct but creates a slightly awkward separation of the adjective clause (\"that were remarkably accurate\"). Option C results in a convoluted and less direct sentence structure. Option D uses inappropriate slang (\"advanced tech,\" \"way safer\")."
+    },
+    {
+      "questionId": "qgardens1",
+      "passageId": "gardens",
+      "passageHighlight": "1",
+      "questionHtml": "Which choice best maintains the formal tone of the passage?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "have been planted in cities everywhere.",
+        "C": "have popped up in cities all over.",
+        "D": "have been established in numerous metropolitan areas."
+      },
+      "correctOption": "D",
+      "explanationHtml": "The original metaphor \"sprouted up\" is acceptable but slightly informal for a passage that quickly becomes analytical. Options B and C are even more informal (\"everywhere,\" \"popped up,\" \"all over\"). Option D, \"have been established in numerous metropolitan areas,\" is the most formal, professional, and precise phrasing, which best matches the overall serious and informative tone of the passage."
+    },
+    {
+      "questionId": "qgardens2",
+      "passageId": "gardens",
+      "passageHighlight": "2",
+      "questionHtml": "Which choice is grammatically correct and most effective?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "bringing together a diverse mix of residents that might not otherwise interact.",
+        "C": "and bring together a diverse mix of residents, who might not otherwise interact.",
+        "D": "which brings together a diverse mix of residents that might not otherwise interact."
+      },
+      "correctOption": "A",
+      "explanationHtml": "This sentence is grammatically correct and clearly written. The relative pronoun \"who\" is correctly used to refer to people (\"residents\"). Options B and D incorrectly use \"that\" to refer to people. Option C creates a slightly less fluid sentence by using \"and bring\" instead of the descriptive participial phrase \"bringing.\""
+    },
+    {
+      "questionId": "qgardens3",
+      "passageId": "gardens",
+      "passageHighlight": "3",
+      "questionHtml": "Which choice best replaces the underlined phrase to maintain a formal tone?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "a cool way to first see where food actually comes from.",
+        "C": "an invaluable first-hand lesson in the origins of their food.",
+        "D": "a first encounter, which is mind-blowing, with where food comes from."
+      },
+      "correctOption": "C",
+      "explanationHtml": "The phrases \"mind-blowing\" and \"cool\" (Option B) are highly informal and slangy, which clashes with the serious, expository tone. Option D is grammatically awkward. Option C, \"an invaluable first-hand lesson in the origins of their food,\" expresses the idea in a formal, sophisticated, and effective manner that is consistent with the passage's style."
+    },
+    {
+      "questionId": "qgardens4",
+      "passageId": "gardens",
+      "passageHighlight": "4",
+      "questionHtml": "Which choice best maintains the formal tone?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "is quite profound.",
+        "C": "is seriously amazing.",
+        "D": "is totally awesome."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The word \"amazing\" is a vague and informal adjective. Options C and D are even more colloquial. Option B, \"is quite profound,\" is a much more formal, measured, and effective way to convey the significance of the gardens' impact, matching the analytical tone of the second paragraph."
+    },
+    {
+      "questionId": "qgardens5",
+      "passageId": "gardens",
+      "passageHighlight": "5",
+      "questionHtml": "Which choice is most effective and maintains parallel structure?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "not as a temporary use for vacant land, but an essential component.",
+        "C": "not as a temporary use for vacant land, but they are an essential component.",
+        "D": "not as a temporary use for vacant land, and instead as an essential component."
+      },
+      "correctOption": "A",
+      "explanationHtml": "This question tests parallel structure and effective expression. The correct idiomatic construction is \"not as X, but as Y.\" The original sentence uses this perfectly. Option B breaks the parallel structure by omitting the second \"as.\" Option C is clunky and unparallel. Option D, while understandable, is less concise and effective than the original \"but as.\""
+    },
+    {
+      "questionId": "qgardens6",
+      "passageId": "gardens",
+      "passageHighlight": "6",
+      "questionHtml": "Which choice best maintains the formal and objective tone?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "and everyone knows that's true.",
+        "C": "a fact that is increasingly difficult to ignore.",
+        "D": "and that is pretty much an undeniable fact."
+      },
+      "correctOption": "C",
+      "explanationHtml": "The original ending, \"and that's pretty much a fact,\" is conversational and assertive in a way that undermines the objective tone of the passage. Options B and D are similarly problematic. Option C, \"a fact that is increasingly difficult to ignore,\" rephrases the idea as an objective observation, which is a more professional and persuasive way to conclude the passage."
+    },
+    {
+      "questionId": "qvinyl1",
+      "passageId": "vinyl",
+      "passageHighlight": "1",
+      "questionHtml": "Which choice is most concise and appropriate?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "completely and totally obsolete",
+        "C": "as obsolete as a horse and buggy",
+        "D": "obsolete"
+      },
+      "correctOption": "D",
+      "explanationHtml": "The phrase \"totally obsolete\" is redundant; \"obsolete\" already means \"no longer in use.\" The phrase is also slightly informal. Removing \"totally\" (Option D) creates a more concise and professional phrase. Option B adds to the redundancy. Option C uses a cliché simile that is too informal for the passage's analytical tone."
+    },
+    {
+      "questionId": "qvinyl2",
+      "passageId": "vinyl",
+      "passageHighlight": "2",
+      "questionHtml": "Which choice is correctly punctuated and most effective?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "in the distinct, and for many superior, experience it provides.",
+        "C": "in the distinct experience—superior for many—it provides.",
+        "D": "in the distinct and, for many, superior experience which it provides."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The original sentence uses commas correctly to set off the parenthetical phrase \"for many.\" It is clear and well-structured. Options B and C create awkward and unclear punctuation. Option D correctly uses \"which,\" but the original's omission of \"which\" is more concise and standard in this type of restrictive clause."
+    },
+    {
+      "questionId": "qvinyl3",
+      "passageId": "vinyl",
+      "passageHighlight": "3",
+      "questionHtml": "Which choice best maintains the formal tone and is most precise?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "an in-person experience",
+        "C": "a tactile experience",
+        "D": "a hands-on type of deal"
+      },
+      "correctOption": "C",
+      "explanationHtml": "While \"hands-on\" is an acceptable idiom, \"tactile\" (Option C) is a more precise and sophisticated word that specifically refers to the sense of touch, which is central to the paragraph's description of handling the record. Option B, \"in-person,\" doesn't fit. Option D is overly casual."
+    },
+    {
+      "questionId": "qvinyl4",
+      "passageId": "vinyl",
+      "passageHighlight": "4",
+      "questionHtml": "Which choice best maintains the formal tone?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "that is, like, totally lost",
+        "C": "that is effectively diminished",
+        "D": "which is totally lost"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The phrase \"totally lost\" is an exaggeration and uses informal language (\"totally\"). Option C, \"that is effectively diminished,\" is a more precise, formal, and measured way to convey that the impact of the artwork is reduced. Option B is highly informal. Option D, while grammatically fine, retains the problematic \"totally lost.\""
+    },
+    {
+      "questionId": "qvinyl5",
+      "passageId": "vinyl",
+      "passageHighlight": "5",
+      "questionHtml": "Which choice is most effective and formal?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "just cannot replicate, no way.",
+        "C": "simply cannot replicate.",
+        "D": "totally cannot replicate."
+      },
+      "correctOption": "C",
+      "explanationHtml": "The word \"just\" in this context is a bit casual and filler-like. Option C replaces it with \"simply,\" which is a more formal and emphatic adverb that fits the passage's tone perfectly. Option B is very informal. Option D uses the casual word \"totally.\""
+    },
+    {
+      "questionId": "qcolor1",
+      "passageId": "color",
+      "passageHighlight": "1",
+      "questionHtml": "Which choice best maintains the formal tone?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "invest significant consideration",
+        "C": "put a whole lot of thought",
+        "D": "think a ton about"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The phrase \"put a ton of thought\" is a very informal idiom. Option B, \"invest significant consideration,\" uses a formal and professional metaphor (\"invest\") that is far more appropriate for a business-oriented passage. Options C and D retain the informal structure and vocabulary."
+    },
+    {
+      "questionId": "qcolor2",
+      "passageId": "color",
+      "passageHighlight": "2",
+      "questionHtml": "Which choice is most effective and maintains formal tone?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "looks at how different hues affect our perceptions and emotions.",
+        "C": "examines how different hues, they affect our perceptions and emotions.",
+        "D": "is all about how different hues affect our perceptions and emotions."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The word \"examines\" is a strong, formal, and precise verb for an academic or analytical context. Option B (\"looks at\") is a weaker and more casual phrasal verb. Option C contains a comma splice. Option D, \"is all about,\" is far too informal and vague."
+    },
+    {
+      "questionId": "qcolor3",
+      "passageId": "color",
+      "passageHighlight": "3",
+      "questionHtml": "Which choice is most clear and effective?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "a sense of urgency, so it's a common choice for clearance sales.",
+        "C": "a sense of urgency, a common choice for clearance sales is what it is.",
+        "D": "a sense of urgency, therefore it is a common choice."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The original sentence is clear, grammatically correct, and professionally phrased. Option B is acceptable but uses a contraction (\"it's\") which, while not incorrect, is slightly less formal than the original \"it is.\" Option C is awkward and informal. Option D is grammatically correct but creates a comma splice; it would need a semicolon before \"therefore.\""
+    },
+    {
+      "questionId": "qcolor4",
+      "passageId": "color",
+      "passageHighlight": "4",
+      "questionHtml": "Which choice is most concise and effective?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "it is the color which they use for mourning in parts of East Asia.",
+        "C": "in parts of East Asia, it is the color of mourning.",
+        "D": "in parts of East Asia, however, it is the color of mourning."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The original sentence is the most concise and effective way to present this contrast. Options B, C, and D are grammatically correct but are either wordier (B, D) or create a slightly less direct parallel structure than the original's \"While X... Y\" format."
+    },
+    {
+      "questionId": "qcolor5",
+      "passageId": "color",
+      "passageHighlight": "5",
+      "questionHtml": "Which choice best maintains a formal and analytical tone?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "This just goes to show that marketing teams can't simply pick a color based on some one-size-fits-all guide.",
+        "C": "This fact underscores that a marketing team cannot rely on a universal guide when selecting colors.",
+        "D": "This just goes to show that you can't simply pick a color based on a one-size-fits-all guide."
+      },
+      "correctOption": "C",
+      "explanationHtml": "The phrase \"This just goes to show that\" is a very informal, colloquial lead-in. Option C replaces it with the formal and analytical phrase \"This fact underscores that,\" which is much more consistent with the passage's tone. It also correctly expands the contraction \"can't\" to \"cannot\" for a more formal feel."
+    },
+    {
+      "questionId": "qcolor6",
+      "passageId": "color",
+      "passageHighlight": "6",
+      "questionHtml": "Which choice is most effective and concise?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "requires a deep understanding of the cultural background of a target audience.",
+        "C": "requires you to deeply understand a target audience's cultural background.",
+        "D": "needs a deep understanding of a target audience's cultural background."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The original sentence is clear, direct, and professionally phrased. Option B is grammatically correct but is slightly wordier and less direct. Option C introduces the informal and unnecessary second-person pronoun \"you.\" Option D uses the weaker verb \"needs\" instead of \"requires.\""
+    },
+    {
+      "questionId": "qcolor7",
+      "passageId": "color",
+      "passageHighlight": "7",
+      "questionHtml": "Which choice is most clear and professional?",
+      "options": {
+        "A": "NO CHANGE",
+        "B": "of the people who it's trying to reach.",
+        "C": "of its target audience.",
+        "D": "of the people the brand, it's trying to reach."
+      },
+      "correctOption": "C",
+      "explanationHtml": "This question asks for the most effective and professional expression. The original phrase \"the people it's trying to reach\" is clear but a bit wordy and uses a contraction. Option C, \"its target audience,\" is a concise, precise, and standard business/marketing term that is much more effective in this context. Options B and D are grammatically awkward."
+    }
+  ]
+}

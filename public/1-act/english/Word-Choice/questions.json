@@ -1,0 +1,395 @@
+{
+  "passages": [
+    {
+      "passageId": "sci",
+      "passageHtml": "The popular image of a scientist at work is often one of a lone genius having a sudden, brilliant flash of insight. This \"eureka\" moment, while dramatic, is largely a myth. Scientific progress is typically a slow, deliberate process, built upon the meticulous work of many researchers over time. It involves forming hypotheses, conducting experiments, and then painstakingly analyzing the results. [highlight-1]However, it would be wrong to claim that creativity plays no role; indeed, the ability to look at data and have an inspired thought about what it means is a crucial part of advancing knowledge.[/highlight-1] Consider the discovery of the structure of DNA. While James Watson and Francis Crick are credited with the discovery, they relied heavily on X-ray diffraction images produced by Rosalind Franklin and Maurice Wilkins. [highlight-2]Their achievement wasn't just about seeing the data; it was about making a mental leap to interpret that data as a double helix.[/highlight-2] This synthesis of patient work and imaginative interpretation is what truly drives science forward, showing that the path to discovery is paved with both perspiration and inspiration."
+    },
+    {
+      "passageId": "vinyl",
+      "passageHtml": "In an age of ubiquitous streaming services and digital music libraries, the vinyl record has made an unexpected and powerful comeback. For many, it’s not just about nostalgia; it’s about the experience. [highlight-1]The act of gently removing a record from its sleeve, placing it on the turntable, and carefully setting the needle down creates a ritual that digital formats simply cannot replicate.[/highlight-1] This physical interaction with the music fosters a deeper sense of connection and intentionality. Furthermore, audiophiles often argue that vinyl offers a warmer, richer sound than the sometimes sterile clarity of digital files. The pops and hisses, once considered flaws, are now embraced by enthusiasts as part of the record's unique character. [highlight-2]This preference for the \"imperfect\" analog sound over the pristine digital version highlights a cultural shift toward valuing tangible experiences.[/highlight-2] In a world that feels increasingly virtual, vinyl provides a welcome anchor to the physical, making the act of listening to music a more deliberate and meaningful event."
+    },
+    {
+      "passageId": "urban",
+      "passageHtml": "As cities become more densely populated, innovative solutions are needed to address food security and environmental sustainability. Urban farming, the practice of cultivating food within a city's boundaries, has emerged as a powerful response to these challenges. From rooftop gardens and vertical farms to repurposed vacant lots, these green spaces are transforming urban landscapes. [highlight-1]They provide fresh, locally grown produce, reducing the need for long-distance transportation and its associated carbon emissions.[/highlight-1] Beyond the environmental benefits, these farms also serve as community hubs, offering educational opportunities and fostering a sense of collective purpose. However, urban farmers often face significant hurdles, including high land costs and the need to remediate potentially contaminated soil. [highlight-2]Despite these obstacles, the potential of urban agriculture to change our cities for the better is immense.[/highlight-2] It represents a fundamental shift in how we think about food, bringing it from distant fields directly to our doorsteps."
+    },
+    {
+      "passageId": "haiku",
+      "passageHtml": "The haiku, a traditional form of Japanese poetry, is an exercise in profound simplicity. Comprising just three lines and seventeen syllables, it aims to capture a single moment of perception, often related to nature. [highlight-1]The most effective haiku do not merely describe a scene; they attempt to crystallize an experience, creating a flash of insight for the reader.[/highlight-1] This is achieved through the use of concrete imagery and the juxtaposition of two distinct ideas, often separated by a \"cutting word\" (kireji) in Japanese. For example, the famous haiku by Bashō about a frog jumping into an old pond is not just about a frog and water. [highlight-2]It presents the stillness of the pond and the sudden sound of the splash, inviting the reader to contemplate the relationship between silence and sound, movement and stillness.[/highlight-2] In this way, the haiku becomes more than a poem; it becomes a small meditation, a gateway to a deeper awareness of the world around us."
+    },
+    {
+      "passageId": "super",
+      "passageHtml": "The enduring popularity of superheroes in modern culture is a phenomenon worth examining. These characters, with their capes and extraordinary abilities, might seem like simple escapism, but they often serve as powerful metaphors for the human condition. [highlight-1]Consider the character of Batman: a traumatized child who dedicates his life to a war on crime, not through superhuman gifts, but through relentless discipline and intellect.[/highlight-1] His story is one of using personal tragedy as a catalyst for a higher purpose, a narrative that resonates deeply with audiences. Similarly, Spider-Man's famous mantra, \"With great power comes great responsibility,\" is a timeless ethical principle dressed in a colorful costume. [highlight-2]These characters allow us to explore complex questions of morality, justice, and identity from a safe distance, making their stories both entertaining and psychologically substantive.[/highlight-2] They are modern myths, reflecting our collective hopes, fears, and aspirations back at us."
+    },
+    {
+      "passageId": "renaissance",
+      "passageHtml": "The Renaissance, spanning roughly the 14th to 17th centuries, marked a profound cultural transformation in Europe that bridged the medieval world and modern history. This period witnessed a revival of interest in classical learning and values after the relative stagnation of the Middle Ages, with Italian city-states like Florence serving as epicenters of this intellectual rebirth. [highlight-1]Humanist scholars sought to recover and study ancient Greek and Roman texts, believing that this knowledge could nurture a more virtuous and fulfilling life.[/highlight-1] They emphasized human potential and achievement, shifting focus from solely divine matters to earthly experiences and individual expression. [highlight-2]This intellectual movement found powerful expression in the visual arts, where artists broke from medieval conventions to embrace naturalism and perspective.[/highlight-2] Figures like Leonardo da Vinci and Michelangelo produced works celebrating the human form with unprecedented anatomical accuracy and emotional depth. [highlight-3]Their paintings and sculptures captured not just physical likeness but also the inner life of their subjects.[/highlight-3] The invention of the printing press accelerated the spread of Renaissance ideas beyond Italy, fueling scientific inquiry and religious reformation across Europe. [highlight-4]This explosion of creativity and learning fundamentally reshaped European society, leaving an enduring legacy in art, science, and philosophy.[/highlight-4] [highlight-5]The period's emphasis on observation and reason laid the groundwork for the Scientific Revolution of the 17th century.[/highlight-5] [highlight-6]Ultimately, the Renaissance represented a decisive shift in human consciousness, celebrating the dignity, potential, and achievements of humankind.[/highlight-6]"
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "sci1",
+      "passageId": "sci",
+      "passageHighlight": "1",
+      "questionHtml": "Which of the following alternatives to the word \"inspired\" would be the most specific and expressive in this context?",
+      "options": {
+        "A": "clever",
+        "B": "creative",
+        "C": "sudden",
+        "D": "intuitive"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The correct answer is (B) creative. The sentence is about the ability to have a novel thought about data. \"Creative\" best captures this sense of generating something new and original. \"Clever\" (A) is more about quick-wittedness. \"Sudden\" (C) describes timing, not quality. \"Intuitive\" (D) is about understanding without conscious reasoning, which is related but not as strong a match for the process of generating a new interpretation."
+    },
+    {
+      "questionId": "sci2",
+      "passageId": "sci",
+      "passageHighlight": "2",
+      "questionHtml": "In the context of sentence 8, the word \"mental\" most nearly means:",
+      "options": {
+        "A": "psychological",
+        "B": "intellectual",
+        "C": "emotional",
+        "D": "insane"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The correct answer is (B) intellectual. The phrase \"mental leap\" refers to a cognitive process, an act of thinking and understanding. \"Intellectual\" directly relates to the ability to think and reason. \"Psychological\" (A) is broader and relates to the mind in general, including emotions. \"Emotional\" (C) is about feelings. \"Insane\" (D) is a slang term for crazy, which doesn't fit the formal tone or meaning here."
+    },
+    {
+      "questionId": "vinyl1",
+      "passageId": "vinyl",
+      "passageHighlight": "1",
+      "questionHtml": "The writer wants to make sentence 3 more concise without changing its meaning. Which replacement for \"carefully setting the needle down\" is best?",
+      "options": {
+        "A": "carefully dropping the needle",
+        "B": "cueing the record",
+        "C": "placing the needle in the groove with precision",
+        "D": "dropping the stylus"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The correct answer is (B) cueing the record. This is the standard, concise technical term for placing the tonearm and stylus onto a specific point on a record. (A) \"carefully dropping\" is still wordy and less technical. (C) \"placing the needle...with precision\" is even wordier than the original. (D) \"dropping the stylus\" is a bit more technical but can imply a less controlled action than \"cueing.\""
+    },
+    {
+      "questionId": "vinyl2",
+      "passageId": "vinyl",
+      "passageHighlight": "2",
+      "questionHtml": "Which word, if used in place of \"preference,\" would best maintain the passage's respectful and analytical tone about the vinyl revival?",
+      "options": {
+        "A": "bias",
+        "B": "quirk",
+        "C": "affinity",
+        "D": "obsession"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The correct answer is (C) affinity. \"Affinity\" means a natural liking or sympathy for something, which fits the positive and analytical tone of the passage. \"Bias\" (A) has a negative connotation of unfair prejudice. \"Quirk\" (B) suggests something odd or peculiar, which is dismissive. \"Obsession\" (D) is too strong and implies an unhealthy fixation, which doesn't match the passage's measured description."
+    },
+    {
+      "questionId": "vinyl3",
+      "passageId": "vinyl",
+      "passageHighlight": "1",
+      "questionHtml": "Which word would best replace \"replicate\" to emphasize the unique and unrepeatable nature of the vinyl-listening ritual?",
+      "options": {
+        "A": "copy",
+        "B": "imitate",
+        "C": "duplicate",
+        "D": "reproduce"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The correct answer is (C) duplicate. While all options are synonyms, \"duplicate\" often implies creating an exact copy, which is impossible for the experience of the ritual. It most strongly suggests that the ritual's specific combination of physical actions and the resulting feeling cannot be perfectly recreated by a digital format. \"Copy\" and \"imitate\" (A, B) are weaker and more about superficial resemblance. \"Reproduce\" (D) is similar to duplicate but is more commonly used for audio/visual media itself, not the experience."
+    },
+    {
+      "questionId": "urban1",
+      "passageId": "urban",
+      "passageHighlight": "1",
+      "questionHtml": "Which word would best replace the underlined word \"provide\" to create a more vivid and active image of the benefit?",
+      "options": {
+        "A": "offer",
+        "B": "yield",
+        "C": "give",
+        "D": "supply"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The correct answer is (B) yield. \"Yield\" is a powerful verb specifically associated with agriculture and production. It implies a harvest, which creates a more dynamic and vivid image than the more generic \"provide.\" \"Offer\" (A), \"give\" (C), and \"supply\" (D) are all correct but lack the specific, productive connotation of \"yield.\""
+    },
+    {
+      "questionId": "urban2",
+      "passageId": "urban",
+      "passageHighlight": "2",
+      "questionHtml": "Which word, if used to replace the underlined word \"immense,\" would best match the passage's tone of optimistic but reasoned advocacy?",
+      "options": {
+        "A": "limitless",
+        "B": "huge",
+        "C": "significant",
+        "D": "infinite"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The correct answer is (C) significant. \"Significant\" conveys great importance and potential in a measured, persuasive tone. \"Limitless\" (A) and \"infinite\" (D) are hyperbolic and might undermine the passage's credibility by seeming unrealistic. \"Huge\" (B) is informal and less precise than \"significant\" in this context."
+    },
+    {
+      "questionId": "urban3",
+      "passageId": "urban",
+      "passageHighlight": "1",
+      "questionHtml": "The writer wants to combine the ideas in sentence 4 most concisely. Which version is best?",
+      "options": {
+        "A": "They provide fresh, locally grown produce, consequently they reduce the need for long-distance transportation and its associated carbon emissions.",
+        "B": "They provide fresh, locally grown produce, reducing the need for long-distance transportation and its associated carbon emissions.",
+        "C": "They provide fresh, locally grown produce, and by doing so they reduce the need for long-distance transportation and its associated carbon emissions.",
+        "D": "They provide fresh, locally grown produce, which reduces the need for long-distance transportation and its associated carbon emissions."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The correct answer is (B) They provide fresh, locally grown produce, reducing the need for long-distance transportation and its associated carbon emissions. This version uses a participial phrase (\"reducing...\") to clearly and concisely show the result of the first action. The other options are grammatically correct but add unnecessary words like \"consequently,\" \"by doing so,\" or \"which.\""
+    },
+    {
+      "questionId": "haiku1",
+      "passageId": "haiku",
+      "passageHighlight": "1",
+      "questionHtml": "In the context of sentence 3, the word \"crystallize\" most nearly means:",
+      "options": {
+        "A": "to freeze",
+        "B": "to become clear and defined",
+        "C": "to make hard and brittle",
+        "D": "to sweeten"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The correct answer is (B) to become clear and defined. The sentence says haikus aim to \"crystallize an experience,\" meaning to give it a clear, permanent, and insightful form for the reader. The metaphor is about an idea becoming perfectly formed and clear, like a crystal, not literally about freezing (A) or becoming hard (C)."
+    },
+    {
+      "questionId": "haiku2",
+      "passageId": "haiku",
+      "passageHighlight": "2",
+      "questionHtml": "Which word would be the most effective and expressive replacement for the underlined word \"presents\"?",
+      "options": {
+        "A": "shows",
+        "B": "describes",
+        "C": "juxtaposes",
+        "D": "offers"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The correct answer is (C) juxtaposes. This is the most precise and sophisticated word for the context. The sentence itself explains that the poem places two things (stillness and sound) together. \"Juxtaposes\" is the exact term for placing different elements side-by-side to highlight their contrast or relationship. \"Shows\" (A), \"describes\" (B), and \"offers\" (D) are too generic and fail to capture this specific artistic technique."
+    },
+    {
+      "questionId": "haiku3",
+      "passageId": "haiku",
+      "passageHighlight": "2",
+      "questionHtml": "The writer wants to make the second part of sentence 6 clearer. Which revision is best?",
+      "options": {
+        "A": "...inviting the reader to contemplate the relationship between opposites like silence and sound, and movement and stillness.",
+        "B": "...inviting the reader to contemplate the relationship between these things: silence and sound, movement and stillness.",
+        "C": "...inviting the reader to contemplate how silence is related to sound and how movement is related to stillness.",
+        "D": "...inviting the reader to contemplate the relationship between silence and sound and between movement and stillness."
+      },
+      "correctOption": "D",
+      "explanationHtml": "The correct answer is (D) ...inviting the reader to contemplate the relationship between silence and sound and between movement and stillness. This version uses parallel structure (\"between X and Y and between A and B\") to clearly separate and define the two relationships being compared. (A) adds the word \"opposites,\" which is interpretive. (B) is grammatically awkward. (C) is wordy and less elegant."
+    },
+    {
+      "questionId": "super1",
+      "passageId": "super",
+      "passageHighlight": "1",
+      "questionHtml": "Which word would best replace the underlined word \"relentless\" to emphasize the proactive and determined nature of Batman's mission?",
+      "options": {
+        "A": "persistent",
+        "B": "unforgiving",
+        "C": "incessant",
+        "D": "unyielding"
+      },
+      "correctOption": "D",
+      "explanationHtml": "The correct answer is (D) unyielding. \"Unyielding\" means not giving way to pressure or hardship, which perfectly captures Batman's unwavering dedication. \"Persistent\" (A) is a good synonym but less powerful. \"Unforgiving\" (B) has a harsh, negative connotation related to punishment, not self-discipline. \"Incessant\" (C) means non-stop and can have a negative, annoying connotation (like an incessant noise)."
+    },
+    {
+      "questionId": "super2",
+      "passageId": "super",
+      "passageHighlight": "2",
+      "questionHtml": "In the context of sentence 6, the word \"substantive\" most nearly means:",
+      "options": {
+        "A": "large and filling",
+        "B": "having a firm basis in reality",
+        "C": "considerable in amount",
+        "D": "having importance or depth"
+      },
+      "correctOption": "D",
+      "explanationHtml": "The correct answer is (D) having importance or depth. The sentence argues that superhero stories are \"psychologically substantive,\" meaning they have real depth, importance, and meaningful content about the human psyche, not just surface-level entertainment. It does not refer to physical size or quantity (A, C), nor does it mean they are based in reality (B)—they are fiction."
+    },
+    {
+      "questionId": "super3",
+      "passageId": "super",
+      "passageHighlight": "1",
+      "questionHtml": "Which word would most effectively replace the word \"gifts\" to emphasize that Batman's abilities are self-made, not innate?",
+      "options": {
+        "A": "talents",
+        "B": "powers",
+        "C": "attributes",
+        "D": "blessings"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The correct answer is (C) attributes. \"Attributes\" is a neutral term for inherent qualities or characteristics. In this context, it fits well because the sentence contrasts \"superhuman gifts\" (which imply they are given or innate) with Batman's self-developed qualities. \"Talents\" (A) and \"powers\" (B) are often seen as innate. \"Blessings\" (D) has a strong spiritual connotation. \"Attributes\" is the most clinical and accurate word to describe the traits he has cultivated."
+    },
+    {
+      "questionId": "ren1",
+      "passageId": "renaissance",
+      "passageHighlight": "1",
+      "questionHtml": "Which word would best replace \"nurture\" to convey the most specific and active sense of how humanist scholars believed knowledge would shape life?",
+      "options": {
+        "A": "support",
+        "B": "cultivate",
+        "C": "maintain",
+        "D": "encourage"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The correct answer is (B) cultivate. \"Cultivate\" suggests a deliberate, ongoing process of development and growth, like tending a garden. This precisely matches how humanists viewed knowledge as something to be actively developed to enrich life. \"Support\" (A) and \"encourage\" (D) are weaker and less active. \"Maintain\" (C) implies preserving an existing state, not actively developing a more virtuous life."
+    },
+    {
+      "questionId": "ren2",
+      "passageId": "renaissance",
+      "passageHighlight": "1",
+      "questionHtml": "In the context of sentence 1, the word \"classical\" most nearly means:",
+      "options": {
+        "A": "traditional and well-established",
+        "B": "related to ancient Greek and Roman culture",
+        "C": "superior in quality and style",
+        "D": "simple and restrained in design"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The correct answer is (B) related to ancient Greek and Roman culture. The passage explicitly mentions humanists sought to recover \"ancient Greek and Roman texts,\" establishing that \"classical\" here refers specifically to the civilizations of antiquity. While (A) and (C) are common meanings of \"classical,\" they don't fit the historical context. (D) describes a specific aesthetic style, not the broad cultural reference intended."
+    },
+    {
+      "questionId": "ren3",
+      "passageId": "renaissance",
+      "passageHighlight": "2",
+      "questionHtml": "Which word would most specifically and expressively convey how artists incorporated naturalism and perspective into their work?",
+      "options": {
+        "A": "used",
+        "B": "applied",
+        "C": "employed",
+        "D": "integrated"
+      },
+      "correctOption": "D",
+      "explanationHtml": "The correct answer is (D) integrated. \"Integrated\" suggests that naturalism and perspective were not just tools added on but were woven seamlessly into the very fabric of artistic practice. It conveys a deeper, more sophisticated synthesis than the other options. \"Used\" (A), \"applied\" (B), and \"employed\" (C) are all correct but more mechanical and less evocative of the transformative nature of these techniques."
+    },
+    {
+      "questionId": "ren4",
+      "passageId": "renaissance",
+      "passageHighlight": "2",
+      "questionHtml": "Which choice best maintains the formal and scholarly tone of the passage when describing the artistic shift?",
+      "options": {
+        "A": "where artists ditched old styles for cool new techniques",
+        "B": "where artists broke from medieval conventions to embrace naturalism and perspective",
+        "C": "where artists started doing things way differently than before",
+        "D": "where artists got really into painting things the way they actually look"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The correct answer is (B) where artists broke from medieval conventions to embrace naturalism and perspective. This option uses precise, formal language (\"broke from medieval conventions,\" \"embrace naturalism\") that matches the passage's academic tone. Options (A), (C), and (D) are too informal and colloquial (\"ditched,\" \"cool,\" \"way differently,\" \"got really into\") for this context."
+    },
+    {
+      "questionId": "ren5",
+      "passageId": "renaissance",
+      "passageHighlight": "3",
+      "questionHtml": "Which word would best replace \"captured\" to emphasize the artists' ability to portray the inner emotional world of their subjects?",
+      "options": {
+        "A": "showed",
+        "B": "depicted",
+        "C": "conveyed",
+        "D": "rendered"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The correct answer is (C) conveyed. \"Conveyed\" is the most effective choice for communicating an idea, feeling, or quality. It perfectly suits the context of portraying \"inner life,\" which is abstract and emotional. \"Showed\" (A) and \"depicted\" (B) are more about visual representation. \"Rendered\" (D) is a technical term for artistic representation but lacks the emotional resonance of \"conveyed.\""
+    },
+    {
+      "questionId": "ren6",
+      "passageId": "renaissance",
+      "passageHighlight": "3",
+      "questionHtml": "The writer wants to make this sentence more concise. Which version is best?",
+      "options": {
+        "A": "Their paintings and sculptures captured not just physical likeness but also the inner life of their subjects.",
+        "B": "Their paintings and sculptures captured physical likeness and also captured the inner life of their subjects.",
+        "C": "Their paintings and sculptures, in addition to physical likeness, also captured the inner life of their subjects.",
+        "D": "Their paintings and sculptures captured physical likeness and inner life in their subjects."
+      },
+      "correctOption": "A",
+      "explanationHtml": "The correct answer is (A) NO CHANGE. The original uses the concise and emphatic structure \"not just X but also Y,\" which clearly contrasts the two ideas (physical likeness and inner life) without unnecessary words. Option (B) is repetitive (\"captured...captured\"). Option (C) is wordy (\"in addition to...also\"). Option (D) loses the contrasting emphasis and is slightly awkward."
+    },
+    {
+      "questionId": "ren7",
+      "passageId": "renaissance",
+      "passageHighlight": "4",
+      "questionHtml": "Which word would best replace \"explosion\" to match the passage's tone while conveying the same idea of rapid and widespread emergence?",
+      "options": {
+        "A": "burst",
+        "B": "outbreak",
+        "C": "eruption",
+        "D": "flowering"
+      },
+      "correctOption": "D",
+      "explanationHtml": "The correct answer is (D) flowering. \"Flowering\" is a metaphor that conveys growth, blossoming, and positive development, which perfectly matches the passage's celebratory tone about Renaissance achievements. \"Burst\" (A), \"outbreak\" (B), and \"eruption\" (C) all suggest sudden, violent, or destructive force, which is inappropriate for describing cultural and intellectual progress."
+    },
+    {
+      "questionId": "ren8",
+      "passageId": "renaissance",
+      "passageHighlight": "4",
+      "questionHtml": "In the context of sentence 4, the word \"enduring\" most nearly means:",
+      "options": {
+        "A": "patient",
+        "B": "lasting",
+        "C": "suffering",
+        "D": "tolerating"
+      },
+      "correctOption": "B",
+      "explanationHtml": "The correct answer is (B) lasting. \"Enduring legacy\" means a legacy that continues to exist and have influence over a long period. This is the standard meaning in this context. The other options relate to patience (A), hardship (C), or tolerance (D), none of which fit the phrase \"enduring legacy.\""
+    },
+    {
+      "questionId": "ren9",
+      "passageId": "renaissance",
+      "passageHighlight": "5",
+      "questionHtml": "Which word would most specifically and effectively convey how Renaissance ideas contributed to the Scientific Revolution?",
+      "options": {
+        "A": "helped",
+        "B": "aided",
+        "C": "facilitated",
+        "D": "established"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The correct answer is (C) facilitated. \"Facilitated\" means to make an action or process easier or more achievable. This precisely describes how Renaissance ideas (emphasis on observation and reason) created the conditions that made the Scientific Revolution possible without directly causing it. \"Helped\" (A) and \"aided\" (B) are too vague. \"Established\" (D) is too strong, implying the Renaissance directly created the Scientific Revolution."
+    },
+    {
+      "questionId": "ren10",
+      "passageId": "renaissance",
+      "passageHighlight": "5",
+      "questionHtml": "The writer wants to add a sentence after sentence 5 that reinforces the connection between the Renaissance and the Scientific Revolution. Which choice best supports this idea?",
+      "options": {
+        "A": "Many Renaissance artists were also skilled scientists and inventors.",
+        "B": "This foundation enabled figures like Copernicus and Galileo to challenge long-held beliefs about the cosmos.",
+        "C": "The printing press made books more affordable for ordinary people.",
+        "D": "Renaissance architecture also showed a renewed interest in classical forms."
+      },
+      "correctOption": "B",
+      "explanationHtml": "The correct answer is (B) This foundation enabled figures like Copernicus and Galileo to challenge long-held beliefs about the cosmos. This choice directly links the \"foundation\" (emphasis on observation and reason) mentioned in sentence 5 to specific scientists and their revolutionary work, thereby reinforcing the connection. Option (A) is a true fact but doesn't directly connect to the Scientific Revolution. Options (C) and (D) introduce new topics unrelated to the idea of laying groundwork for science."
+    },
+    {
+      "questionId": "ren11",
+      "passageId": "renaissance",
+      "passageHighlight": "6",
+      "questionHtml": "Which word would best replace \"decisive\" to convey the most precise meaning of a clear and definite turning point?",
+      "options": {
+        "A": "important",
+        "B": "critical",
+        "C": "conclusive",
+        "D": "significant"
+      },
+      "correctOption": "C",
+      "explanationHtml": "The correct answer is (C) conclusive. \"Conclusive\" means serving to settle an issue or put an end to doubt, which perfectly captures the idea of a definitive shift in human consciousness. \"Important\" (A) and \"significant\" (D) are too general. \"Critical\" (B) suggests urgency or importance but not necessarily the sense of finality and definiteness that \"conclusive\" provides."
+    },
+    {
+      "questionId": "ren12",
+      "passageId": "renaissance",
+      "passageHighlight": "6",
+      "questionHtml": "In the context of the final sentence, the word \"consciousness\" most nearly means:",
+      "options": {
+        "A": "awareness",
+        "B": "wakefulness",
+        "C": "conscience",
+        "D": "knowledge"
+      },
+      "correctOption": "A",
+      "explanationHtml": "The correct answer is (A) awareness. \"Human consciousness\" here refers to the collective awareness, mindset, or way of thinking of people during the Renaissance—how they perceived themselves and the world. \"Wakefulness\" (B) is literal, not metaphorical. \"Conscience\" (C) refers to moral sense. \"Knowledge\" (D) is too narrow; consciousness encompasses attitudes and values, not just facts."
+    }
+    
+  ]
+}

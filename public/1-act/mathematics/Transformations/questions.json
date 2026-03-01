@@ -1,0 +1,162 @@
+{
+  "passages": [
+
+  ],
+  "questions": [
+    {
+      "questionId": "q10",
+      "passageId": "",
+      "questionHtml": "Which of the following represents a vertical shift of the graph of \\(y = x^{2}\\) upward by 3 units?",
+      "options": {
+        "A": "\\(y = (x + 3)^{2}\\)",
+        "B": "\\(y = x^{2} - 3\\)",
+        "C": "\\(y = x^{2} + 3\\)",
+        "D": "\\(y = 3x^{2}\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "A vertical shift upward adds a constant to the function.<br>Original graph: \\(y = x^{2}\\).<br>Shift upward by 3 units: \\(y = x^{2} + 3\\).<br>Thus, the correct option is C."
+    },
+    {
+      "questionId": "q19",
+      "passageId": "",
+      "questionHtml": "The graph of \\(y = 2^{x}\\) is reflected over the y-axis and then shifted up 3 units. Which function represents the transformed graph?",
+      "options": {
+        "A": "\\(y = 2^{-x} + 3\\)",
+        "B": "\\(y = 2^{-x} - 3\\)",
+        "C": "\\(y = -2^{x} + 3\\)",
+        "D": "\\(y = 2^{x} + 3\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "Reflection over the y-axis replaces \\(x\\) with \\(-x\\): \\(y = 2^{-x}\\).<br>Then shifting up 3 units adds 3: \\(y = 2^{-x} + 3\\).<br>Therefore, the correct function is A."
+    },
+    {
+      "questionId": "q23",
+      "passageId": "",
+      "questionHtml": "The linear function \\(f(x) = 2x + 3\\) is transformed by reflecting over the x-axis and then translating left 2 units. What is the new function?",
+      "options": {
+        "A": "\\(f(x) = -2x - 7\\)",
+        "B": "\\(f(x) = -2x - 1\\)",
+        "C": "\\(f(x) = 2x + 7\\)",
+        "D": "\\(f(x) = -2x + 1\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "Step 1: Reflect over x-axis. Multiply the function by -1: \\(-(2x + 3) = -2x - 3\\).<br>Step 2: Translate left 2 units. Replace \\(x\\) with \\(x + 2\\): \\(-2(x + 2) - 3 = -2x - 4 - 3 = -2x - 7\\).<br>Thus, the new function is \\(f(x) = -2x - 7\\), option A."
+    },
+    {
+      "questionId": "q31",
+      "passageId": "",
+      "questionHtml": "The graph of \\(y = (x + 2)^{2} - 3\\) is shifted 3 units down and 1 unit left. What is the equation of the new graph?",
+      "options": {
+        "A": "\\(y = (x + 3)^{2} - 6\\)",
+        "B": "\\(y = (x + 1)^{2} - 6\\)",
+        "C": "\\(y = (x + 3)^{2} - 0\\)",
+        "D": "\\(y = (x + 1)^{2} - 0\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "Start with \\(y = (x + 2)^{2} - 3\\).<br>Shift down 3 units: subtract 3 from the entire function: \\(y = (x + 2)^{2} - 3 - 3 = (x + 2)^{2} - 6\\).<br>Shift left 1 unit: replace \\(x\\) with \\(x + 1\\): \\(y = ((x + 1) + 2)^{2} - 6 = (x + 3)^{2} - 6\\).<br>Hence, the new equation is \\(y = (x + 3)^{2} - 6\\), option A."
+    },
+    {
+      "questionId": "q37",
+      "passageId": "",
+      "questionHtml": "The function \\(f(x) = \\frac{1}{2} (x - 3)^2 + 1\\) is reflected over the x-axis and then shifted up 2. What is the new vertex?",
+      "options": {
+        "A": "(3,-1)",
+        "B": "(3,1)",
+        "C": "(3,3)",
+        "D": "(3,-3)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "Original vertex: from \\(f(x) = \\frac{1}{2}(x - 3)^2 + 1\\), vertex is \\((3, 1)\\).<br>Reflection over x-axis: multiply by -1: \\(g(x) = -\\left(\\frac{1}{2}(x - 3)^2 + 1\\right) = -\\frac{1}{2}(x - 3)^2 - 1\\). New vertex after reflection: \\((3, -1)\\).<br>Shift up 2 units: add 2: \\(h(x) = -\\frac{1}{2}(x - 3)^2 - 1 + 2 = -\\frac{1}{2}(x - 3)^2 + 1\\). New vertex: \\((3, 1)\\).<br>Thus the vertex after both transformations is \\((3, 1)\\), option B."
+    },
+    {
+      "questionId": "q434",
+      "passageId": "functions_passage",
+      "passageHighlight": null,
+      "questionHtml": "If the graph of \\(f(x) = x^{2} - 1\\) is shifted to the left by 3 units, which of the following expressions will represent the resulting graph?",
+      "options": {
+        "A": "\\(x^{2} - 4\\)",
+        "B": "\\((x - 3)^{2} - 1\\)",
+        "C": "\\(x^{2} + 2\\)",
+        "D": "\\((x + 3)^{2} - 1\\)",
+        "E": "\\(x^{2} - 3\\)"
+      },
+      "correctOption": "D",
+      "explanationHtml": "A shift of \\(f(x)\\) to the left by \\(c\\) units is always represented by \\(f(x + c)\\).<br>Here, \\(f(x) = x^{2} - 1\\), so shifting left 3 units gives \\(f(x+3) = (x+3)^{2} - 1\\).<br>Thus the correct answer is D."
+    },
+    {
+      "questionId": "q437",
+      "passageId": "functions_passage",
+      "passageHighlight": null,
+      "questionHtml": "If \\(f(x)\\) is graphed in the following figure, then which of the following is a possible formula for \\(f(x)\\)? <br><img src=\"/1-act/P/1t.png\" alt=\"Graph of f(x)\" style=\"width: 270px; height: auto;\">",
+      "options": {
+        "A": "\\(x^{2}\\)",
+        "B": "\\((x-4)^{2}\\)",
+        "C": "\\((x+3)^{2}\\)",
+        "D": "\\(x^{2}-2\\)",
+        "E": "\\(x^{2}+4\\)"
+      },
+      "correctOption": "E",
+      "explanationHtml": "The graph of \\(x^{2}\\) crosses the x-axis at the origin, so choice A is not correct.<br>Since the graph is centered along the y-axis, it must be a vertical translation of \\(x^{2}\\).<br>Further, it has a positive y-intercept, so it must be of the form \\(x^{2} + c\\) with \\(c > 0\\).<br>Choice E, \\(x^{2}+4\\), matches this description."
+    },
+    {
+      "questionId": "q439",
+      "passageId": "functions_passage",
+      "passageHighlight": null,
+      "questionHtml": "In the standard \\((x,y)\\) coordinate plane, which of the following statements best describes the graph of \\(-f(x)\\) in terms of the graph of \\(f(x)\\) for any function \\(f(x)\\)?",
+      "options": {
+        "A": "It is the graph of \\(f(x)\\) shifted downward by one unit.",
+        "B": "It is the graph of \\(f(x)\\) shifted upward by one unit.",
+        "C": "It is the graph of \\(f(x)\\) shifted to the left by one unit.",
+        "D": "It is the graph of \\(f(x)\\) shifted to the right by one unit.",
+        "E": "None of these statements are correct."
+      },
+      "correctOption": "E",
+      "explanationHtml": "The graph of \\(-f(x)\\) is a reflection of the graph of \\(f(x)\\) across the x-axis, not a shift.<br>Therefore, none of the shift descriptions are correct, so the answer is E."
+    },
+    {
+      "questionId": "q456",
+      "passageId": "functions_passage",
+      "passageHighlight": null,
+      "questionHtml": "If the point \\((a,b)\\) lies on the graph of a function \\(f(x)\\) in the standard \\((x,y)\\) coordinate plane, then which of the following points lies along the graph of \\(f(x - 2)\\)?",
+      "options": {
+        "A": "\\((-2a,b)\\)",
+        "B": "\\((a, -2b)\\)",
+        "C": "\\((a - 2,b)\\)",
+        "D": "\\((a,b - 2)\\)",
+        "E": "\\((a + 2,b)\\)"
+      },
+      "correctOption": "E",
+      "explanationHtml": "The graph of \\(f(x - 2)\\) is the graph of \\(f(x)\\) shifted to the right by 2 units.<br>Therefore, every x-coordinate increases by 2 while the y-coordinate remains the same.<br>So point \\((a,b)\\) becomes \\((a+2, b)\\).<br>Thus the correct answer is E."
+    },
+    {
+      "questionId": "q471",
+      "passageId": "functions_passage",
+      "passageHighlight": null,
+      "questionHtml": "The graph of a function \\(g(x)\\) is found by shifting the graph of the function \\(f(x)\\) up by 6 units and to the left by 1 unit. If \\(f(x) = (x - 5)^{3}\\), then \\(g(x) =\\)",
+      "options": {
+        "A": "\\(x^{3}\\)",
+        "B": "\\((x - 2)^{3}\\)",
+        "C": "\\((x + 1)^{3} - 1\\)",
+        "D": "\\((x - 6)^{3} + 6\\)",
+        "E": "\\((x - 4)^{3} + 6\\)"
+      },
+      "correctOption": "E",
+      "explanationHtml": "Shifting up by 6 units: \\(f(x) + 6\\).<br>Shifting left by 1 unit: \\(f(x + 1) + 6\\).<br>Given \\(f(x) = (x - 5)^3\\), then \\(f(x+1) = ((x+1) - 5)^3 = (x - 4)^3\\).<br>So \\(g(x) = (x - 4)^3 + 6\\).<br>Thus correct answer is E."
+    },
+    {
+      "questionId": "q495",
+      "passageId": "functions_passage",
+      "passageHighlight": null,
+      "questionHtml": "The point \\((q,r)\\) lies on the graph of a function \\(f(x)\\) in the \\((x,y)\\) coordinate plane. If the graph of \\(g(x)\\) results from shifting the graph of \\(f(x)\\) up 10 units, then which of the following points must lie on the graph of \\(g(x)\\)?",
+      "options": {
+        "A": "\\((q + 10,r)\\)",
+        "B": "\\((q - 10,r)\\)",
+        "C": "\\((q,r + 10)\\)",
+        "D": "\\((q,r - 10)\\)",
+        "E": "\\((q + 10,r - 10)\\)"
+      },
+      "correctOption": "C",
+      "explanationHtml": "Shifting a graph up by 10 units adds 10 to every y-coordinate while leaving x-coordinates unchanged.<br>Therefore, point \\((q,r)\\) on \\(f\\) becomes \\((q, r+10)\\) on \\(g\\).<br>So the correct answer is C."
+    }
+  ]
+}

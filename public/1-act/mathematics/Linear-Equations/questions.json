@@ -1,150 +1,320 @@
 {
   "passages": [
-    {
-      "passageId": "p1",
-      "passageHtml": "<p>In today's fast-paced society, the way people connect has undergone a profound transformation. Gone are the days when interactions were limited to face-to-face encounters or handwritten letters that took weeks to arrive. Now, with the advent of digital technology, social bonds are formed and maintained through screens, apps, and algorithms. This shift has brought both unprecedented opportunities and unforeseen challenges to how individuals perceive themselves and relate to others. [highlight-1] At its core, society thrives on human connection, yet the digital age has redefined what that means, often blurring the lines between genuine relationships and superficial engagements.[/highlight-1]</p>\n<div style=\"margin-bottom:5px;\"></div>\n<p>The rise of social media platforms like Facebook, Instagram, and TikTok has democratized communication, allowing people from diverse backgrounds to share ideas, experiences, and cultures instantaneously. For instance, a teenager in rural India can now engage in real-time discussions with peers in urban America about global issues like climate change or social justice. This connectivity fosters a sense of global community, breaking down geographical barriers that once isolated entire populations. However, this apparent unity comes at a cost. [highlight-2]Studies show that excessive social media use correlates with increased feelings of loneliness and anxiety, as users compare their everyday lives to the curated highlights of others.[/highlight-2] Psychologists argue that the \"highlight reel\" effect creates unrealistic expectations, leading to diminished self-esteem among young adults.</p>\n<div style=\"margin-bottom:5px;\"></div>\nBeyond personal well-being, societal structures are also evolving due to these digital influences. Traditional community gatherings, such as town halls or neighborhood events, are being replaced by online forums and virtual meetups. During the COVID-19 pandemic, this transition was accelerated, with Zoom calls becoming the norm for everything from family reunions to professional conferences. While this adaptation ensured continuity, it highlighted disparities in access. [highlight-3]Not everyone has reliable internet or devices, exacerbating social inequalities and leaving marginalized groups further isolated.[/highlight-3] In low-income areas, where broadband is scarce, children struggled with remote learning, widening the educational gap between socioeconomic classes.\n<div style=\"margin-bottom:5px;\"></div>\nMoreover, the digital realm has reshaped how people express empathy and solidarity. Hashtags like #BlackLivesMatter or #MeToo have mobilized millions, turning individual stories into powerful movements for change. These online campaigns demonstrate society's capacity for collective action, amplifying voices that were previously silenced by mainstream media. Yet, critics point out the phenomenon of \"slacktivism,\" where liking or sharing a post substitutes for real-world involvement. [highlight-4]This superficial activism may give participants a false sense of contribution without addressing underlying systemic issues.[/highlight-4] True societal progress, they contend, requires sustained effort beyond digital gestures.\n<div style=\"margin-bottom:5px;\"></div>\nAs people navigate this new landscape, questions arise about privacy and authenticity in social interactions. With data breaches and surveillance capitalism on the rise, individuals must weigh the benefits of connectivity against the risks of personal information exploitation. Companies like Meta harvest user data to tailor advertisements, influencing not just shopping habits but also political opinions through algorithmic echo chambers. [highlight-5]These echo chambers reinforce existing beliefs, polarizing society and hindering constructive dialogue between differing viewpoints.[/highlight-5] In elections worldwide, misinformation spreads rapidly in such environments, eroding trust in institutions and fellow citizens.\n<div style=\"margin-bottom:5px;\"></div>\nOn a brighter note, technology has enabled innovative ways to build meaningful relationships. Online support groups for mental health, chronic illnesses, or niche hobbies provide solace to those who might otherwise feel alone. For example, platforms like Reddit host subreddits where people share vulnerabilities anonymously, fostering deep emotional bonds without the pressure of real identities. [highlight-6]Such communities illustrate how digital tools can enhance empathy, offering a lifeline in an increasingly atomized society.[/highlight-6] Elderly individuals, often overlooked in fast-changing tech landscapes, have found renewed social engagement through apps designed for video calls with grandchildren.\n<div style=\"margin-bottom:5px;\"></div>\nHowever, the generational divide in digital adoption cannot be ignored. Millennials and Gen Z, dubbed \"digital natives,\" seamlessly integrate technology into their social lives, while older generations may view it with skepticism or struggle to adapt. This gap can strain family dynamics, as younger members prioritize virtual interactions over in-person visits. [highlight-7]Bridging this divide requires education and inclusive design, ensuring that technology serves all age groups without alienating any.[/highlight-7] Initiatives like community tech workshops aim to empower seniors, promoting intergenerational harmony.\n<div style=\"margin-bottom:5px;\"></div>\nEconomically, the gig economy-fueled by apps like Uber and Upwork—has altered social hierarchies. Workers now connect with opportunities globally, but often at the expense of job security and benefits. [highlight-8]This precarity affects social mobility, as gig workers face unpredictable incomes, impacting their ability to form stable family units or community ties.[/highlight-8] Society must grapple with regulating these platforms to protect vulnerable populations while encouraging innovation.\n<div style=\"margin-bottom:5px;\"></div>\nCulturally, globalization through digital means has led to a blending of traditions, creating hybrid identities. Immigrants maintain ties to their homelands via social media, sharing festivals and languages with diaspora communities. Yet, this can also lead to cultural homogenization, where dominant Western influences overshadow local customs. [highlight-9]Balancing preservation of heritage with global integration is a key challenge for modern societies.[/highlight-9] Artists and activists use digital tools to revive endangered languages and traditions, countering this trend.\n<div style=\"margin-bottom:5px;\"></div>\nFinally, as artificial intelligence integrates into social platforms, the future of human connections hangs in the balance. AI chatbots offer companionship, but they raise ethical questions about authenticity. [highlight-10]Will society prioritize real human interactions, or will convenience lead to a world where machines simulate empathy?[/highlight-10] Only time will tell, but one thing is clear: people must actively shape this evolution to ensure that technology enhances, rather than diminishes, the richness of social life."
-    }
+  
   ],
   "questions": [
     {
-      "questionId": "q1",
-      "passageId": "p1",
-      "passageHighlight": "1",
-      "questionHtml": "The main idea of the first paragraph is that:",
+      "questionId": "q001",
+      "passageId": "",
+      "questionHtml": "<p>Solve for \\(x\\) : \\(x - 4 = 10\\)</p>",
       "options": {
-        "A": "Digital technology has completely eliminated traditional forms of communication.",
-        "B": "Society's reliance on human connection has been redefined by the digital age, mixing benefits and drawbacks.",
-        "C": "Superficial engagements are preferable to genuine relationships in modern times.",
-        "D": "Algorithms are the primary drivers of all social bonds today."
-      },
-      "correctOption": "B",
-      "explanationHtml": "The underlined sentence in the first paragraph directly states that the digital age redefines human connection, blurring genuine and superficial engagements, which captures the main idea of benefits (opportunities) and challenges (blurring lines). Option A overstates elimination; C prefers superficiality, which isn't supported; D focuses only on algorithms."
-    },
-    {
-      "questionId": "q2",
-      "passageId": "p1",
-      "passageHighlight": "2",
-      "questionHtml": "According to the passage, what is one negative effect of the \"highlight reel\" on social media?",
-      "options": {
-        "A": "It encourages real-time discussions on global issues.",
-        "B": "It leads to increased feelings of loneliness and diminished self-esteem.",
-        "C": "It breaks down geographical barriers effectively.",
-        "D": "It fosters a sense of global community without any costs."
-      },
-      "correctOption": "B",
-      "explanationHtml": "The underlined sentence links excessive use to loneliness, anxiety, and comparison to curated highlights, leading to diminished self-esteem. A and C describe positives; D denies costs, contradicting the passage."
-    },
-    {
-      "questionId": "q3",
-      "passageId": "p1",
-      "passageHighlight": "3",
-      "questionHtml": "The passage suggests that during the COVID-19 pandemic:",
-      "options": {
-        "A": "Traditional gatherings completely disappeared without replacement.",
-        "B": "Online forums resolved all social inequalities.",
-        "C": "Disparities in internet access worsened isolation for marginalized groups.",
-        "D": "Remote learning had no impact on educational gaps."
-      },
-      "correctOption": "C",
-      "explanationHtml": "The underlined sentence notes that not everyone has access, exacerbating inequalities and isolation for marginalized groups during the pandemic. A ignores replacements like Zoom; B claims resolution of inequalities; D denies educational impacts."
-    },
-    {
-      "questionId": "q4",
-      "passageId": "p1",
-      "passageHighlight": "4",
-      "questionHtml": "As used in the context of the passage, \"slacktivism\" most nearly means:",
-      "options": {
-        "A": "Sustained effort in real-world activism.",
-        "B": "Mobilizing millions through hashtags for change.",
-        "C": "Superficial online actions that replace meaningful involvement.",
-        "D": "Amplifying silenced voices via mainstream media."
-      },
-      "correctOption": "C",
-      "explanationHtml": "The context defines slacktivism as superficial actions (liking/sharing) substituting for real involvement, giving a false sense of contribution. A describes the opposite; B and D refer to positive aspects of online campaigns."
-    },
-    {
-      "questionId": "q5",
-      "passageId": "p1",
-      "passageHighlight": "5",
-      "questionHtml": "The author implies that echo chambers contribute to societal polarization by:",
-      "options": {
-        "A": "Encouraging data breaches and surveillance.",
-        "B": "Reinforcing existing beliefs and limiting dialogue.",
-        "C": "Tailoring advertisements to shopping habits only.",
-        "D": "Eroding trust in institutions through factual information."
-      },
-      "correctOption": "B",
-      "explanationHtml": "The underlined sentence explains echo chambers reinforce beliefs, polarizing society and hindering dialogue. A focuses on breaches; C limits to ads; D mentions misinformation but not as the implication here."
-    },
-    {
-      "questionId": "q6",
-      "passageId": "p1",
-      "passageHighlight": "6",
-      "questionHtml": "Which of the following best describes the role of online support groups as mentioned in the passage?",
-      "options": {
-        "A": "They pressure users to reveal real identities.",
-        "B": "They enhance empathy and provide emotional bonds in an atomized society.",
-        "C": "They are primarily for elderly individuals only.",
-        "D": "They overlook vulnerabilities in anonymous sharing."
-      },
-      "correctOption": "B",
-      "explanationHtml": "The underlined sentence portrays these groups as enhancing empathy and offering lifelines in an atomized society. A contradicts anonymity; C limits to elderly; D overlooks positives."
-    },
-    {
-      "questionId": "q7",
-      "passageId": "p1",
-      "passageHighlight": "7",
-      "questionHtml": "The passage indicates that to bridge the generational divide in digital adoption:",
-      "options": {
-        "A": "Younger generations should abandon virtual interactions.",
-        "B": "Education and inclusive design are necessary to include all age groups.",
-        "C": "Older generations should view technology with more skepticism.",
-        "D": "Family dynamics are unaffected by this gap."
-      },
-      "correctOption": "B",
-      "explanationHtml": "The underlined sentence calls for education and inclusive design to bridge the divide without alienation. A suggests abandonment; C encourages skepticism; D denies strain on dynamics."
-    },
-    {
-      "questionId": "q8",
-      "passageId": "p1",
-      "passageHighlight": "8",
-      "questionHtml": "According to the passage, how does the gig economy impact social mobility?",
-      "options": {
-        "A": "It provides predictable incomes and stable family ties.",
-        "B": "It connects workers globally without any drawbacks.",
-        "C": "Precarity from unpredictable incomes hinders stable community connections.",
-        "D": "It eliminates the need for regulation on platforms."
-      },
-      "correctOption": "C",
-      "explanationHtml": "The underlined sentence highlights precarity affecting incomes, thus impacting stable family and community ties, hindering mobility. A and B ignore drawbacks; D dismisses regulation needs."
-    },
-    {
-      "questionId": "q9",
-      "passageId": "p1",
-      "passageHighlight": "9",
-      "questionHtml": "The author suggests that cultural homogenization in the digital age:",
-      "options": {
-        "A": "Poses a challenge that requires balancing heritage preservation with integration.",
-        "B": "Is entirely beneficial for blending traditions.",
-        "C": "Has no effect on local customs.",
-        "D": "Is countered solely by Western influences."
+        "A": "14",
+        "B": "6",
+        "C": "-14",
+        "D": "2.5"
       },
       "correctOption": "A",
-      "explanationHtml": "The underlined sentence frames balancing heritage with integration as a key challenge amid homogenization. A sees only benefits; C denies effects; D misstates countering influences."
+      "explanationHtml": "<p>To isolate \\(x\\), add 4 to both sides:</p><p>\\(x - 4 + 4 = 10 + 4\\)</p><p>This simplifies to \\(x = 14\\).</p><p>The correct answer is A.</p>"
     },
     {
-      "questionId": "q10",
-      "passageId": "p1",
-      "passageHighlight": "10",
-      "questionHtml": "The final paragraph primarily serves to:",
+      "questionId": "q002",
+      "passageId": "",
+      "questionHtml": "<p>Solve for \\(x\\) : \\(5x - 2 = 3x + 6\\)</p>",
       "options": {
-        "A": "Dismiss the role of AI in social platforms.",
-        "B": "Highlight ethical questions about AI's impact on future human connections.",
-        "C": "Argue that machines will fully replace human empathy.",
-        "D": "Conclude that technology diminishes social life without exception."
+        "A": "4",
+        "B": "2",
+        "C": "8",
+        "D": "-4"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Subtract \\(3x\\) from both sides:</p><p>\\(2x - 2 = 6\\)</p><p>Add 2 to both sides:</p><p>\\(2x = 8\\)</p><p>Divide both sides by 2:</p><p>\\(x = 4\\)</p><p>The correct answer is A.</p>"
+    },
+    {
+      "questionId": "q003",
+      "passageId": "",
+      "questionHtml": "<p>Solve for \\(x\\) : \\( {\\Large \\frac{x}{4}} + 2 = {\\Large \\frac{x}{3}} - 1  \\)</p>",
+      "options": {
+        "A": "36",
+        "B": "12",
+        "C": "-12",
+        "D": "24"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Multiply both sides by the LCD 12:</p><p>\\(3x + 24 = 4x - 12\\)</p><p>Subtract \\(3x\\) from both sides:</p><p>\\(24 = x - 12\\)</p><p>Add 12 to both sides:</p><p>\\(x = 36\\)</p><p>The correct answer is A.</p>"
+    },
+    {
+      "questionId": "q004",
+      "passageId": "",
+      "questionHtml": "<p>Solve for \\(x\\) : \\(4x + 7 = 4(x - 2) + 15\\)</p>",
+      "options": {
+        "A": "No solution",
+        "B": "x = 0",
+        "C": "All real numbers",
+        "D": "x = 1"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Simplify the right side:</p><p>\\(4x - 8 + 15 = 4x + 7\\)</p><p>The equation becomes \\(4x + 7 = 4x + 7\\), which is true for every \\(x\\).</p><p>The correct answer is C.</p>"
+    },
+    {
+      "questionId": "q005",
+      "passageId": "",
+      "questionHtml": "<p>Solve for \\(x\\) : \\(\\frac{3x - 2}{4} + \\frac{x + 1}{2} = \\frac{5}{4}\\)</p>",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Multiply every term by the LCD 4:</p><p>\\((3x - 2) + 2(x + 1) = 5\\)</p><p>Simplify:</p><p>\\(3x - 2 + 2x + 2 = 5\\)</p><p>Combine like terms:</p><p>\\(5x = 5\\)</p><p>Divide by 5:</p><p>\\(x = 1\\)</p><p>The correct answer is A.</p>"
+    },
+    {
+      "questionId": "q006",
+      "passageId": "",
+      "questionHtml": "<p>Solve for \\(x\\) : \\(\\frac{3x - 1}{4} = \\frac{2x + 3}{3}\\)</p>",
+      "options": {
+        "A": "15",
+        "B": "12",
+        "C": "9",
+        "D": "6"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Cross-multiply:</p><p>\\(3(3x - 1) = 4(2x + 3)\\)</p><p>Expand both sides:</p><p>\\(9x - 3 = 8x + 12\\)</p><p>Subtract \\(8x\\) from both sides:</p><p>\\(x - 3 = 12\\)</p><p>Add 3 to both sides:</p><p>\\(x = 15\\)</p><p>The correct answer is A.</p>"
+    },
+    {
+      "questionId": "q007",
+      "passageId": "",
+      "questionHtml": "<p>Solve the inequality: \\(-3(x - 2) > 2(4 - x)\\)</p>",
+      "options": {
+        "A": "x > -2",
+        "B": "x < -2",
+        "C": "x > 2",
+        "D": "x < 2"
       },
       "correctOption": "B",
-      "explanationHtml": "The underlined sentence questions whether society will prioritize real interactions or let machines simulate empathy, raising ethical concerns about AI's future role. A dismisses AI; C assumes full replacement; D concludes diminution without nuance."
+      "explanationHtml": "<p>Distribute on both sides:</p><p>\\(-3x + 6 > 8 - 2x\\)</p><p>Add \\(3x\\) to both sides:</p><p>\\(6 > 8 + x\\)</p><p>Subtract 8 from both sides:</p><p>\\(-2 > x\\) or \\(x < -2\\)</p><p>The correct answer is B.</p>"
+    },
+    {
+      "questionId": "q008",
+      "passageId": "",
+      "questionHtml": "<p>Solve the compound inequality: \\(2x - 5 \\leq 1\\) and \\(3x + 1 > 7\\)</p>",
+      "options": {
+        "A": "x > 2",
+        "B": "x ≤ 3",
+        "C": "2 < x ≤ 3",
+        "D": "No solution"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Solve the first inequality:</p><p>\\(2x \\leq 6 \\Rightarrow x \\leq 3\\)</p><p>Solve the second inequality:</p><p>\\(3x > 6 \\Rightarrow x > 2\\)</p><p>Combine the two:</p><p>\\(2 < x \\leq 3\\)</p><p>The correct answer is C.</p>"
+    },
+    {
+      "questionId": "q009",
+      "passageId": "",
+      "questionHtml": "<p>Which equation has no solution?</p>",
+      "options": {
+        "A": "\\(2x + 3 = 2(x + 1) + 1\\)",
+        "B": "\\(3x - 5 = 3x + 2\\)",
+        "C": "\\(4x - 2 = 4x - 2\\)",
+        "D": "\\(5x + 7 = 5x + 7\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Check each option:</p><p><b>A</b>: simplifies to \\(2x + 3 = 2x + 3\\) (identity, infinite solutions).</p><p><b>B</b>: subtract \\(3x\\) gives \\(-5 = 2\\) (false, no solution).</p><p><b>C</b>: identity (all real numbers).</p><p><b>D</b>: identity (all real numbers).</p><p>The correct answer is B.</p>"
+    },
+    {
+      "questionId": "q010",
+      "passageId": "",
+      "questionHtml": "<p>Solve for \\(x\\) : \\(0.2(x - 3) + 0.5x = 0.3x + 0.2\\)</p>",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Multiply by 10 to clear decimals:</p><p>\\(2(x - 3) + 5x = 3x + 2\\)</p><p>Simplify left side:</p><p>\\(2x - 6 + 5x = 3x + 2\\)</p><p>Combine like terms:</p><p>\\(7x - 6 = 3x + 2\\)</p><p>Subtract \\(3x\\) from both sides:</p><p>\\(4x - 6 = 2\\)</p><p>Add 6 to both sides:</p><p>\\(4x = 8\\)</p><p>Divide by 4:</p><p>\\(x = 2\\)</p><p>The correct answer is B.</p>"
+    },
+    {
+      "questionId": "q011",
+      "passageId": "",
+      "questionHtml": "<p>What is the slope of the line given by the equation \\(y = -\\frac{3}{4} x + 5\\) ?</p>",
+      "options": {
+        "A": "\\(-\\frac{4}{3}\\)",
+        "B": "\\(\\frac{3}{4}\\)",
+        "C": "\\(-\\frac{3}{4}\\)",
+        "D": "5"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>The equation is in slope-intercept form \\(y = mx + b\\), where \\(m\\) is the slope.</p><p>Here \\(m = -\\frac{3}{4}\\).</p><p>The correct answer is C.</p>"
+    },
+    {
+      "questionId": "q012",
+      "passageId": "",
+      "questionHtml": "<p>What is the y-intercept of the line \\(2x + 3y = 6\\) ?</p>",
+      "options": {
+        "A": "(0,2)",
+        "B": "(0,3)",
+        "C": "(3,0)",
+        "D": "(2,0)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The y-intercept occurs where \\(x = 0\\).</p><p>Substitute \\(x = 0\\):</p><p>\\(2(0) + 3y = 6\\)</p><p>\\(3y = 6\\)</p><p>\\(y = 2\\)</p><p>So the y-intercept is (0,2).</p><p>The correct answer is A.</p>"
+    },
+    {
+      "questionId": "q013",
+      "passageId": "",
+      "questionHtml": "<p>Which of the following is an equation of the line that passes through the point (2, \\(-5\\)) and has slope 3?</p>",
+      "options": {
+        "A": "\\(y - 5 = 3(x - 2)\\)",
+        "B": "\\(y + 5 = 3(x - 2)\\)",
+        "C": "\\(y - 2 = 3(x + 5)\\)",
+        "D": "\\(y = 3x - 1\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Use point-slope form: \\(y - y_1 = m(x - x_1)\\).</p><p>Given \\(m = 3\\), \\((x_1, y_1) = (2, -5)\\):</p><p>\\(y - (-5) = 3(x - 2)\\)</p><p>Simplify: \\(y + 5 = 3(x - 2)\\).</p><p>The correct answer is B.</p>"
+    },
+    {
+      "questionId": "q014",
+      "passageId": "",
+      "questionHtml": "<p>Which of the following lines is parallel to \\(y = 4x - 7\\) ?</p>",
+      "options": {
+        "A": "\\(y = -\\frac{1}{4} x + 2\\)",
+        "B": "\\(y = 4x + 1\\)",
+        "C": "\\(y = -4x + 3\\)",
+        "D": "\\(2y = 6x - 5\\)"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Parallel lines have the same slope.</p><p>The given line has slope 4.</p><p>Option B: \\(y = 4x + 1\\) has slope 4, so it is parallel.</p><p>The correct answer is B.</p>"
+    },
+    {
+      "questionId": "q015",
+      "passageId": "",
+      "questionHtml": "<p>What is the equation of the line that is perpendicular to \\(y = \\frac{2}{3} x - 4\\) and passes through the point (6, 5)?</p>",
+      "options": {
+        "A": "\\(y = -\\frac{3}{2} x + 14\\)",
+        "B": "\\(y = -\\frac{3}{2} x - 4\\)",
+        "C": "\\(y = \\frac{2}{3} x + 1\\)",
+        "D": "\\(y = \\frac{3}{2} x - 4\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>The slope of the given line is \\(\\frac{2}{3}\\).</p><p>A perpendicular line has slope equal to the negative reciprocal: \\(-\\frac{3}{2}\\).</p><p>Use point-slope form with point (6,5):</p><p>\\(y - 5 = -\\frac{3}{2}(x - 6)\\)</p><p>Simplify: \\(y - 5 = -\\frac{3}{2}x + 9\\)</p><p>\\(y = -\\frac{3}{2}x + 14\\)</p><p>The correct answer is A.</p>"
+    },
+    
+    {
+      "questionId": "q017",
+      "passageId": "",
+      "questionHtml": "<p>Given two lines: \\(3x - y = 5\\) and \\(6x - 2y = k\\). For which value of \\(k\\) do the lines represent the same line?</p>",
+      "options": {
+        "A": "5",
+        "B": "10",
+        "C": "15",
+        "D": "20"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>The first line equation is \\(3x - y = 5\\).</p><p>Multiply both sides by 2:</p><p>\\(6x - 2y = 10\\)</p><p>For the second line to be identical, \\(k\\) must equal 10.</p><p>The correct answer is B.</p>"
+    },
+    {
+      "questionId": "q018",
+      "passageId": "",
+      "questionHtml": "<p>The cost \\(C\\) in dollars to produce \\(x\\) widgets is given by a linear function. Producing 100 widgets costs $250 and producing 300 widgets costs $450. What is the fixed cost (the cost when no widgets are produced)?</p>",
+      "options": {
+        "A": "$50",
+        "B": "$100",
+        "C": "$150",
+        "D": "$200"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>We have points (100, 250) and (300, 450).</p><p>Slope = \\(\\frac{450 - 250}{300 - 100} = \\frac{200}{200} = 1\\).</p><p>Use point-slope with (100,250):</p><p>\\(C - 250 = 1(x - 100)\\)</p><p>\\(C = x + 150\\)</p><p>Fixed cost is \\(C(0) = 0 + 150 = 150\\).</p><p>The correct answer is C.</p>"
+    },
+    {
+      "questionId": "q019",
+      "passageId": "",
+      "questionHtml": "<p>Solve the system using elimination: \\(\\begin{cases} 2x + y = 7 \\\\ x - y = 2 \\end{cases}\\). What is the value of \\(x\\)?</p>",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Add the two equations to eliminate \\(y\\):</p><p>\\((2x + y) + (x - y) = 7 + 2\\)</p><p>\\(3x = 9\\)</p><p>Divide by 3:</p><p>\\(x = 3\\)</p><p>The correct answer is C.</p>"
+    },
+    {
+      "questionId": "q020",
+      "passageId": "",
+      "questionHtml": "<p>Solve the system: \\(\\begin{cases} 3x + 2y = 12 \\\\ 5x - 3y = 1 \\end{cases}\\). What is the value of \\(x + y\\)?</p>",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Multiply first equation by 3 and second by 2:</p><p>\\(9x + 6y = 36\\)</p><p>\\(10x - 6y = 2\\)</p><p>Add the equations:</p><p>\\(19x = 38 \\Rightarrow x = 2\\)</p><p>Substitute into first original:</p><p>\\(3(2) + 2y = 12\\)</p><p>\\(6 + 2y = 12 \\Rightarrow 2y = 6 \\Rightarrow y = 3\\)</p><p>Thus \\(x + y = 5\\).</p><p>The correct answer is C.</p>"
+    },
+    {
+      "questionId": "q021",
+      "passageId": "",
+      "questionHtml": "<p>Solve the system: \\(\\begin{cases} \\frac{x}{2} + \\frac{y}{3} = 5 \\\\ \\frac{x}{4} - y = -1 \\end{cases}\\). What is the value of \\(y\\)?</p>",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "6"
+      },
+      "correctOption": "B",
+      "explanationHtml": "<p>Clear fractions:</p><p>Multiply first equation by 6: \\(3x + 2y = 30\\)</p><p>Multiply second equation by 4: \\(x - 4y = -4\\)</p><p>From second, \\(x = 4y - 4\\).</p><p>Substitute into first:</p><p>\\(3(4y - 4) + 2y = 30\\)</p><p>\\(12y - 12 + 2y = 30\\)</p><p>\\(14y = 42\\)</p><p>\\(y = 3\\)</p><p>The correct answer is B.</p>"
+    },
+    {
+      "questionId": "q022",
+      "passageId": "",
+      "questionHtml": "<p>Which of the following systems of equations has no solution?</p>",
+      "options": {
+        "A": "\\(\\begin{cases} y = 2x + 3 \\\\ y = 2x + 5 \\end{cases}\\)",
+        "B": "\\(\\begin{cases} y = 2x + 3 \\\\ y = -2x + 3 \\end{cases}\\)",
+        "C": "\\(\\begin{cases} y = 2x + 3 \\\\ y = x + 3 \\end{cases}\\)",
+        "D": "\\(\\begin{cases} y = 2x + 3 \\\\ y = 3x - 1 \\end{cases}\\)"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>A system has no solution when the lines are parallel (same slope) but different y-intercepts.</p><p><b>A</b>: slopes both 2, intercepts 3 and 5 → parallel distinct → no solution.</p><p><b>B</b>: slopes 2 and -2 → intersect (one solution).</p><p><b>C</b>: slopes 2 and 1 → intersect.</p><p><b>D</b>: slopes 2 and 3 → intersect.</p><p>The correct answer is A.</p>"
+    },
+    {
+      "questionId": "q023",
+      "passageId": "",
+      "questionHtml": "<p>A chemist needs 20 liters of a 25% acid solution. She has a 10% acid solution and a 40% acid solution. How many liters of the 40% solution should she use?</p>",
+      "options": {
+        "A": "5",
+        "B": "8",
+        "C": "10",
+        "D": "12"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Let \\(x\\) = liters of 10% solution, \\(y\\) = liters of 40% solution.</p><p>Total volume: \\(x + y = 20\\)</p><p>Acid content: \\(0.10x + 0.40y = 0.25(20) = 5\\)</p><p>Multiply the acid equation by 100: \\(10x + 40y = 500\\)</p><p>Divide by 10: \\(x + 4y = 50\\)</p><p>Subtract the first equation from this:</p><p>\\((x + 4y) - (x + y) = 50 - 20\\)</p><p>\\(3y = 30 \\Rightarrow y = 10\\)</p><p>The correct answer is C.</p>"
+    },
+    {
+      "questionId": "q024",
+      "passageId": "",
+      "questionHtml": "<p>A boat travels 30 miles upstream in 3 hours and the same distance downstream in 2 hours. What is the speed of the boat in still water (in mph)?</p>",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "12.5",
+        "D": "15"
+      },
+      "correctOption": "C",
+      "explanationHtml": "<p>Let \\(b\\) = boat speed in still water, \\(c\\) = current speed.</p><p>Upstream: \\(b - c = \\frac{30}{3} = 10\\)</p><p>Downstream: \\(b + c = \\frac{30}{2} = 15\\)</p><p>Add the two equations:</p><p>\\((b - c) + (b + c) = 10 + 15\\)</p><p>\\(2b = 25 \\Rightarrow b = 12.5\\)</p><p>The correct answer is C.</p>"
+    },
+    {
+      "questionId": "q025",
+      "passageId": "",
+      "questionHtml": "<p>Solve the system: \\(\\begin{cases} x + y + z = 6 \\\\ 2x - y + z = 3 \\\\ x + 2y - z = 2 \\end{cases}\\). What is the value of \\(x\\)?</p>",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correctOption": "A",
+      "explanationHtml": "<p>Add the first and third equations:</p><p>\\((x + y + z) + (x + 2y - z) = 6 + 2\\)</p><p>\\(2x + 3y = 8\\)  … (1)</p><p>Add the first and second equations:</p><p>\\((x + y + z) + (2x - y + z) = 6 + 3\\)</p><p>\\(3x + 2z = 9\\)  … (2)</p><p>From (1), \\(y = \\frac{8 - 2x}{3}\\).</p><p>Substitute into the first original equation:</p><p>\\(x + \\frac{8 - 2x}{3} + z = 6\\)</p><p>Multiply by 3: \\(3x + 8 - 2x + 3z = 18\\)</p><p>\\(x + 3z = 10 \\Rightarrow z = \\frac{10 - x}{3}\\)</p><p>Substitute into (2):</p><p>\\(3x + 2\\cdot\\frac{10 - x}{3} = 9\\)</p><p>Multiply by 3: \\(9x + 20 - 2x = 27\\)</p><p>\\(7x = 7 \\Rightarrow x = 1\\)</p><p>The correct answer is A.</p>"
     }
   ]
 }
