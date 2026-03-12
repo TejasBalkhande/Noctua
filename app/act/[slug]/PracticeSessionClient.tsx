@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState, useRef, useCallback } from "react";
+import { useRouter } from "next/navigation";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import { MenuItem } from "@/types/menu";
@@ -41,22 +42,38 @@ interface PracticeSessionClientProps {
     level: PracticeLevel;
   };
   imageBasePath: string;
+  isRoadmap?: boolean; // new prop
 }
 
 export default function PracticeSessionClient({
   initialData,
   levelInfo,
   imageBasePath,
+  isRoadmap = false,
 }: PracticeSessionClientProps) {
+  const router = useRouter();
   const [data] = useState(initialData);
   const [selectedOptions, setSelectedOptions] = useState<Record<string, string>>({});
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showCalculator, setShowCalculator] = useState(false);
 
+  // Timer state for roadmap sessions
+  const [startTime] = useState<number>(isRoadmap ? Date.now() : 0);
+  const [elapsedSeconds, setElapsedSeconds] = useState(0);
+
   const contentRef = useRef<HTMLDivElement>(null);
   const passageRef = useRef<HTMLDivElement>(null);
 
   const isMath = levelInfo.section.name === "Mathematics";
+
+  // Timer effect
+  useEffect(() => {
+    if (!isRoadmap) return;
+    const interval = setInterval(() => {
+      setElapsedSeconds(Math.floor((Date.now() - startTime) / 1000));
+    }, 1000);
+    return () => clearInterval(interval);
+  }, [isRoadmap, startTime]);
 
   // Transform HTML: replace image src and handle highlight tags
   const transformHtml = useCallback(
@@ -125,6 +142,37 @@ export default function PracticeSessionClient({
     }
   };
 
+  // Finish practice (only for roadmap)
+  const handleFinish = () => {
+    if (!data || !isRoadmap) return;
+
+    // Calculate correct count
+    let correctCount = 0;
+    data.questions.forEach((q) => {
+      if (selectedOptions[q.questionId] === q.correctOption) correctCount++;
+    });
+
+    const totalQuestions = data.questions.length;
+    const timeSeconds = elapsedSeconds;
+
+    // Save to localStorage
+    const slug = levelInfo.level.title.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
+    const result = {
+      correct: correctCount,
+      total: totalQuestions,
+      timeSeconds,
+      date: new Date().toISOString(),
+    };
+
+    const stored = localStorage.getItem("roadmapResults");
+    const results = stored ? JSON.parse(stored) : {};
+    results[slug] = result;
+    localStorage.setItem("roadmapResults", JSON.stringify(results));
+
+    // Redirect back to roadmap
+    router.push("/act/roadmap");
+  };
+
   // Missing data state
   if (!data || data.questions.length === 0) {
     return (
@@ -163,7 +211,6 @@ export default function PracticeSessionClient({
     passageQuestionIndex = pos + 1;
   }
 
-  // Common heading for the question
   const questionHeading = hasPassage
     ? `Passage Question ${passageQuestionIndex} of ${passageQuestionCount}`
     : `Question ${currentIndex + 1} of ${data.questions.length}`;
@@ -172,15 +219,13 @@ export default function PracticeSessionClient({
     <div className="bg-white min-h-screen flex flex-col">
       <Navbar items={schoolMenu} logo="OwlenForge" />
 
-      {/* Main content area – takes remaining vertical space */}
       <div
         className="flex-1 w-full max-w-7.5xl mx-auto px-4 sm:px-6 lg:px-10 py-6 flex flex-col"
         ref={contentRef}
       >
-        {/* Header with calculator toggle */}
+        {/* Header with timer for roadmap */}
         <div className="flex flex-wrap items-center justify-between mb-4 font-sans">
           <div className="flex items-center gap-2 mb-1">
-            {/* Award Image */}
             <div className="flex-shrink-0">
               <Image
                 src="/owl-apple.png"
@@ -190,8 +235,6 @@ export default function PracticeSessionClient({
                 className="object-contain"
               />
             </div>
-
-            {/* Your Original Div (Unchanged) */}
             <div className="flex flex-wrap items-center justify-between font-sans">
               <div>
                 <h1 className="text-2xl md:text-2xl font-semibold text-[#1E4A76]">
@@ -203,14 +246,21 @@ export default function PracticeSessionClient({
               </div>
             </div>
           </div>
-          {isMath && (
-            <button
-              onClick={() => setShowCalculator(!showCalculator)}
-              className="mt-2 sm:mt-0 px-4 py-2 bg-[#1E4A76] text-white rounded-lg hover:bg-[#163A5E] transition shadow-sm flex items-center gap-2"
-            >
-              <span>{showCalculator ? "Hide" : "Show"} Calculator</span>
-            </button>
-          )}
+          <div className="flex items-center gap-3">
+            {isRoadmap && (
+              <div className="text-sm bg-gray-100 px-3 py-1.5 rounded-full text-gray-700 font-mono">
+                ⏱️ {Math.floor(elapsedSeconds / 60)}:{(elapsedSeconds % 60).toString().padStart(2, '0')}
+              </div>
+            )}
+            {isMath && (
+              <button
+                onClick={() => setShowCalculator(!showCalculator)}
+                className="px-4 py-2 bg-[#1E4A76] text-white rounded-lg hover:bg-[#163A5E] transition shadow-sm flex items-center gap-2"
+              >
+                <span>{showCalculator ? "Hide" : "Show"} Calculator</span>
+              </button>
+            )}
+          </div>
         </div>
 
         {/* Calculator popup (math only) */}
@@ -232,9 +282,8 @@ export default function PracticeSessionClient({
           </div>
         )}
 
-        {/* Main content card – fills remaining space and scrolls internally */}
+        {/* Main content card */}
         <div className="border border-[#E2E8F0] rounded-2xl bg-white shadow-sm overflow-hidden flex-1 min-h-0 flex flex-col">
-          {/* Always two columns – use flex-1 to fill card height */}
           <div className="grid md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-[#E2E8F0] flex-1">
             {/* LEFT COLUMN */}
             <div
@@ -242,10 +291,8 @@ export default function PracticeSessionClient({
                 hasPassage ? "bg-[#F7F9FC]/50" : "bg-white"
               }`}
               ref={hasPassage ? passageRef : null}
-              
             >
               {hasPassage ? (
-                // Passage content
                 <>
                   <h3 className="text-lg font-semibold text-[#1E4A76] mb-2 flex items-center gap-2 font-sans">
                     Passage
@@ -258,7 +305,6 @@ export default function PracticeSessionClient({
                   />
                 </>
               ) : (
-                // Question content (when no passage)
                 <>
                   <div className="flex items-center justify-between mb-2">
                     <h3 className="text-lg font-semibold text-[#1E4A76] flex items-center gap-2 font-sans">
@@ -279,7 +325,6 @@ export default function PracticeSessionClient({
             {/* RIGHT COLUMN */}
             <div className="p-6 overflow-y-auto">
               {hasPassage && (
-                // If passage exists, show question heading and question HTML here
                 <div className="mb-6">
                   <div className="flex items-center justify-between mb-2">
                     <h3 className="text-lg font-semibold text-[#1E4A76] flex items-center gap-2 font-sans">
@@ -296,7 +341,7 @@ export default function PracticeSessionClient({
                 </div>
               )}
 
-              {/* Options (always shown in right column) */}
+              {/* Options */}
               <div className="space-y-3">
                 <h4 className="font-medium text-[#4A5568]">Choose your answer</h4>
                 {Object.entries(currentQuestion.options).map(([key, value]) => {
@@ -329,7 +374,7 @@ export default function PracticeSessionClient({
                 })}
               </div>
 
-              {/* Explanation (always in right column) */}
+              {/* Explanation */}
               {selected && (
                 <div className="mt-6 p-5 bg-blue-50 rounded-xl border-l-4 border-blue-500">
                   <h4 className="font-semibold text-[#1E4A76] mb-2">Explanation</h4>
@@ -349,8 +394,8 @@ export default function PracticeSessionClient({
                 </div>
               )}
 
-              {/* Navigation (always at bottom of right column) */}
-              <div className="mt-8 flex justify-between">
+              {/* Navigation and Finish button */}
+              <div className="mt-8 flex justify-between items-center">
                 <button
                   onClick={goToPrevious}
                   disabled={currentIndex === 0}
@@ -358,6 +403,14 @@ export default function PracticeSessionClient({
                 >
                   ← Previous
                 </button>
+                {isRoadmap ? (
+                  <button
+                    onClick={handleFinish}
+                    className="px-5 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition shadow-sm font-medium"
+                  >
+                    Finish Practice
+                  </button>
+                ) : null}
                 <button
                   onClick={goToNext}
                   disabled={currentIndex === data.questions.length - 1}
@@ -370,7 +423,6 @@ export default function PracticeSessionClient({
           </div>
         </div>
 
-        {/* Footer hint */}
         <p className="text-xs text-[#A0AEC0] text-center mt-4">
           Select an option to see the explanation. Use the progress bar to track your position.
         </p>

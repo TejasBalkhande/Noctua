@@ -39,8 +39,15 @@ function findLevelInfo(slug: string) {
   return null;
 }
 
-export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
+export default async function Page({
+  params,
+  searchParams,
+}: {
+  params: Promise<{ slug: string }>;
+  searchParams: Promise<{ from?: string }>;
+}) {
   const { slug } = await params;
+  const { from } = await searchParams;
   const levelInfo = findLevelInfo(slug);
 
   if (!levelInfo) {
@@ -58,9 +65,8 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
     "questions.json"
   );
 
-  let data = null; // default to null
+  let data = null;
   try {
-    // Check if file exists before reading
     if (fs.existsSync(jsonPath)) {
       const fileContents = fs.readFileSync(jsonPath, "utf8");
       data = JSON.parse(fileContents);
@@ -69,10 +75,8 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
     }
   } catch (err) {
     console.error(`Failed to load questions.json for ${slug}:`, err);
-    // data remains null
   }
 
-  // Base path for images (used in client component)
   const imageBasePath = `/1-act/${sectionSlug}/${levelSlug}/`;
 
   return (
@@ -80,6 +84,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
       initialData={data}
       levelInfo={levelInfo}
       imageBasePath={imageBasePath}
+      isRoadmap={from === "roadmap"}
     />
   );
 }

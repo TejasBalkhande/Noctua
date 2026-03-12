@@ -147,6 +147,14 @@ const shuffleArray = <T,>(array: T[]): T[] => {
   return shuffled;
 };
 
+// Type for saved practice result
+interface PracticeResult {
+  correct: number;
+  total: number;
+  timeSeconds: number;
+  date: string; // ISO string
+}
+
 export default function RoadmapClient({ initialItems, originalOrder }: RoadmapClientProps) {
   const [currentOrder, setCurrentOrder] = useState<number[]>(originalOrder);
   const [showModal, setShowModal] = useState(false);
@@ -157,6 +165,21 @@ export default function RoadmapClient({ initialItems, originalOrder }: RoadmapCl
       optionsMap[key] = 2; // default to "Fine"
     });
     return optionsMap;
+  });
+
+  // State for saved practice results (keyed by level slug) – lazy initializer from localStorage
+  const [results, setResults] = useState<Record<string, PracticeResult>>(() => {
+    if (typeof window !== "undefined") {
+      const stored = localStorage.getItem("roadmapResults");
+      if (stored) {
+        try {
+          return JSON.parse(stored);
+        } catch (e) {
+          console.error("Failed to parse roadmap results", e);
+        }
+      }
+    }
+    return {};
   });
 
   const allSubjects = useMemo(
@@ -191,25 +214,16 @@ export default function RoadmapClient({ initialItems, originalOrder }: RoadmapCl
   };
 
   const applyPersonalizedOrder = () => {
-    // Start with a copy of all items
     const allItems = [...initialItems];
-
-    // Separate items into top (hardcoded titles) and others
     const topItems = allItems.filter(item => TOP_LEVEL_TITLES.includes(item.level.title));
     const otherItems = allItems.filter(item => !TOP_LEVEL_TITLES.includes(item.level.title));
-
-    // Shuffle the top items randomly
     const shuffledTop = shuffleArray(topItems);
-
-    // Sort the remaining items by rating (weakest first), then by original order
     const sortedOthers = [...otherItems].sort((a, b) => {
       const ratingA = optionRatings[getOptionKey(a)] ?? 2;
       const ratingB = optionRatings[getOptionKey(b)] ?? 2;
       if (ratingA !== ratingB) return ratingA - ratingB;
       return originalOrder.indexOf(a.id) - originalOrder.indexOf(b.id);
     });
-
-    // Combine: shuffled top first, then sorted others
     const newOrder = [...shuffledTop, ...sortedOthers].map(item => item.id);
     setCurrentOrder(newOrder);
     setShowModal(false);
@@ -291,6 +305,7 @@ export default function RoadmapClient({ initialItems, originalOrder }: RoadmapCl
           const { id, section, option, level, questionCount, subjectColor } = item;
           const isLocked = false;
           const slug = slugify(level.title);
+          const result = results[slug];
 
           return (
             <div
@@ -318,9 +333,23 @@ export default function RoadmapClient({ initialItems, originalOrder }: RoadmapCl
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 leading-tight">{level.title}</h3>
                   <p className="mt-1 text-sm text-gray-600 line-clamp-2">{level.description}</p>
+
+                  {/* Display last attempt result if available */}
+                  {result && (
+                    <div className="mt-2 flex items-center gap-3 text-xs">
+                      <span className="font-medium text-gray-700">Last attempt:</span>
+                      <span className={`inline-flex items-center px-2 py-0.5 rounded-full ${result.correct === result.total ? 'bg-green-100 text-green-800' : 'bg-amber-100 text-amber-800'}`}>
+                        {result.correct}/{result.total} correct
+                      </span>
+                      <span className="text-gray-500">
+                        {Math.floor(result.timeSeconds / 60)}:{(result.timeSeconds % 60).toString().padStart(2, '0')}
+                      </span>
+                    </div>
+                  )}
+
                   <div className="mt-3">
                     <Link
-                      href={`/act/${slug}`}
+                      href={`/act/${slug}?from=roadmap`}
                       className="inline-flex items-center px-4 py-2 bg-[#1E4A76] text-white rounded-xl text-sm font-medium hover:bg-[#163A5E] transition shadow-sm"
                     >
                       <svg className="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
